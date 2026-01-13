@@ -1,0 +1,38 @@
+/* ملاحظة اي شي ضمن المشروع عام ع مستوى المشروع بحطو هون  متل  الروت و النجمة تبع السي اس اس ولا ننسى استدعاء الملف ضمن الماين دوت جي اس اكس  */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+:root{
+    --black-primary:#141414;/* اللون الرئيسي*/
+    /*project background*/
+
+    --grey-10:#1A1A1A;/*secondary-black اللون الثانوي*/
+    /*اكتر شي مستخدم مع الناف بار ولون خلفية الكروت او العناصر */
+
+    --grey-15:#262626;/*خاص بال borders*/
+
+    --shadow-black:#191919;/*  border لل our values بالسكشن التاني  about الشادو بصفحة ال */
+    
+    --black4:#19191900;/* بالهيرو فوق الصورةhomeالتدرج بصفحة ال */
+    --black5:#1A1A1A00;/*key features عند كل عنصر من ال property details التدرج المستخدم بالسيكشن التاني بصفحة ال */
+    --black6:#26262600;/*  بالهيرو contact and serviceالتدرج بصفحة ال  */
+
+    --gray-60:#999999;/*اللون الرمادي الاساسي*/
+    --gray-40:#666666;/* placeholder ك form بال  contact اللون الرمادي الثانوي مستخدم بصفحة ال*/
+
+    --white1:#FFFFFF;
+    --white2:#FFFFFF1A; /* يلي بأعلى الصفحة x  خلفية ايقونة  */
+    
+    --purple-60:#703BF7;/*خلفية الازرار */
+    
+    --purple-linear-gradient:#703BF700;/*   الرابع section بال about التدرج بصفحة ال  */
+
+    --purple3:#2A213F;/* بالهيرو فوق الصورةhomeالتدرج بصفحة ال */
+/*بس موجود ضمناً مع الصورة المسحوبة */
+
+}
+

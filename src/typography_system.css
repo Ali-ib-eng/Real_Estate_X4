@@ -1,0 +1,200 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Urbanist;
+} */
+
+.main-heading {
+    /* the usage: for the main heading in hero section */
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+    /* main-heading for laptop size */
+    @media (max-width: 1440px) {
+        .main-heading {
+            font-size: 46px;
+        }
+    }
+
+    /* main-heading for mobile size */
+    @media (max-width: 576px) {
+        .main-heading {
+            font-size: 28px;
+        }
+    }
+
+
+/* ----------------------------------------------------------------------------- */
+
+.section-title {
+    /* the usage: for the section titles */
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+    /* section-title for laptop size */
+    @media (max-width: 1440px) {
+        .section-title {
+            font-size: 38px;
+        }
+    }
+
+    /* section-title for mobile size */
+    @media (max-width: 576px) {
+        .section-title {
+            font-size: 28px;
+        }
+    }
+
+/* ----------------------------------------------------------------------------- */
+
+.subheading-1 {
+    /* the usage: for statics cards title */
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+    /* subheading-1 for laptop size */
+    @media (max-width: 1440px) {
+        .subheading-1 {
+            font-size: 30px;
+        }
+    }
+
+    /* subheading-1 for mobile size */
+    @media (max-width: 576px) {
+        .subheading-1 {
+            font-size: 24px;
+        }
+    }
+
+/* ----------------------------------------------------------------------------- */
+
+.subheading-2 {
+    /* the usage: for the cards title and prices */
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+    /* subheading-2 for laptop size */
+    @media (max-width: 1440px) {
+        .subheading-2 {
+            font-size: 20px;
+        }
+    }
+
+    /* subheading-2 for mobile size */
+    @media (max-width: 576px) {
+        .subheading-2 {
+            font-size: 18px;
+        }
+    }
+
+/* ----------------------------------------------------------------------------- */
+
+.subheading-3 {
+    /* the usage: for the footer titles and mini-cards */
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+    /* subheading-3 for laptop size */
+    @media (max-width: 1440px) {
+        .subheading-3 {
+            font-size: 16px;
+        }
+    }
+
+    /* subheading-3 for mobile size */
+    @media (max-width: 576px) {
+        .subheading-3 {
+            font-size: 14px;
+        }
+    }
+
+/* ----------------------------------------------------------------------------- */
+
+.body {
+    /* the usage: for the paragraphs and descriptions */
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+    /* body for laptop size */
+    @media (max-width: 1440px) {
+        .body {
+            font-size: 16px;
+        }
+    }
+
+    /* body for mobile size */
+    @media (max-width: 576px) {
+        .body {
+            font-size: 14px;
+        }
+    }
+
+/* ----------------------------------------------------------------------------- */
+
+.button {
+    /* the usage: for buttons, tabs and topics*/
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+    /* button for laptop size */
+    @media (max-width: 1440px) {
+        .button {
+            font-size: 14px;
+        }
+    }
+
+    /* button for mobile size */
+    @media (max-width: 576px) {
+        .button {
+            font-size: 14px;
+        }
+    }
+
+
+/* ----------------------------------------------------------------------------- */
+
+.link {
+    /* the usage: for links */
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-decoration: underline;
+}
+
+    /* link for laptop size */
+    @media (max-width: 1440px) {
+        .link {
+            font-size: 14px;
+        }
+    }
+
+    /* link for mobile size */
+    @media (max-width: 576px) {
+        .link {
+            font-size: 14px;
+        }
+    }
+
+/* ----------------------------------------------------------------------------- */
