@@ -1,12 +1,14 @@
-import NavBar from "../componant/NavBar/NavBar"
+import NavBar from "../componant/NavBar/NavBar";
+import Testimonials from "../componant/Testimonials/Testimonials.jsx";
 
 const Home = () => {
-  return (
+ return (
     <div>
       <NavBar/>
-      hello from home
+<Testimonials/>
     </div>
-  )
-}
+  );
+  
+};
 
 export default Home
