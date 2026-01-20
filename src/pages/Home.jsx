@@ -1,4 +1,6 @@
 
+import NavBar from "../componant/NavBar/NavBar";
+import Testimonials from "../componant/Testimonials/Testimonials.jsx";
 import FAQ from "../componant/FAQ/FAQ"
 import NavBar from "../componant/NavBar/NavBar"
 import NavBar from "../componant/NavBar/NavBar"
@@ -6,6 +8,14 @@ import Hero from "../componant/Hero/Hero"
 import CardHero from "../componant/CardHero/CardHero"
 import './Home.css'
 const Home = () => {
+ return (
+    <div>
+      <NavBar/>
+<Testimonials/>
+    </div>
+  );
+  
+};
   return (
     <>
       <NavBar />
@@ -43,5 +53,6 @@ const Home = () => {
 </>
 )
 }
+
 
 export default Home
