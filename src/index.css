@@ -6,6 +6,7 @@
   overflow-x: hidden;
   box-sizing: border-box;
   font-family: "Urbanist", sans-serif;
+  background-color: var(--black-primary);
 }
 :root{
     --black-primary:#141414;/* اللون الرئيسي*/

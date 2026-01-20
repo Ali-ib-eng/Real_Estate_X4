@@ -1,0 +1,44 @@
+.faqContainer {
+
+    margin: 110px 137px;
+
+    .cardsContainer {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .mobileSlider {
+        display: flex;
+    }
+
+    hr {
+        margin: 40px 0 16px;
+        border: 1px solid var(--grey-15);
+    }
+}
+
+
+
+@media (max-width: 1440px) {
+    .faqContainer {
+        margin: 90px 66px;
+
+        .cardsContainer {
+            gap: 20px;
+        }
+    }
+}
+
+
+@media (max-width: 992px) {
+    .mobileSlider {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 390px) {
+    .faqContainer {
+        width: 358px;
+        margin: 85px 8px;
+    }
+}

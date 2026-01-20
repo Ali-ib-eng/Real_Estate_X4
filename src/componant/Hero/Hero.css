@@ -1,0 +1,189 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141414;
+    color: white;
+
+}
+
+.oneImg {
+    width: 100%;
+    overflow: hidden;
+}
+.oneImg img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.hero-element {
+    
+    padding-right: 100px;
+    padding-left: 100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-element h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.hero-element p {
+    font-size: 0.8rem;
+    color: #999;
+    margin-bottom: 30px;
+}
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+.firstButton,
+.secButton {
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    text-transform: capitalize;
+}
+.firstButton {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #262626;
+}
+.firstButton:hover {
+    background-color: #262626;
+}
+.secButton {
+    background-color: #703BF7;
+    color: white;
+    box-shadow: 0px 4px 15px rgba(112, 59, 247, 0.3);
+}
+.secButton:hover {
+    background-color: #5e2ed3;
+    transform: translateY(-2px);
+}
+.firstButton,
+.secButton {
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+}
+.firstButton {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #333;
+}
+.secButton {
+    background-color: #703BF7;
+    color: white;
+}
+.img-hero {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.img-hero img {
+    max-width: 100%;
+    border-radius: 12px;
+    object-fit: contain;
+    height: auto;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.card-item {
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+    padding: 15px 25px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: left;
+}
+
+.card-item h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.card-item p {
+    color: #999999;
+    font-size: 14px;
+    margin: 0;
+}
+@media (max-width: 576px) {
+    .hero {
+        flex-direction: column-reverse;
+        padding:20px;
+        gap: 30px;
+    }
+    .oneImg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        }
+
+    .oneImg img {
+        width: 85%;
+        border-radius: 10px;
+        object-fit: contain;
+    }
+
+    .hero-element {
+        padding: 0;
+        text-align: left;
+        width: 100%;
+    }
+
+    .hero-element h1 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .firstButton,
+    .secButton {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    .card-item {
+        padding: 15px;
+    }
+
+    .card-item:last-child {
+        grid-column: span 2;
+        text-align: center;
+    }
+}
+@media (max-width: 992px) {
+        .card-item h2 {
+    color: white;
+    font-size: 18px;}
+}

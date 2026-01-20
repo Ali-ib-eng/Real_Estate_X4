@@ -1,0 +1,25 @@
+    img {
+        width:68.4px ;
+        margin-left: -20px;
+
+    }
+
+
+
+
+    @media (max-width: 1440px) {
+        img {
+            width:54.7px ;
+            margin-left: -10px;
+        }
+    }
+    
+    
+    
+    
+    @media (max-width: 390px) {
+        img {
+            width:45.6px ;
+            margin-left: -8px;
+        }
+    }

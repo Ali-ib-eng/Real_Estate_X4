@@ -1,0 +1,83 @@
+.cards-icon{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: #141414;
+    padding-top: 5px;
+    padding-bottom: 29px;
+}
+
+.card-hero-container {
+    background: #1A1A1A;
+    border: 1px solid #262626;
+    border-radius: 10px;
+    padding: 16px;
+    width: 350px;
+    position: relative;
+    box-shadow: 0 2px 7px #48474b;
+}
+@media (max-width: 992px){
+.cards-icon{
+    display: flex;
+    justify-content: space-between;
+    background-color: #141414;}
+    .card-item p {
+    color: #999999;
+    font-size: 6px;}
+        .card-item h2 {
+        color: white;
+        font-size: 12px;
+    }
+    .hero-element h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 1px;
+}
+.cards {
+    gap: 15px;
+    margin-top: 25px;
+}
+
+    .firstButton, .secButton {
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-size: 10px;}
+
+}
+@media (max-width: 576px) {
+    .hero-cards-section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        
+    }
+        .firstButton, .secButton {
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-size: 19px;}
+    .card-item h2 {
+        color: white;
+        font-size: 18px;
+    }
+    .card-item p {
+    color: #999999;
+    font-size: 14px;
+    margin: 0;}
+
+    .card-hero-container {
+        width: 90%;
+        margin: 8px 0px;
+        margin-left: 15px;
+    }
+    .cards-icon{
+            display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+}
