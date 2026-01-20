@@ -1,0 +1,28 @@
+.btnSecondStyle{
+    width: 134px;
+    padding: 18px 24px;
+    border:var(--grey-15) 1px solid;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight:500;
+    background-color: var(--grey-10);
+}
+
+
+
+
+
+@media (max-width: 1440px) {
+
+    .btnSecondStyle{
+        padding: 14px 20px;
+    }
+}
+
+@media (max-width: 992px){
+    .btnSecondStyle{
+        width : 100% ;
+        text-align: center;
+    }
+}

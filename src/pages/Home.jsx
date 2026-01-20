@@ -1,4 +1,6 @@
 
+import FAQ from "../componant/FAQ/FAQ"
+import NavBar from "../componant/NavBar/NavBar"
 import NavBar from "../componant/NavBar/NavBar"
 import Hero from "../componant/Hero/Hero"
 import CardHero from "../componant/CardHero/CardHero"
