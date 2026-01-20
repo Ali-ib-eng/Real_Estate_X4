@@ -4,8 +4,11 @@ import AboutUs from "./pages/AboutUs"
 import Properties from "./pages/Properties"
 import Services from "./pages/Services"
 import ContactUs from "./pages/ContactUs"
-import TopHeader from "./componant/TopHeader/TopHeader"
 import NavBar from "./componant/NavBar/NavBar"
+import StartSection from './componant/StartSection/StartSection';
+import Footer from './componant/Footer/Footer';
+import TopHeader from "./componant/TopHeader/TopHeader"
+
 
 function App(){
   const navItems=[
@@ -47,8 +50,9 @@ function App(){
         <Route path="/services" element={<Services/>} />
         <Route path="/contact" element={<ContactUs/>} />
       </Routes>
+<StartSection />
+      <Footer />
       </>
-    
   )
 }
 

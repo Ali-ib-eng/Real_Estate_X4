@@ -4,6 +4,7 @@ import './index.css'
 import './colors/style.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
+import './typography_system.css';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>

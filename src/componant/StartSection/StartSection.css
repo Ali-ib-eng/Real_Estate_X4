@@ -1,0 +1,82 @@
+.LS-start-container {
+    box-sizing: border-box;
+    text-align: left;
+    width: 100%;
+    padding: 100px 162px;
+    background-color: #010101;
+    background-image: url('/assets/img/Footer/FOOTER-back-left.jpg'), url('/assets/img/Footer/FOOTER-back-right.jpg');
+    background-position: left center, right center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 400px 308px, 400px 394px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 250px;
+}
+
+.LS-start-text-group {
+    max-width: 1154px ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.LS-start-text-group p{
+    color: #999999;
+}
+
+
+.LS-start-button {
+    width: 192px;
+    background: #703BF7;
+    color: white;
+    padding: 18px 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 8px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 1440px) {
+    .LS-start-container { 
+        padding: 60px 80px;
+        gap: 150px;
+    }
+    .LS-start-text-group {
+    width: 100%;
+    max-width: 1440px;
+    gap: 10px;
+}
+    .LS-start-button {
+        padding: 14px 20px;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .LS-start-container {
+        flex-direction: column;
+        padding: 50px 16px;
+        gap: 30px;
+        background-position: 0 -90px, bottom right;
+        background-size: 250px 284px, 300px auto;
+    }
+    .LS-start-text-group {
+    width: 100%;
+    max-width: 357px;
+    gap: 6px;
+}
+
+    .LS-start-button {
+        width: 100%;
+        max-width: 357px;
+        padding: 14px 20px;
+        border-radius: 8px;
+    }
+}
