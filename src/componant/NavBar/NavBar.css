@@ -1,4 +1,132 @@
-/*  التعديل على ملف التنسيق للناف بار  */
-h1{
-    font-size:40px;
+
+nav{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 83px;
+  background-color: #1a1a1af7;
+  padding: 0 24px;
+}
+
+.ALi-logo{
+  margin-left:60px;
+  margin-top: 8px;
+}
+
+.ALi-ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+
+  li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Urbanist;
+    font-weight: 400;
+    font-style: 600;
+    font-size: 18px;
+    line-height: 150%;
+    transition: color .18s ease, background-color .18s ease, transform .12s ease, box-shadow .12s ease;
+    padding: 8px 10px;
+    border-radius: 8px;
+  }
+
+  li a:hover{
+    background: #262626af;
+    padding: 12px 20px;
+    transform: translateX(-1px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.285);
+    color: #fff ;
+  }
+}    
+.Ali-showicon{
+  display: none;
+  background: transparent;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.ALi-contacticon{
+  margin-right: 60px;
+  background-color: #1a1a1aa3;
+  display: flex;
+  align-items: center;
+
+}
+
+.ALi-maincontacticon{
+  background-color: #1A1A1A;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border:1px solid rgba(0, 0, 0, 0.899);
+}
+
+.ALi-maincontacticon a{
+  color:#FFFFFF;
+  text-decoration: none;
+  font-family: Urbanist;
+  font-weight: 400;
+  font-style: 600;
+  font-size: 18px;
+  line-height: 150%;
+}
+@media (max-width: 992px) {
+  .ALi-ul{
+    display: none;
+  }
+  .ALi-contacticon{
+    display: none;
+  }
+  .Ali-showicon{
+    display: block;
+  }
+}
+@media (max-width: 992px) {
+  .ALi-ul.open{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    margin: 0;
+    padding: 12px 16px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background: linear-gradient(180deg, rgba(26,26,26,0.98), rgba(11,11,11,0.99));
+    box-shadow: 0 8px 24px rgba(2,6,23,0.6);
+    border-top: 1px solid rgba(255,255,255,0.02);
+    z-index: 9999;
+  }
+
+  .ALi-contacticon.open{
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    padding: 8px 16px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(100% +  (var(--menu-gap, 0px)));
+    z-index: 88;
+  }
+  .ALi-maincontacticon{
+    transform: translate(25px,155px);
+    background-color: #1a1a1ada;
+    padding: 10px 16px;
+   
+  }
+}
+.ALi-ul li a:active{ transform: translateY(0); opacity: 0.95; }
+@media (max-width: 576px){
+    .ALi-logo{
+       
+        margin: 20px 0 16px 10px;
+}
 }

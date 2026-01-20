@@ -1,22 +1,36 @@
+
 import { Link } from 'react-router-dom'
 import './NavBar.css'
-
-const NavBar = () => {
+import { useState } from 'react';
+const NavBar = ({items=[],btn}) => {
+  const [show,setshow] = useState(false);
   return (
-    <nav>
-        <h1>img logo</h1>
-      <ul>
-        <li><Link to="/" >home</Link></li>
-        <li><Link to="/about">about</Link> </li>
-        <li><Link to="/properties">properties</Link> </li>
-        <li><Link to="/services">services</Link> </li>
-        <li><Link to="/contact">contact</Link> </li>
-        <li></li>
-        <li></li>
-        <li></li>
+    <nav className={`ALi-nav ${show ? 'nav-open' : ''}`}>
+      <div className="ALi-logo">
+        <img src="./assets/icons/estatelogo.png" alt="navicon" />
+      </div>
+
+      <ul className={`ALi-ul ${show ? 'open' : ''}`}>
+        {items.map((item,index)=>{
+          return(
+            <li key={index}><Link to={item.href}>{item.content}</Link></li>
+          )
+        })}
       </ul>
+
+      <div className={`ALi-contacticon ${show ? 'open' : ''}`}>
+        <button className="ALi-maincontacticon"><Link to="/contact">{btn}</Link></button>
+      </div>
+
+      <button onClick={() => setshow(prev => !prev)} className="Ali-showicon" aria-expanded={show}>
+        <img src="./assets/icons/barsicon.png" alt="barsicon" />
+      </button>
     </nav>
   )
 }
 
 export default NavBar
+
+
+
+

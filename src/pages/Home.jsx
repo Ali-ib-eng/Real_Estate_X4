@@ -1,3 +1,4 @@
+
 import NavBar from "../componant/NavBar/NavBar"
 import Hero from "../componant/Hero/Hero"
 import CardHero from "../componant/CardHero/CardHero"
@@ -34,9 +35,11 @@ const Home = () => {
       title="Smart Investments, Informed Decisions"
       icon="/icons/homepage/hero/sun.svg"
       arrowIcon="/icons/homepage/hero/arrow-right-up.svg"
-      /></div></div>
-    </>
-  )
+      />
+</div>
+</div>
+</>
+)
 }
 
 export default Home
