@@ -1,0 +1,149 @@
+.LS-abstract-icon{
+    width: 68px;
+    height: 30px;
+}
+
+.LS-experience-section {
+    background-color: var( --black-primary); 
+    gap: 80px;
+}
+.LS-experience-header {
+    padding-right: 300px;
+    gap: 14px;
+}
+.LS-main-heading {
+    color: var(--white1);
+}
+.LS-body-text {
+    color: var(--gray-60);
+}
+/* CARDS GRID */
+.LS-experience-main-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 50px;
+}
+
+.LS-experience-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+    gap: 30px;
+}
+
+.LS-experience-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.LS-experience-card:last-child {
+    border-right: none;
+}
+
+.LS-card-step-label {
+    width: fit-content;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--white1);
+    border-left: 1px solid var(--purple-60);
+    padding: 16px 20px;
+    gap: 10px;
+}
+
+.LS-card-content {
+    border-radius: 0 12px 12px 12px;
+    border: 1px solid #262626;
+    border-image-source: linear-gradient(0deg, #262626, #262626),
+    linear-gradient(117.89deg, #703BF7 0%, rgba(112, 59, 247, 0) 24%);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: linear-gradient(120.79deg, #703BF7 -49.01%, rgba(112, 59, 247, 0) 13.65%);
+    padding: 50px;
+    gap: 20px;
+}
+.LS-card-content  h3 {
+    font-weight: 600;
+    font-size: 26px;
+    color: var(--white1);
+}
+.LS-card-content  p {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--gray-60);
+}
+
+/* Responsive */
+/* التنسيق للابتوب (1440px) */
+@media (max-width: 1440px) {
+    .LS-experience-section {
+        gap: 60px;
+    }
+    .LS-experience-header {
+        padding-right: 250px;
+        gap: 10px;
+    }
+
+    /* CARDS GRID */
+    .LS-experience-main-container {
+        gap: 40px;
+    }
+    .LS-experience-row {
+        gap: 20px;
+    }
+    .LS-card-step-label {
+        font-size: 16px;
+        padding: 14px 16px;
+    }
+    .LS-card-content {
+        border-radius: 0 10px 10px 10px;
+        padding: 40px;
+        gap: 16px;
+    }
+    .LS-card-content  h3 {
+        font-size: 20px;
+}
+    .LS-card-content  p {
+        font-size: 16px;
+    }
+}
+
+/* التنسيق للموبايل (390px) */
+@media (max-width: 576px) {
+    .LS-experience-section {
+        gap: 40px;
+    }
+    .LS-experience-header {
+        padding-right: 0;
+        gap: 8px;
+    }
+    /* CARDS GRID */
+    .LS-experience-main-container {
+        gap: 30px;
+    }
+    .LS-experience-row {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .LS-card-step-label {
+        font-size: 16px;
+        padding: 14px 16px;
+    }
+    .LS-card-content {
+        border-radius: 0 10px 10px 10px;
+        padding: 30px;
+        gap: 14px;
+    }
+    .LS-card-content  h3 {
+        font-size: 18px;
+    }
+    .LS-card-content  p {
+        font-size: 14px;
+    }
+    .LS-bottom-row{
+        display: none;
+    }
+}
