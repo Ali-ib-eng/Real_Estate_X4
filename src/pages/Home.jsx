@@ -5,6 +5,7 @@ import FAQ from "../componant/FAQ/FAQ"
 import Hero from "../componant/Hero/Hero"
 import CardHero from "../componant/CardHero/CardHero"
 import './Home.css'
+import OurClientsSay from "../componant/OurClientsSay/OurClientsSay.jsx";
 const Home = () => {
   //   return (
   //     <div>
@@ -46,6 +47,8 @@ const Home = () => {
           />
         </div>
       </div>
+
+      <OurClientsSay/>
       <FAQ/>
 
     </>

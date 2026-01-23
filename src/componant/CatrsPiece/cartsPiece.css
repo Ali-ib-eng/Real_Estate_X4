@@ -1,0 +1,98 @@
+.za-cartsPieces {
+    max-width: 593px;
+    width: 100%;
+    margin: 40px 40px 40px 0;
+
+    h5 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: #999999;
+        padding-bottom: 16px;
+    }
+
+    .za-priceReason {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        h3 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 150%;
+            color: #FFFFFF;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            color: #999999;
+            background-color: #1A1A1A;
+            padding: 8px 14px;
+            border: 1px solid #262626;
+            border-radius: 28px;
+        }
+    }
+}
+
+
+
+@media (max-width: 1440px) {
+    .za-cartsPieces {
+        /* margin: 30px 30px 30px 0; */
+
+        h5 {
+            font-size: 14px;
+        }
+
+        .za-priceReason {
+
+            h3 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+                padding: 6px 12px;
+
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .za-cartsPieces {
+        margin: 20px 0;
+        h5 {}
+
+        .za-priceReason {
+
+            h3 {
+                font-size: 18px;
+            }
+
+            p {
+                border-radius: 6px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {}
+
+@media (max-width: 390px) {
+    .za-cartsPieces {
+        /* margin: 20px 0; */
+
+        h5 {}
+
+        .za-priceReason {
+
+            h3 {}
+
+            p {}
+        }
+    }
+}

@@ -1,0 +1,173 @@
+.za-ComprehensiveContainer {
+    padding: 110px 162px;
+    background-color: var(--black-primary);
+
+    .za-note {
+        background-color: var(--grey-10);
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 20px 40px;
+        justify-content: left;
+        border-radius: 8px;
+        border: 1px solid #262626;
+        margin-bottom: 50px;
+
+        h3 {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 150%;
+        }
+
+        p {
+            color: var(--gray-60);
+            border-left: 1px solid #262626;
+            padding: 0 16px;
+            font-weight: 500;
+            font-size: 14px;
+        }
+    }
+
+    .za-prices-section {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+
+        .za-firstChild-prices {
+            span {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 150%;
+                color: #999999;
+            }
+
+            h2 {
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 150%;
+                color: #FFFFFF;
+            }
+        }
+
+        .za-prices-container {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            hr {
+                border: 1px solid #262626;
+            }
+
+            .za-twoPriceCards {
+                display: flex;
+
+                hr {
+                    margin-right: 20px;
+                    margin-top: 50px;
+                    height: 86px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1440px) {
+    .za-ComprehensiveContainer {
+        padding: 90px 80px;
+
+        .za-note {
+            margin-bottom: 40px;
+
+            h3 {
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        .za-prices-section {
+            gap: 40px;
+
+            .za-firstChild-prices {}
+
+            .za-prices-container {
+                .za-twoPriceCards {
+                    /* flex-direction: column; */
+                    gap: 40px;
+
+                    hr {
+                        margin-right: 0;
+                        /* height: 0; */
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 992px) {
+    .za-ComprehensiveContainer {
+        padding: 90px 80px;
+
+        .za-note {
+            margin-bottom: 30px;
+
+            h3 {}
+
+            p {}
+        }
+
+        .za-prices-section {
+            gap: 20px;
+            flex-direction: column;
+
+            .za-firstChild-prices {}
+
+            .za-prices-container {
+                gap: 20px;
+
+                .za-twoPriceCards {
+                    flex-direction: column;
+                    gap: 0px;
+
+                    hr {
+                        margin: 0;
+                        height: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .za-ComprehensiveContainer {
+        padding: 61px 16px;
+
+        .za-note {
+            flex-direction: column;
+            gap: 10px;
+            align-items: flex-start;
+
+
+            p {
+                font-size: 14px;
+                border-top: 1px solid #262626;
+                border-left: none;
+                padding: 0;
+                padding-top: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .za-ComprehensiveContainer {}
+}

@@ -1,10 +1,9 @@
+import ComprehensivePricingDetails from "../componant/ComprehensivePricingDetails/ComprehensivePricingDetails"
 
 const Properties = () => {
   return (
     <>
-    
-      
-      hello from Properties
+      <ComprehensivePricingDetails/>
     </>
   )
 }
