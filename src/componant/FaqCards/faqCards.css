@@ -4,6 +4,7 @@
     justify-content: space-between;
     gap: 30px;
     max-width: 512px;
+    min-width: 0;
     padding: 50px;
     border: 1px solid var(--grey-15);
     border-radius: 12px;

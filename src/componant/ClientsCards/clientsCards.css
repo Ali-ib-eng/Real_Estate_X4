@@ -1,0 +1,159 @@
+.za-card-item {
+    max-width: 512px;
+    padding: 50px;
+    border: 1px solid #262626;
+    background-color: #141414;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    .za-stars-container {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 40px;
+
+        .za-star-item {
+            width: 44px;
+            padding: 10px;
+            background-color: #1A1A1A;
+            border: 1px solid #262626;
+            border-radius: 100px;
+        }
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        color: #FFFFFF;
+        margin-bottom: 14px;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+
+    .za-person-info {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 40px;
+
+        .za-person-details {
+            h4 {
+                font-weight: 500;
+                font-size: 20px;
+                color: #FFFFFF;
+                line-height: 150%;
+
+            }
+
+            span {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 150%;
+                color: #999999;
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width: 1440px) {
+    .za-card-item {
+        max-width: 413px;
+        padding: 40px;
+        border-radius: 10px;
+    
+        .za-stars-container {
+            gap: 24px;
+            margin-bottom: 30px;
+    
+            .za-star-item {
+                width: 38px;
+                padding: 8px 9px;
+            }
+        }
+    
+        h2 {
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    
+        p {
+            font-size: 16px;
+        }
+    
+        .za-person-info {
+            gap: 10px;
+            margin-top: 30px;
+    
+            .za-person-details {
+                h4 {
+                    font-size: 18px;    
+                }
+    
+                span {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1165px) {
+    .za-card-item {
+    
+        .za-stars-container {
+            gap: 14px;
+        }
+    }
+}
+
+
+@media (max-width: 390px) {
+    .za-card-item {
+        padding: 30px;
+    
+        .za-stars-container {
+            margin-bottom: 24px;
+    
+            .za-star-item {
+                width: 30px;
+                padding: 6px;
+            }
+        }
+    
+        h2 {
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+    
+        p {
+            font-size: 14px;
+        }
+    
+        .za-person-info {
+            gap: 10px;
+            margin-top: 24px;
+    
+            .za-person-details {
+                h4 {
+                    font-size: 16px;    
+                }
+    
+                span {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

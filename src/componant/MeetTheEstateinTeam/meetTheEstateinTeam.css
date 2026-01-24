@@ -1,0 +1,58 @@
+.meetTheEstateinTeamContainer {
+    padding: 110px 162px;
+
+    background-color: var(--black-primary);
+    .teamCardsContainer {
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(232px, 1fr));
+        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+        gap: 30px;
+        justify-content: center
+    }
+}
+
+
+
+@media (max-width: 1440px) {
+    .meetTheEstateinTeamContainer {
+        padding: 90px 80px;
+
+        .teamCardsContainer {
+            gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 1148px){
+    .meetTheEstateinTeamContainer {
+        /* padding: 80px 40px;  */
+
+        .teamCardsContainer {
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 20px;
+        }
+    }
+
+}
+
+@media (max-width: 992px) {
+    .meetTheEstateinTeamContainer {
+        /* margin: 90px 80px; */
+        
+    }
+}
+
+
+@media (max-width: 768px) {
+    .meetTheEstateinTeamContainer{
+        padding: 61px 16px;
+        .teamCardsContainer {
+            grid-template-columns: repeat(1, 1fr); 
+            gap: 20px;
+    }
+    }
+}
+
+@media (max-width: 390px) {
+
+}

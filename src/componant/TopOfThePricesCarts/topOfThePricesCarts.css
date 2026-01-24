@@ -1,0 +1,55 @@
+.za-pricesCartsContainer {
+    border: 1px solid #262626;
+    padding: 50px 50px 0;
+    border-radius: 12px;
+
+    .za-topPricesCart {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #262626;
+        padding-bottom: 40px;
+
+        h4 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 150%;
+            color: #FFFFFF;
+        }
+    }
+
+
+}
+
+
+@media (max-width: 1440px) {
+    .za-pricesCartsContainer {
+        padding: 20px;
+        width: 100%;
+
+        .za-topPricesCart {
+
+            h4 {}
+        }
+
+    }
+}
+
+@media (max-width: 992px) {
+    .za-pricesCartsContainer {}
+}
+
+
+@media (max-width: 768px) {}
+
+@media (max-width: 390px) {
+    .za-pricesCartsContainer {
+        padding: 20px;
+
+        .za-topPricesCart {
+
+            h4 {}
+        }
+
+    }
+}

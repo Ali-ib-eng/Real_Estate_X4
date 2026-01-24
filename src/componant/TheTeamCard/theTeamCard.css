@@ -1,0 +1,164 @@
+.theCard {
+    /* min-width: 232px; */
+    max-width: 376px;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid var(--grey-15);
+    padding: 30px;
+    border-radius: 12px;
+    margin: 0 auto;
+
+    .imagesContainer {
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        .empImg {
+            max-width: 316px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .twitterImg {
+            background-color: var(--purple-60);
+            border-radius: 43px;
+            padding: 14px 26px;
+            position: absolute;
+            bottom: -20px;
+        }
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 600;
+        color: #fff;
+        margin: 50px 0 6px;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--gray-60);
+        margin-bottom: 24px;
+    }
+
+    .sendTextInput {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px var(--grey-15) solid;
+        max-width: 316px;
+        height: 72px;
+        background-color: var(--grey-10);
+        border-radius: 100px;
+
+        input {
+            border: none;
+            background-color: var(--grey-10);
+            padding-left: 24px;
+            /* width: 100%;  */
+            min-width: 0;
+        }
+
+        input::placeholder {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28px;
+        }
+
+        img {
+            width: 44px;
+            padding: 10px;
+            background-color: var(--purple-60);
+            border-radius: 100px;
+            margin: 0 14px;
+        }
+    }
+}
+
+
+
+
+@media (max-width: 1440px) {
+    .theCard {
+        /* width: 305px; */
+        padding: 24px;
+
+        .imagesContainer {
+
+            .empImg {
+                /* width: 257px; */
+            }
+
+            .twitterImg {
+                padding: 10px 20px;
+            }
+        }
+
+        h3 {
+            font-size: 20px;
+            margin: 50px 0 6px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+
+        .sendTextInput {
+            max-width: 100%;
+        }
+
+        .sendTextInput {
+            input::placeholder {
+                font-size: 16px;
+            }
+
+        }
+    }
+}
+
+
+@media (max-width: 992px) {
+    .theCard {
+        /* width: 100%; */
+
+        .imagesContainer {
+
+            .twitterImg {
+                padding: 10px 20px;
+            }
+        }
+
+        .sendTextInput {
+            max-width: 100%;
+        }
+    }
+}
+
+@media (max-width: 768pxpx) {
+    .theCard {
+        /* width: 100%; */
+    }
+}
+
+@media (max-width: 390px) {
+    .theCard {
+        padding: 24px;
+
+        .imagesContainer {
+
+            .twitterImg {
+                padding: 10px 20px;
+            }
+        }
+    }
+}
