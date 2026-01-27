@@ -1,10 +1,9 @@
+import DiscoverOurOfficeLocations from "../componant/DiscoverOurOfficeLocations/DiscoverOurOfficeLocations"
 
 const ContactUs = () => {
   return (
     <>
-    
-      
-      hello from contact us
+      <DiscoverOurOfficeLocations/>
     </>
   )
 }
