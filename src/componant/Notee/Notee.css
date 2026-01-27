@@ -1,0 +1,48 @@
+
+/* topic styles */
+.notee {
+    background: linear-gradient(90deg, #1A1A1A 0%, rgba(26, 26, 26, 0) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 18px 24px;
+    border-radius: 0px;
+    border-left: 1px solid hsla(257, 92%, 60%, 1);
+
+    >img {
+        width: 24px;
+        height: 24px;
+    }
+
+    >p {
+        color: hsla(0, 0%, 60%, 1);
+        text-align: left;
+    }
+
+    /* topic for laptop size */
+    @media (max-width: 1440px) {
+        .notee {
+            gap: 10px;
+            padding: 14px 16px;
+
+            >img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+    /* topic for mobile size */
+    @media (max-width: 576px) {
+        .notee {
+            padding: 10px 12px;
+            gap: 10px;
+            >img {
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
+
+}

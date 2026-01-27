@@ -6,8 +6,8 @@ export const Hero = ({ title, desc, firstButton, secButton, oneImg }) => {
         <h1>{title}</h1>
         <p>{desc}</p>
         <div className="buttons">
-          <button className="firstButton">{firstButton}</button>
-          <button className="secButton">{secButton}</button>
+          {firstButton && <button className="firstButton">{firstButton}</button>}
+          {secButton && <button className="secButton">{secButton}</button>}
         </div>
         <div className="cards">
           <div className="card-item">

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './PropertyValuation.css';
 
 const PropertyValuation = ({ mainHeading, mainDesc, cards, ctaTitle, ctaDesc }) => {

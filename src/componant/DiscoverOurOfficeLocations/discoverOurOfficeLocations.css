@@ -1,0 +1,124 @@
+.za-discoverOurOfficeLocations {
+    padding: 110px 162px;
+    background-color: var(--black-primary);
+
+    .za-filterBtns {
+        max-width: 516px;
+        border-radius: 12px;
+        padding: 10px;
+        gap: 10px;
+        background-color: #1A1A1A;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-bottom: 50px;
+
+        button{
+            max-width: 158px;
+            padding: 18px 24px;
+            color: #FFFFFF;
+            background-color:#1A1A1A ;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            border:  1px solid #262626 ;
+            border-radius: 10px;
+
+            &:focus{
+                background-color:#141414 ;
+            }
+        }
+    }
+    .za-discoverOurOfficeLocationsCardsContainer{
+        display: flex;
+        gap: 30px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 1440px) {
+    .za-discoverOurOfficeLocations {
+        padding: 90px 80px;
+
+
+        .za-filterBtns {
+            /* max-width: 413px; */
+            border-radius: 8px;
+            margin-bottom: 40px;
+    
+            button{
+                /* width: 124px; */
+                font-size: 14px;
+                border-radius: 8px;
+                padding: 14px 20px;
+            }
+        }
+    }
+    .za-discoverOurOfficeLocationsCardsContainer{
+        gap: 20px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .za-discoverOurOfficeLocations {
+        padding: 90px 80px;
+
+
+        .za-filterBtns {
+            max-width: 516px;
+            border-radius: 12px;
+            padding: 10px;
+            gap: 10px;
+            margin-bottom: 30px;
+    
+            button{
+                
+            }
+        }
+        .za-discoverOurOfficeLocationsCardsContainer{
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .za-discoverOurOfficeLocations {
+        padding: 61px 16px;
+
+        .za-filterBtns {
+            border-radius: 12px;
+            padding: 10px;
+            gap: 10px;
+    
+            button{
+                padding: 14px 20px;
+                font-size: 14px;
+            }
+        }
+
+        .za-discoverOurOfficeLocationsCardsContainer{
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .za-discoverOurOfficeLocations {
+
+
+        .za-filterBtns{
+            padding: 8px;
+            button{
+                padding: 12px 18px;
+
+                /* font-size: 12px; */
+            }
+        }
+    }
+}

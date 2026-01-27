@@ -1,0 +1,169 @@
+.za-discoverOurOfficeLocationsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 783px;
+    border: 1px solid #262626;
+    border-radius: 12px;
+    padding: 50px;
+    background-color: #141414;
+
+    h6 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: -0.6%;
+        color: #FFFFFF;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding: 10px 0 14px;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: -0.6%;
+        color: #999999;
+    }
+
+    .za-discoverOurOfficeLocationsCardsInfo {
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 40px 0;
+
+        .za-discoverLocationsCard {
+            display: flex;
+            gap: 6px;
+            padding: 14px 20px 14px 0;
+            border-radius: 28px;
+            border: 1px solid #262626;
+            background-color: #1A1A1A;
+
+            img {
+                width: 24px;
+                margin-left: 20px;
+            }
+
+            span {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 150%;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .za-getDirectionBtn {
+        padding: 18px 24px;
+        background-color: #703BF7;
+        border: none;
+        border-radius: 8px;
+        font-weight: 500;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+}
+
+
+
+
+
+@media (max-width: 1440px) {
+    .za-discoverOurOfficeLocationsCard {
+        max-width: 630px;
+        padding: 40px;
+
+        h6 {
+            font-size: 14px;
+        }
+
+        h2 {
+            font-size: 24px;
+            padding: 6px 0 10px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .za-discoverOurOfficeLocationsCardsInfo {
+            gap: 8px;
+            padding: 30px 0;
+
+            .za-discoverLocationsCard {
+                padding: 10px 16px 10px 0;
+                border-radius: 28px;
+
+                img {
+                    width: 20px;
+                }
+
+                span {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .za-getDirectionBtn button {
+            padding: 18px 24px;
+            font-weight: 500;
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .za-discoverOurOfficeLocationsCard {
+        max-width: 100%;
+
+        .za-discoverOurOfficeLocationsCardsInfo {
+            padding: 24px 0;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .za-discoverOurOfficeLocationsCard {
+        padding: 24px;
+
+        /* .za-discoverLocationsCard:nth-child(1) {
+            grid-column: 1 / -1;
+            justify-self: start;
+        } */
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .za-discoverOurOfficeLocationsCardsInfo {
+
+            .za-discoverLocationsCard {
+            }
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .za-discoverOurOfficeLocationsCard {
+
+        .za-discoverOurOfficeLocationsCardsInfo {
+        }
+    }
+}

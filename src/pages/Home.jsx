@@ -1,20 +1,11 @@
 
-import NavBar from "../componant/NavBar/NavBar";
 import Testimonials from "../componant/Testimonials/Testimonials.jsx";
 import FAQ from "../componant/FAQ/FAQ"
-import NavBar from "../componant/NavBar/NavBar"
 import Hero from "../componant/Hero/Hero"
 import CardHero from "../componant/CardHero/CardHero"
 import './Home.css'
 import OurClientsSay from "../componant/OurClientsSay/OurClientsSay.jsx";
 const Home = () => {
-  //   return (
-  //     <div>
-  //       <NavBar/>
-  // <Testimonials/>
-  //     </div>
-  //   );
-  // };
   return (
     <>
       <div className="hero-cards-section">
@@ -48,10 +39,8 @@ const Home = () => {
           />
         </div>
       </div>
-
       <OurClientsSay/>
       <FAQ/>
-
     </>
   )
 }
