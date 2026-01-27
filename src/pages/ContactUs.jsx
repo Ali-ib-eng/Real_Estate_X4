@@ -1,17 +1,12 @@
 
-import React from 'react'
-import LetConnect  from '../componant/LetConnect/LetConnect'
-const ContactUs = () => {
-  return (
-    <>
-      <LetConnect />
-      hello from contact us
 
+import LetConnect  from '../componant/LetConnect/LetConnect'
 import DiscoverOurOfficeLocations from "../componant/DiscoverOurOfficeLocations/DiscoverOurOfficeLocations"
 
 const ContactUs = () => {
   return (
     <>
+    <LetConnect />
       <DiscoverOurOfficeLocations/>
 
     </>
