@@ -1,10 +1,8 @@
 .cards-icon {
     display: flex;
-    box-shadow: 0 0 0px 10px #262626 ;
-    
+    box-shadow: 0 0 0px 10px #262626;
+
 }
-
-
 
 .card-hero-container {
     width: 455px;
@@ -17,9 +15,8 @@
     border: 1px solid #262626;
     padding: 40px 20px;
     border-radius: 20px;
-    background-color:#1A1A1A; 
+    background-color: #1A1A1A;
 }
-
 
 .arrow-wrapper {
     position: absolute;
@@ -37,10 +34,18 @@
     font-weight: 500;
 }
 
+.circle1 {
+    box-shadow: -4px -3px 0 #703BF7;
+    border-radius: 50%;
+    width: 82px;
+    height: 82px;
+    margin-bottom: 20px;
+}
+
 .outer-circle {
     width: 82px;
     height: 82px;
-    border: 1px solid var(--grey-15);
+    box-shadow: 5px 3px 0 #703BF7;
     padding: 10px;
     border-radius: 50%;
     display: flex;
@@ -64,6 +69,6 @@
 
 @media (max-width: 390px) {
     .cards-icon {
-        box-shadow: inset 1px 0px 1px 10px #262626 ;
+        box-shadow: inset 1px 0px 1px 10px #262626;
     }
 }
