@@ -20,7 +20,7 @@ const PropertyHero = () => {
                 </header>
                 <div className="hala-media-wrapper">
                     <img
-                        src="/assets/img/Home-Poperty/Property,home-villa.jpg"
+                        src="/assets/img/Home-Poperty/Image (18).png"
                         alt="Property Hero View"
                         className="hala-main-img"
                     />
