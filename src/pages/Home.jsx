@@ -1,5 +1,3 @@
-
-import NavBar from "../componant/NavBar/NavBar";
 import Testimonials from "../componant/Testimonials/Testimonials.jsx";
 import FAQ from "../componant/FAQ/FAQ"
 import NavBar from "../componant/NavBar/NavBar"
@@ -7,6 +5,7 @@ import Hero from "../componant/Hero/Hero"
 import CardHero from "../componant/CardHero/CardHero"
 import './Home.css'
 import OurClientsSay from "../componant/OurClientsSay/OurClientsSay.jsx";
+import FeaturedProperties from "../componant/FeaturedProperties/FeaturedProperties.jsx"
 const Home = () => {
   //   return (
   //     <div>
@@ -48,6 +47,8 @@ const Home = () => {
           />
         </div>
       </div>
+
+      <FeaturedProperties/>
 
       <OurClientsSay/>
       <FAQ/>

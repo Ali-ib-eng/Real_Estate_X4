@@ -1,0 +1,243 @@
+/* الإعدادات الأساسية للسكشن */
+.ls-featured-section {
+    background-color:var( --black-primary);
+    color:var( --white1);
+    padding: 110px 137px;
+    border: none;
+    
+    .ls-container {
+        width: 100%;
+        margin: 0 auto;
+        gap: 80px;
+        /* Div 1: الهيدر */
+        .ls-section-header {
+            p{
+                color:var( --gray-60);
+            }
+        }
+        
+        /* Div 2: شبكة الكروت */
+        .ls-properties-grid {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr)); 
+            gap: 30px;
+            overflow: visible;
+
+            .ls-property-card {
+                display: flex;
+                flex-direction: column;
+                border: 1px solid var( --grey-15);
+                border-radius: 12px;
+                padding: 40px;
+                gap: 30px;
+                background-color: var( --black-primary);
+
+
+                .ls-card-image img {
+                    width: 100%;
+                    border-radius: 10px;
+                    margin-bottom: 30px;
+                    object-fit: cover;
+                }
+
+                /* Card Content: الـ 3 divs الداخلية */
+                .ls-card-content {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+
+                    .ls-content-header{
+                        gap: 4px;
+                        .read-more { color: var( --white1); text-decoration: underline; cursor: pointer; }
+                        p{ color: var(--gray-60);}
+                    }
+
+                    /* Feature Icons */
+                    .ls-prop-features {
+                        width: 100%;
+                        display: flex;
+                        gap: 10px;
+                        flex-wrap: wrap;
+
+                        .ls-feature-item {
+                            display: flex;
+                            align-items: center;
+                            flex-wrap: nowrap;
+                            background: var( --grey-10);
+                            border: 1px solid var(--grey-15);
+                            border-radius: 28px;
+                            font-weight: 500;
+                            font-size: 18px;
+                            padding: 8px 14px;
+                            gap: 4px;
+                            flex-shrink: 1;
+                        }
+                    }
+
+                    .ls-prop-footer {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .ls-price-box {
+                            .ls-price-label { color: var(--gray-60); display: block; font-size: 18px; }
+                            .ls-price-value { font-size: 24px; font-weight: 600; }
+                        }
+
+                        .ls-details-btn {
+                            color: white;
+                            border-radius: 10px;
+                            background: var(  --purple-60);
+                            padding: 18px 24px;
+                            gap: 8px;
+                        }
+                    }
+                }
+            }
+        }
+        hr {
+            margin: 40px 0 16px;
+            border: 1px solid var(--grey-15);
+        }
+    }
+}
+
+
+/* --- Responsive --- */
+
+/* Laptop (1440px) */
+@media (max-width: 1440px) {
+    .ls-featured-section {
+    padding: 90px 66px;
+
+    .ls-container {
+        gap: 60px;
+
+        .ls-properties-grid {
+            gap: 20px;
+
+            .ls-property-card {
+                padding: 3px;
+                gap: 20px;
+
+                .ls-card-content {
+                    gap: 24px;
+
+                    .ls-prop-features {
+                        gap: 6px;
+                        
+                        .ls-feature-item {
+                            font-size: 14px;
+                            padding: 6px 14px;
+                        }
+                        .ls-prop-footer {
+                            .ls-price-box {
+                                .ls-price-label {  font-size: 14px; }
+                                .ls-price-value { font-size: 20px; }
+                            }
+                            .ls-details-btn {
+                                border-radius: 8px;
+                                padding: 14px 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+/* Tablet (992px) */
+@media (max-width: 992px) and (min-width: 577px) {
+    .ls-container {
+        padding-left: 17px;
+        padding-right: 17px;
+        gap: 4px;
+        
+        .ls-properties-grid {
+            display: block !important; 
+            padding: 24px;
+            
+            .ls-property-card {
+                display: block !important;
+                margin: 0 auto !important;
+                float: none !important;
+                width: 90% !important;
+                max-width: 500px;
+                padding: 24px !important;
+                &:nth-child(n+2){
+                    display:none !important;
+                }
+                .ls-card-content {
+                    .ls-content-header {gap: 2px;}
+                    .ls-prop-features {
+                        gap: 8px;
+                        flex-wrap:wrap;
+                        
+                        .ls-feature-item {
+                            font-size: 14px;
+                            padding: 6px 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Mobile (390px) */
+@media (max-width: 576px) {
+    .ls-featured-section {
+        padding: 85px 8px;
+
+        .ls-container {
+            padding-left: 17px;
+            padding-right: 17px;
+            gap: 4px;
+
+            .ls-properties-grid {
+                display: block; 
+                overflow-x: hidden;
+                width: 100%;
+                
+                .ls-property-card {
+                    display: none;
+                    padding: 24px;
+                    gap: 16px;
+                    &:nth-child(3){
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    
+                    .ls-card-content {
+                        gap: 20px;
+                        
+                        .ls-content-header {gap: 2px;}
+                        .ls-prop-features {
+                            gap: 6px;
+                            flex-wrap:wrap;
+                            
+                            .ls-feature-item {
+                                font-size: 14px;
+                                padding: 6px 14px;
+                            }
+                        }
+                        
+                        .ls-prop-footer {
+                            .ls-price-box {
+                                .ls-price-label { font-size: 14px; }
+                                .ls-price-value { font-size: 18px; }
+                            }
+                            .ls-details-btn {
+                                border-radius: 8px;
+                                padding: 14px 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
