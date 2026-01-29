@@ -1,0 +1,55 @@
+.mr-modal {
+    background-color: var(--grey-10);
+    /* background-image: url('./../../../public/assets/img/Services/Services\ Page.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 12px;
+    border: 1px solid var(--grey-15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+    width: 100%;
+
+    .subheading-2 {
+        color: var(--white1);
+        text-align: left;
+        width: 100%;
+    }
+
+    .body {
+        color: hsla(240, 8%, 90%, 1);
+        text-align: left;
+        width: 100%;
+    }
+
+    .mr-secondary-button {
+        width: 100%;
+    }
+
+    /* modal for laptop size */
+    @media (max-width:1440px) {
+        border-radius: 10px;
+        padding: 40px;
+        gap: 20px;
+
+        .mr-secondary-button {
+            width: 100%;
+        }
+    }
+
+    /* modal for mobile size */
+    @media (max-width:576px) {
+        border-radius: 10px;
+        padding: 24px;
+        gap: 20px;
+
+        .mr-secondary-button {
+            width: 100%;
+        }
+    }
+}

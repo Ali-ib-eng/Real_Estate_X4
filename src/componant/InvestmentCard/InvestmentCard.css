@@ -1,0 +1,56 @@
+/*smart investments card*/
+.mr-investment-card {
+    background: var(--black-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 30px;
+    border: 1px solid var(--grey-15);
+    border-radius: 12px;
+    width: 100%;
+
+    .body {
+        color: var(--gray-60);
+    }
+
+    /* smart-investments-card for laptop size */
+    @media (max-width: 1440px) {
+        padding: 40px;
+        gap: 24px;
+        border-radius: 10px;
+    }
+
+    /* smart-investments-card for laptop size */
+    @media (max-width: 576px) {
+        padding: 24px;
+        gap: 16px;
+    }
+}
+
+/* ------------------------------------------------ */
+
+/* card header */
+.mr-investment-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+
+    .subheading-2 {
+        color: var(--white1);
+    }
+
+    /* card-header for laptop size */
+    @media (max-width:1440px) {
+        gap: 16px;
+    }
+
+    /* card-header for mobile size */
+    @media (max-width:576px) {
+        gap: 12px;
+    }
+}

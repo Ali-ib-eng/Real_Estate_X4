@@ -1,0 +1,41 @@
+.mr-icon-button {
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 14px;
+    border: 1px solid  var(--grey-15);
+    border-radius: 50%;
+    aspect-ratio: 1;
+
+    .mr-icon {
+        width: 30px;
+        height: 30px;
+        aspect-ratio: 1;
+    }
+
+    /* icon-button for laptop size */
+    @media (max-width: 1440px) {
+        .mr-icon-button {
+            padding: 10px;
+        }
+
+        .mr-icon {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    /* icon-button for mobile size */
+    @media (max-width: 576px) {
+        .mr-icon-button {
+            padding: 10px;
+        }
+
+        .mr-icon {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}

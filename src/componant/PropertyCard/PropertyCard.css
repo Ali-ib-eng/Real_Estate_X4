@@ -1,0 +1,220 @@
+.mr-property-card {
+    /*card general style and layout*/
+    background: hsla(0, 0%, 8%, 1);
+    border: 1px solid hsla(0, 0%, 15%, 1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    gap: 30px;
+
+    /* property-card for laptop size */
+    @media (max-width: 1440px) {
+        /*card general style and layout*/
+        border-radius: 12px;
+        padding: 30px;
+        gap: 20px;
+        width: 100%;
+    }
+
+    /* property-card for mobile size */
+    @media (max-width: 992px) {
+        /*card general style and layout*/
+        padding: 24px;
+        gap: 16px;
+        border-radius: 12px;
+        width: 100%;
+    }
+}
+
+/* ------------------------------------------------ */
+
+/* card image */
+.mr-property-card-image {
+    width: 100%;
+    height: 318px;
+    object-fit: cover;
+    border-radius: 10px;
+
+    /* card-image for laptop size */
+    @media (max-width: 1440px) {
+        height: 255px;
+    }
+
+    /* card-image for mobile size */
+    @media (max-width: 992px) {
+        height: 210px;
+    }
+}
+
+/* ------------------------------------------------ */
+
+/* card info */
+.mr-property-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+
+    /* card-info for laptop size */
+    @media (max-width: 1440px) {
+        gap: 24px;
+    }
+
+    /* card-info for laptop size */
+    @media (max-width: 992px) {
+        gap: 20px;
+    }
+}
+
+/* ------------------------------------------------ */
+
+/* card brief */
+.mr-property-card-brief {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 6px;
+
+    .subheading-2 {
+        text-align: left;
+        width: 100%;
+        color: hsla(0, 0%, 100%, 1);
+    }
+
+    .body {
+        text-align: left;
+        width: 100%;
+        color: hsla(0, 0%, 60%, 1);
+    }
+
+    /* card-brief for laptop size */
+    @media (max-width: 1440px) {
+        gap: 4px;
+    }
+
+    /* card-brief for laptop size */
+    @media (max-width: 992px) {
+        gap: 2px;
+    }
+}
+
+/* ------------------------------------------------ */
+
+/* card topics */
+.mr-property-card-topics {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+
+    flex-wrap: wrap;
+
+    /* card-topics for laptop size */
+    @media (max-width: 1440px) {
+        gap: 6px;
+    }
+
+    /* card-topics for laptop size */
+    @media (max-width: 992px) {
+        gap: 6px;
+    }
+}
+
+/* ------------------------------------------------ */
+
+/*card footer*/
+.mr-property-card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+
+    /*card price*/
+    .mr-property-card-price {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2px;
+
+        .body {
+            text-align: left;
+            width: 100%;
+            color: hsla(0, 0%, 60%, 1);
+        }
+
+        .subheading-2 {
+            text-align: left;
+            width: 100%;
+            color: hsla(0, 0%, 100%, 1);
+        }
+    }
+
+    /* featured-property-card for laptop size */
+    @media (max-width: 1440px) {
+        gap: 40px;
+
+        /*card price*/
+        .mr-property-card-price {
+            gap: 0px;
+        }
+    }
+
+    /* featured-property-card for laptop size */
+    @media (max-width: 992px) {
+        gap: 30px;
+    }
+}
+
+/* ------------------------------------------------ */
+
+/* when card is selected */
+.is-selected .mr-property-card {
+    /*the changes*/
+    background-color: #202020;
+    border: 4px solid #703bf7;
+
+    /* what did not changed */
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    gap: 30px;
+
+    /* property-card for laptop size */
+    @media (max-width: 1440px) {
+        .is-selected .mr-property-card {
+            /*card general style and layout*/
+            border-radius: 12px;
+            padding: 30px;
+            gap: 20px;
+            width: 100%;
+        }
+    }
+
+    /* property-card for mobile size */
+    @media (max-width: 992px) {
+        .is-selected .mr-property-card {
+            /*card general style and layout*/
+            padding: 24px;
+            gap: 16px;
+            border-radius: 12px;
+            width: 100%;
+        }
+    }
+}

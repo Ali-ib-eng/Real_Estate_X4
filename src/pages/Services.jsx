@@ -1,5 +1,6 @@
 import PropertyValuation from '../componant/PropertyValuation/PropertyValuation.jsx';
 import HeroServses from '../componant/HeroServses/HeroServses.jsx';
+import SmartInvestmentsSection from '../componant/SmartInvestmentsSection/SmartInvestmentsSection.jsx';
 const Services = () => {
 
   
@@ -37,6 +38,9 @@ const Services = () => {
         ctaTitle="Experience Effortless Property Management"
         ctaDesc="Ready to experience hassle-free property management? Explore our Property Management Service categories and let us handle the complexities while you enjoy the benefits of property ownership."
       />
+
+
+      <SmartInvestmentsSection/>
     </div></div>
   )
 }

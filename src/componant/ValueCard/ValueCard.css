@@ -1,0 +1,55 @@
+.mr-value-card {
+    background: hsla(0, 0%, 8%, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+
+    .body {
+        color: hsla(0, 0%, 60%, 1);
+    }
+
+    /* value-card for laptop size */
+    @media (max-width: 1440px) {
+        gap: 16px;
+        width: 100%;
+    }
+
+    /* value-card for mobile size */
+    @media (max-width: 576px) {
+        gap: 14px;
+        width: 100%;
+    }
+}
+
+/* ------------------------------------------------ */
+
+/*card header*/
+.mr-value-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+
+    .subheading-2 {
+        color: hsla(0, 0%, 100%, 1);
+    }
+
+    /* card-header for laptop size */
+    @media (max-width: 1440px) {
+        gap: 10px;
+    }
+
+    /* card-header for laptop size */
+    @media (max-width: 576px) {
+        gap: 8px;
+    }
+}
+
+/* ------------------------------------------------ */
+
+

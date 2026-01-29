@@ -1,0 +1,62 @@
+/* buttons styles */
+.mr-primary-button {
+    background: var(--purple-60);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 18px 24px;
+    border-radius: 10px;
+    color: var(--white1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 227px;
+    border: none;
+
+    /* primary-button for laptop size */
+    @media (max-width: 1440px) {
+        padding: 18px 20px;
+        border-radius: 8px;
+        flex-wrap: nowrap;
+    }
+
+    /* primary-button for mobile size */
+    @media (max-width: 576px) {
+        padding: 18px 20px;
+        border-radius: 8px;
+        flex-wrap: nowrap;
+    }
+}
+
+
+.mr-secondary-button {
+    background: var(--grey-10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 18px 24px;
+    border-radius: 10px;
+    border: 1px solid var(--grey-15);
+    
+    color: var(--white1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 227px;
+
+    /* secondary-button for laptop size */
+    @media (max-width: 1440px) {
+        padding: 18px 20px;
+        border-radius: 8px;
+        flex-wrap: nowrap;
+    }
+
+    /* secondary-button for mobile size */
+    @media (max-width: 576px) {
+        padding: 18px 20px;
+        border-radius: 8px;
+        flex-wrap: nowrap;
+    }
+}

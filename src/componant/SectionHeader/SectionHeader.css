@@ -1,0 +1,32 @@
+.mr-section-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 6px;
+
+    .section-title {
+        width: 100%;
+        color: var(--white1);
+        text-align: left;
+    }
+
+    .body {
+        width: 100%;
+        color: var(--gray-60);
+        text-align: left;
+    }
+
+    /* section-header for laptop size */
+    @media (max-width:1440px) {
+        gap: 4px;
+        width: 100%;
+    }
+
+    /* section-header for mobile size */
+    @media (max-width:576px) {
+        gap: 2px;
+        width: 100%;
+    }
+}

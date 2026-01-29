@@ -1,7 +1,7 @@
 
 /* topic styles */
 .notee {
-    background: linear-gradient(90deg, #1A1A1A 0%, rgba(26, 26, 26, 0) 100%);
+    background: linear-gradient(90deg, var(--grey-10) 0%, var(--grey-10) 100%);
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -9,7 +9,7 @@
     gap: 10px;
     padding: 18px 24px;
     border-radius: 0px;
-    border-left: 1px solid hsla(257, 92%, 60%, 1);
+    border-left: 1px solid var(--purple-60);
 
     >img {
         width: 24px;
@@ -17,7 +17,7 @@
     }
 
     >p {
-        color: hsla(0, 0%, 60%, 1);
+        color: var(--gray-60);
         text-align: left;
     }
 

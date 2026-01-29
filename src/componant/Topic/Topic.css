@@ -1,0 +1,42 @@
+.mr-topic {
+    background: hsla(0, 0%, 10%, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 8px 14px;
+    border-radius: 28px;
+    border: 1px solid hsla(0, 0%, 15%, 1);
+
+    .mr-topic-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .button {
+        color: hsla(0, 0%, 100%, 1);
+    }
+
+    /* topic for laptop size */
+    @media (max-width: 1440px) {
+        padding: 6px 14px;
+        border-radius: 28px;
+
+        .mr-topic-icon {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    /* topic for mobile size */
+    @media (max-width: 576px) {
+        padding: 6px 14px;
+        border-radius: 28px;
+
+        .mr-topic-icon {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
