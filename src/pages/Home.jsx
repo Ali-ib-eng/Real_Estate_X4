@@ -5,6 +5,7 @@ import Hero from "../componant/Hero/Hero"
 import CardHero from "../componant/CardHero/CardHero"
 import './Home.css'
 import OurClientsSay from "../componant/OurClientsSay/OurClientsSay.jsx";
+import FeaturedProperties from "../componant/FeaturedProperties/FeaturedProperties.jsx"
 const Home = () => {
   return (
     <>
@@ -39,6 +40,9 @@ const Home = () => {
           />
         </div>
       </div>
+
+      <FeaturedProperties/>
+
       <OurClientsSay/>
       <FAQ/>
     </>
