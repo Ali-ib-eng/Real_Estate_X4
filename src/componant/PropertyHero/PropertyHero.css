@@ -1,0 +1,94 @@
+.hala-hero-section {
+    background-color: #141414;
+    padding: 60px 0;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.hala-container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hala-header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.hala-title {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0 0 8px 0;
+    letter-spacing: -0.5px;
+}
+
+.hala-location {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border: 1px solid #262626;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+}
+.hala-location-icon {
+    width: 20px;
+    height: 20px;
+}
+.hala-location-text {
+    color: #FFFFFF;
+    font-size: 0.95rem;
+}
+
+.hala-info-side {
+    display: flex;
+    gap: 40px;
+}
+.hala-label {
+    display: block;
+    color: #999999;
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+}
+.hala-amount {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.hala-media-wrapper {
+    width: 100%;
+    overflow: hidden;
+    background-color: #1a1a1a;
+    border: 1px solid #222;
+}
+.hala-main-img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    min-height: 450px;
+}
+
+@media (max-width: 768px) {
+    .hala-header-flex {
+        display: flex;
+        align-items: flex-end;
+        gap: 20px;
+
+    }
+
+    .hala-price-side {
+           display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+
+    .hala-main-img {
+        min-height: 300px;
+    }
+    .hala-info-side {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;}
+}

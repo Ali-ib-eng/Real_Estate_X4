@@ -141,6 +141,18 @@
     font-size: 14px;
     margin: 0;
     background-color: #1A1A1A;
+
+}
+
+@media (max-width: 992px) {
+    .card-item h2 {
+        color: white;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px) {
+
 }
 
 @media (max-width: 992px) {
@@ -151,6 +163,7 @@
 }
 
 @media (max-width: 576px) {
+
     .hero {
         flex-direction: column-reverse;
         padding: 20px;
@@ -210,8 +223,4 @@
     .card-item:last-child {
         grid-column: span 2;
     }
-}
-
-@media (max-width: 576px) {
-    
 }

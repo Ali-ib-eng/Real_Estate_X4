@@ -1,0 +1,34 @@
+/* topic styles */
+.badge {
+    background: hsla(0, 0%, 10%, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 14px;
+    border-radius: 28px;
+    border: 1px solid hsla(0, 0%, 15%, 1);
+
+    >span{
+        color: hsla(0, 0%, 60%, 1);
+        text-align: center;
+    }
+
+    /* topic for laptop size */
+    @media (max-width: 1440px) {
+        .badge {
+            gap: 4px;
+            padding: 6px 12px;
+        }
+    }
+
+    /* topic for mobile size */
+    @media (max-width: 576px) {
+        .badge {
+            padding: 10px 12px;
+            gap: 10px;
+        }
+    }
+
+}

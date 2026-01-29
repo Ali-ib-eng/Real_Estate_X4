@@ -1,0 +1,14 @@
+
+@media (max-width: 576px) {
+    .oneImg img {
+        width: 100% !important;
+    text-align: center !important;
+}
+    .card-item {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+}}
+@media (max-width: 992px) {
+    .card-item h2 {
+        font-size: 15px !important;}}
