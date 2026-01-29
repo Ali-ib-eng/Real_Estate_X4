@@ -5,8 +5,6 @@ import Hero from "../componant/Hero/Hero"
 import CardHero from "../componant/CardHero/CardHero"
 import './Home.css'
 import OurClientsSay from "../componant/OurClientsSay/OurClientsSay.jsx";
-import FeaturedPropertiesSection from "../componant/FeaturedPropertiesSection/FeaturedPropertiesSection.jsx";
-
 const Home = () => {
   return (
     <>
@@ -41,8 +39,14 @@ const Home = () => {
           />
         </div>
       </div>
+
       {/* Mahmoud Riya: i stopped the FeaturedPropertiesSection cause Lama will redesign it due to responsivity issues */}
       {/* <FeaturedPropertiesSection /> */}
+
+
+      <FeaturedProperties/>
+
+
       <OurClientsSay/>
       <FAQ/>
     </>
