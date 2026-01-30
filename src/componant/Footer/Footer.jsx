@@ -93,7 +93,7 @@ const Footer = () => {
       <div className="LS-footer-bottom-section">
         {/* الـ DIV الفرعي الأول: الحقوق */}
         <div className="LS-footer-legal-box link">
-          <p><a href="#">@2023 Estatein. All Rights Reserved</a></p>
+          <p><a href="#">@2023 Estatein. All Rights Reserved </a></p>
           <p><a href="#">Terms & Conditions</a></p>
         </div>
 

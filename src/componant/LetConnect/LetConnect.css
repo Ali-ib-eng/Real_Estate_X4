@@ -4,6 +4,7 @@
     color:var(--white1);
     padding-left: 162px;
     padding-right: 162px;
+    padding: 150px 162px;
     gap: 80px;
 }
 

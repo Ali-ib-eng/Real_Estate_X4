@@ -44,9 +44,5 @@
 @media (max-width: 390px) {
     .faqSectionContainer {
         padding: 85px 8px;
-
-        .faqContainer {
-            /* width: 358px; */
-        }
     }
 }

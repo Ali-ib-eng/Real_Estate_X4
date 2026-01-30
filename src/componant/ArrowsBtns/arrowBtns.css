@@ -5,7 +5,7 @@
     button {
         width: 58px;
         height: 58;
-        padding:14px 14px 14px 32px;
+        padding: 14px;
         border: 1px solid var(--grey-15);
         border-radius: 50%;
         background-color: var(--black-primary);
@@ -26,7 +26,7 @@
 @media (max-width: 1440px) {
     .arrowsIcons {
         button {
-            padding: 14px 22px;
+            padding: 14px;
         }
     }
 }

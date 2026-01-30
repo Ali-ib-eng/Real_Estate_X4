@@ -3,10 +3,9 @@
     padding: 110px 137px 0;
     margin-bottom: -1px; 
     border: none;
+    overflow-x: hidden;
 
     .za-ourClientsContainer {
-
-
         .za-cardsContainer {
             display: flex;
             gap: 30px;

@@ -66,7 +66,7 @@ const OurClientsSay = () => {
         <section className='za-ourClientsSectionContainer'>
             <div className="za-ourClientsContainer">
                 <Sparkles />
-                <Title
+                <Title 
                     title="What Our Clients Say"
                     subTitle='Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs.'
                 />

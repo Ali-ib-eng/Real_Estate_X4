@@ -1,6 +1,16 @@
 .HalaHeroServses{
-    background-color: #141414;
+background-color: #141414;
+    
 }
-.title{
+/*.za-forTitle{
             font-size: 38px;
-            padding: 60px;}
+            padding: 60px;
+            padding:80px 100px 60px;
+        }*/
+        .editdistancebyali{
+            font-size: 38px;
+            padding: 60px;
+            padding-left: 100px;
+            /*padding:90px 100px 60px;*/
+            
+        }

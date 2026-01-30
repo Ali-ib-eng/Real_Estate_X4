@@ -145,7 +145,7 @@ const OurValuedClientsSection = () => {
 
         {/* the slider navigation buttons */}
         <div className="mr-slider-navigation-buttons">
-          <IconButton iconLink="../../../public/assets/icons/homepage/featured/arrow-left.svg" />
+          <IconButton className="mr-btn" iconLink="../../../public/assets/icons/homepage/featured/arrow-left.svg" />
           <IconButton iconLink="../../../public/assets/icons/homepage/featured/arrow-right.svg" />
         </div>
       </div>

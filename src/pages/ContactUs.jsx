@@ -8,11 +8,13 @@ const ContactUs = () => {
   return (
     <>
           <div className='HalaHeroServses'>
-            <Title
+            <div className="editdistancebyali">
+              <Title
               title='Get in Touch with Estatein'
               subTitle=' Welcome to Estatein s Contact Us page. Were here to assist you with any inquiries, requests, or feedback you may have. Whether youre looking to buy or sell a property, explore investment opportunities, or simply want to connect, were
                   just a message away. Reach out to us, and lets start a conversation. '
             />
+            </div>
             <div className="cards-icon">
               <CardHero
                 title="info@estatein.com"
