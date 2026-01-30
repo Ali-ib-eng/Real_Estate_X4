@@ -4,6 +4,9 @@ import "../../typography_system.css";
 import IconButton from "../IconButton/IconButton.jsx";
 import ClientCard from "../ClientCard/ClientCard.jsx";
 import SectionHeader from "../SectionHeader/SectionHeader.jsx";
+// import ArrowsBtns from '../ArrowsBtns/ArrowsBtns'
+
+
 
 // const OurValuedClientsSection = () => {
 //   const [currentIndex, setCurrentIndex] = useState(0);
@@ -123,7 +126,7 @@ const OurValuedClientsSection = () => {
 
   return (
     // the total section
-    <section className="mr-our-clients-section">
+    <section className="mr-our-clients-section za-spacing">
       <SectionHeader
         sectionTitle={sectionInfo.title}
         sectionBrief={sectionInfo.brief}
@@ -148,6 +151,7 @@ const OurValuedClientsSection = () => {
           <IconButton iconLink="../../../public/assets/icons/homepage/featured/arrow-left.svg" />
           <IconButton iconLink="../../../public/assets/icons/homepage/featured/arrow-right.svg" />
         </div>
+        {/* <ArrowsBtns/> */}
       </div>
     </section>
   );

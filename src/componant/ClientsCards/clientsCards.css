@@ -1,16 +1,18 @@
 .za-card-item {
-    max-width: 512px;
+    /* max-width: 512px; */
     padding: 50px;
     border: 1px solid #262626;
     background-color: #141414;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
+    width: 100%; 
+    max-width: none;
     flex: 1;
 
     .za-stars-container {
         display: flex;
-        gap: 30px;
+        gap: 10px;
         margin-bottom: 40px;
 
         .za-star-item {
@@ -62,9 +64,6 @@
     }
 }
 
-
-
-
 @media (max-width: 1440px) {
     .za-card-item {
         max-width: 413px;
@@ -72,8 +71,8 @@
         border-radius: 10px;
     
         .za-stars-container {
-            gap: 24px;
             margin-bottom: 30px;
+            gap: 8px;
     
             .za-star-item {
                 width: 38px;
@@ -108,16 +107,22 @@
     }
 }
 
-
-@media (max-width: 1165px) {
+@media (max-width: 1080px){
     .za-card-item {
-    
         .za-stars-container {
-            gap: 14px;
+            gap: 4px;
         }
     }
 }
 
+@media (max-width: 992px){
+    .za-card-item {
+    
+        .za-stars-container {
+            gap: 8px;
+        }
+    }
+}
 
 @media (max-width: 390px) {
     .za-card-item {
@@ -125,7 +130,7 @@
     
         .za-stars-container {
             margin-bottom: 24px;
-    
+
             .za-star-item {
                 width: 30px;
                 padding: 6px;

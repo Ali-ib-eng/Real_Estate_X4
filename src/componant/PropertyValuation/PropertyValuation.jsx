@@ -3,7 +3,7 @@ import './PropertyValuation.css';
 
 const PropertyValuation = ({ mainHeading, mainDesc, cards, ctaTitle, ctaDesc }) => {
   return (
-  <section className="LS-valuation-container">
+  <section className="LS-valuation-container za-spacing">
     {/*  القسم الأول: العنوان والوصف */}
     <div className="LS-valuation-intro">
       <h2 className="main-heading">{mainHeading}</h2>

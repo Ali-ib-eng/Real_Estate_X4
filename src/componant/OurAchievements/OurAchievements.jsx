@@ -1,13 +1,19 @@
+import Sparkles from "../Sparkles/Sparkles";
+import Title from "../Title/Title";
 import "./OurAchievements.css"
 export const OurAchievements = ({ title, desc }) => {
-    return (<div className="hala-achievements-section">
+    return (
+    <div className="hala-achievements-section za-spacing">
         <div className="hala-achievements-container">
-            <h2>{title}</h2>
-            <p className="hala-achievements-container-desc">{desc}</p>
+            <Sparkles/>
+            <Title
+            title="Our Achievements"
+            subTitle="Our story is one of continuous growth and evolution. We started as a small team with big dreams, determined to create a real estate platform that transcended the ordinary." 
+            />
             <div className="hala-achievements-grid">
                 <div className="hala-card-item">
                     <h3>3+ Years of Excellence</h3>
-                    <p className="hala-card-item-desc">With over 3 years in the industry, we've amassed a wealth of knowledge and experience.</p>
+                    <p className="hala-card-item-desc">With over 3 years in the industry, we've amassed a wealth of knowledge and experience, becoming a go-to resource for all things real estate.</p>
                 </div>
                 <div className="hala-card-item">
                     <h3>Happy Clients</h3>

@@ -1,5 +1,7 @@
 .meetTheEstateinTeamContainer {
-    padding: 110px 162px;
+    /* padding: 110px 162px; */
+    margin-bottom: -1px; 
+    border: none;
 
     background-color: var(--black-primary);
     .teamCardsContainer {
@@ -15,7 +17,7 @@
 
 @media (max-width: 1440px) {
     .meetTheEstateinTeamContainer {
-        padding: 90px 80px;
+        /* padding: 90px 80px; */
 
         .teamCardsContainer {
             gap: 20px;
@@ -37,7 +39,6 @@
 
 @media (max-width: 992px) {
     .meetTheEstateinTeamContainer {
-        /* margin: 90px 80px; */
         
     }
 }
@@ -45,7 +46,6 @@
 
 @media (max-width: 768px) {
     .meetTheEstateinTeamContainer{
-        padding: 61px 16px;
         .teamCardsContainer {
             grid-template-columns: repeat(1, 1fr); 
             gap: 20px;

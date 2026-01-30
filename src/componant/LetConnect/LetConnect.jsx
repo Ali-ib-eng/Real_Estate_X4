@@ -3,7 +3,7 @@ import './LetConnect.css';
 
 const LetConnect = () => {
     return (
-    <section className="ls-contact-section ">
+    <section className="ls-contact-section za-spacing">
         <div className="ls-contact-container">
             {/* الـ div الأول: الرأسية (العنوان والوصف) */}
             <div className="ls-contact-header">

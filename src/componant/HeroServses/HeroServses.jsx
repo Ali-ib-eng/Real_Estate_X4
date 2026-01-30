@@ -1,16 +1,15 @@
 import Title from '../Title/Title'
 import CardHero from '../CardHero/CardHero'
-import React from 'react'
 import './HeroServses.css'
-
 function HeroServses() {
     return (
         <div className='HalaHeroServses'>
-            <Title
+            <div className="editdistancebyali">
+                <Title 
                 title='Elevate Your Real Estate Experience'
                 subTitle='Welcome to Estatein, where your real estate aspirations meet expert guidance. Explore our comprehensive range of services, each designed to cater to your unique needs and dreams.'
             />
-
+            </div>
             <div className="cards-icon">
                 <CardHero
                     title="Find Your Dream Home"

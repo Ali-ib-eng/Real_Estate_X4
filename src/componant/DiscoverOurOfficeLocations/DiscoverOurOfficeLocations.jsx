@@ -23,7 +23,7 @@ const DiscoverOurOfficeLocations = () => {
         }
     ]
     return (
-        <section className='za-discoverOurOfficeLocations'>
+        <section className='za-discoverOurOfficeLocations za-spacing'>
             <Sparkles />
             <Title
                 title="Discover Our Office Locations"

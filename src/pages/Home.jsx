@@ -1,4 +1,4 @@
-
+import FeaturedProperties from "../componant/FeaturedProperties/FeaturedProperties"
 import Testimonials from "../componant/Testimonials/Testimonials.jsx";
 import FAQ from "../componant/FAQ/FAQ"
 import Hero from "../componant/Hero/Hero"

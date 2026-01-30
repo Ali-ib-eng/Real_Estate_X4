@@ -23,7 +23,7 @@ const Experience = () => {
         </div>
     );
     return (
-        <section className="LS-experience-section container">
+        <section className="LS-experience-section container za-spacing">
             <Sparkles/>
             <Title
                 title="Navigating the Estatein Experience"

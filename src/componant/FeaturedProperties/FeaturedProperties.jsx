@@ -72,7 +72,7 @@ const FeaturedProperties = () => {
     };
     
     return (
-    <section className="ls-featured-section">
+    <section className="ls-featured-section za-spacing">
         <div className="ls-container">
             <Sparkles />
             {/* Div 1: العنوان والوصف */}

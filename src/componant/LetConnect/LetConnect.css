@@ -2,9 +2,10 @@
 .ls-contact-section {
     background-color:var( --black-primary); 
     color:var(--white1);
-    padding-left: 162px;
-    padding-right: 162px;
-    gap: 80px;
+    margin-bottom: -1px;
+
+    /* padding-left: 162px;
+    padding-right: 162px; */
 }
 
 /* الهيدر */
@@ -12,6 +13,8 @@
     padding-right: 300px;
     margin-bottom: 80px;
     gap: 14px;
+    margin-bottom: -1px;
+    border: none;
 }
 .ls-contact-header p {
     color: var( --gray-60);

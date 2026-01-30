@@ -2,7 +2,9 @@
 .ls-featured-section {
     background-color:var( --black-primary);
     color:var( --white1);
-    padding: 110px 137px;
+    /* padding: 110px 137px; */
+    border: none;
+    margin-bottom: -1px; 
     border: none;
     
     .ls-container {
@@ -109,7 +111,7 @@
 /* Laptop (1440px) */
 @media (max-width: 1440px) {
     .ls-featured-section {
-    padding: 90px 66px;
+    /* padding: 90px 66px; */
 
     .ls-container {
         gap: 60px;
@@ -190,7 +192,7 @@
 /* Mobile (390px) */
 @media (max-width: 576px) {
     .ls-featured-section {
-        padding: 85px 8px;
+        /* padding: 85px 8px; */
 
         .ls-container {
             padding-left: 17px;
