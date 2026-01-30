@@ -72,6 +72,12 @@
                             padding: 8px 14px;
                             gap: 4px;
                             flex-shrink: 1;
+
+                            img {
+                                width: 24px;
+                                height: 24px;
+                                opacity: 1;
+                            }
                         }
                     }
 
@@ -130,6 +136,10 @@
                         .ls-feature-item {
                             font-size: 14px;
                             padding: 6px 14px;
+                            img {
+                                width: 20px;
+                                height: 20px;
+                            }
                         }
                         .ls-prop-footer {
                             .ls-price-box {
@@ -158,17 +168,19 @@
         
         .ls-properties-grid {
             display: block !important; 
+            overflow-x: hidden;
             padding: 24px;
             
             .ls-property-card {
-                display: block !important;
+                display: none !important;
                 margin: 0 auto !important;
                 float: none !important;
                 width: 90% !important;
                 max-width: 500px;
                 padding: 24px !important;
-                &:nth-child(n+2){
-                    display:none !important;
+                &.active-card {
+                    display: block !important;
+                    animation: fadeIn 0.5s ease-in-out;
                 }
                 .ls-card-content {
                     .ls-content-header {gap: 2px;}
@@ -179,6 +191,10 @@
                         .ls-feature-item {
                             font-size: 14px;
                             padding: 6px 14px;
+                            img {
+                                width: 20px;
+                                height: 20px;
+                            }
                         }
                     }
                 }
@@ -206,9 +222,9 @@
                     display: none;
                     padding: 24px;
                     gap: 16px;
-                    &:nth-child(3){
+                    &.active-card {
                         display: flex;
-                        flex-direction: column;
+                        animation: fadeIn 0.5s ease-in;
                     }
                     
                     .ls-card-content {
@@ -222,9 +238,12 @@
                             .ls-feature-item {
                                 font-size: 14px;
                                 padding: 6px 14px;
+                                img {
+                                width: 20px;
+                                height: 20px;
+                            }
                             }
                         }
-                        
                         .ls-prop-footer {
                             .ls-price-box {
                                 .ls-price-label { font-size: 14px; }
@@ -239,5 +258,15 @@
                 }
             }
         }
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX (10);
+    }
+    to {
+        opacity: 1;
+        transform: translateX (0);
     }
 }
