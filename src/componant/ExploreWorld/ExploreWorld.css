@@ -1,0 +1,111 @@
+.hala-section {
+    background-image: url(/public/assets/img/Contact/CONTACT-back.jpg);
+    padding: 60px 25px;
+    color: #ffffff;
+}
+
+.hala-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hala-img-box {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #262626;
+}
+
+.hala-img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.hala-upper-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.hala-upper-grid img {
+    margin-left: 0 !important;
+}
+
+.hala-left-column {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+}
+
+.hala-right-column {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+}
+
+.hala-bottom-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.hala-lower-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    align-items: center;
+}
+
+.hala-main-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hala-description {
+    color: #999999;
+    line-height: 1.6;
+}
+
+.hala-handshake-wrapper {
+    height: 100%;
+}
+
+@media (max-width: 576px) {
+    .bottom-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    .hala-lower-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hala-left-column,
+    .hala-right-column {
+        height: auto;
+        grid-template-rows: auto;
+    }
+
+    .hala-img-box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hala-upper-grid img {
+        width: 100;
+    }
+
+    .hala-img-box {
+        overflow: hidden;
+        height: 100px;
+    }
+
+    #hala-last-img {
+        width: 100px;
+    }
+}
