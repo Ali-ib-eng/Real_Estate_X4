@@ -2,36 +2,28 @@
     background-color: var(--black-primary);
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-    gap: 80px;
+    justify-content: space-between;
     padding-bottom: 150px;
 
-    /* our-clients-section for laptop size */
     @media (max-width:1440px) {
-        gap: 60px;
         width: 100%;
         /* margin: 45px 0px; */
     }
 
-    /* our-clients-section for mobile size */
     @media (max-width:992px) {
-        gap: 40px;
         width: 100%;
-        /* padding: 0px 16px; */
     }
 }
 
-/* ----------------------------------------- */
+/* ---------------------------------------- */
 .mr-cards-with-slider {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     width: 100%;
     gap: 50px;
 
+    hr {
+        margin: 40px 0 16px;
+        border: 1px solid var(--grey-15);
+    }
     /* cards-with-slider for laptop size */
     @media (max-width:1440px) {
         gap: 40px;
@@ -42,9 +34,12 @@
     /* cards-with-slider for mobile size */
     @media (max-width:992px) {
         width: 100%;
-        gap: 30px;
+        hr{
+            display: none;
+        }
     }
 }
+
 
 /* ----------------------------------------- */
 
@@ -64,14 +59,8 @@
 
     /* cards-section for mobile size */
     @media (max-width:992px) {
-        flex-direction: column;
         gap: 6px;
         width: 100%;
-
-        /*select the second .card elements to hide them*/
-        .mr-client-card:nth-child(2) {
-            display: none !important;
-        }
     }
 }
 
@@ -86,6 +75,5 @@
     .mr-our-clients-section{
         padding-bottom: 80px;
     }
-
 }
 /* ----------------------------------------- */
