@@ -1,4 +1,4 @@
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./OurValuedClientsSection.css";
 import "../../typography_system.css";
 import IconButton from "../IconButton/IconButton.jsx";
@@ -11,38 +11,38 @@ import Sparkles from '../Sparkles/Sparkles'
 const OurValuedClientsSection = () => {
 
   const [currentCard, setCurrentCard] = useState(0);
-    const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
-    useEffect(() => {
-        const checkIfMobile = () => {
-            if (window.innerWidth <= 992) {
-                setIsMobile(true);
-            } else {
-                setIsMobile(false);
-            }
-        };
-        checkIfMobile();
-
-        window.addEventListener('resize', checkIfMobile);
-        return () => {
-            window.removeEventListener('resize', checkIfMobile)
-        }
-
-    }, []);
-    const nextCard = () => {
-        if (currentCard < 1) {
-            setCurrentCard(currentCard + 1);
-        } else {
-            setCurrentCard(0)
-        }
-    }
-    const prevCard = () => {
-        if (currentCard > 0) {
-            setCurrentCard(currentCard - 1);
-        } else {
-            setCurrentCard(1)
-        }
+  useEffect(() => {
+    const checkIfMobile = () => {
+      if (window.innerWidth <= 992) {
+        setIsMobile(true);
+      } else {
+        setIsMobile(false);
+      }
     };
+    checkIfMobile();
+
+    window.addEventListener('resize', checkIfMobile);
+    return () => {
+      window.removeEventListener('resize', checkIfMobile)
+    }
+
+  }, []);
+  const nextCard = () => {
+    if (currentCard < 1) {
+      setCurrentCard(currentCard + 1);
+    } else {
+      setCurrentCard(0)
+    }
+  }
+  const prevCard = () => {
+    if (currentCard > 0) {
+      setCurrentCard(currentCard - 1);
+    } else {
+      setCurrentCard(1)
+    }
+  };
   const clients = [
     {
       key: 1,
@@ -70,46 +70,46 @@ const OurValuedClientsSection = () => {
       "At Estatein, we have had the privilege of working with a diverse range of clients across various industries. Here are some of the clients we've had the pleasure of serving",
   };
 
-    return (
-      <section className="mr-our-clients-section za-spacing">
-        <Sparkles/>
-        <Title
-          title="Our Valued Clients"
-          subTitle="At Estatein, we have had the privilege of working with a diverse range of clients across various industries. Here are some of the clients we've had the pleasure of serving"
-        />
-        
-        <div className="mr-cards-with-slider">
-          {!isMobile ? (
-            <div className="mr-our-clients-cards-section">
-              {clients.map((client) => (
-                <ClientCard
-                  key={client.key}
-                  cardDate={client.cardDate}
-                  cardTitle={client.cardTitle}
-                  cardDomain={client.cardDomain}
-                  cardCategory={client.cardCategory}
-                  testimony={client.testimony}
-                />
-              ))}
-            </div>
-          ) : (
-            <ClientCard
-              key={clients[currentCard].key}
-              cardDate={clients[currentCard].cardDate}
-              cardTitle={clients[currentCard].cardTitle}
-              cardDomain={clients[currentCard].cardDomain}
-              cardCategory={clients[currentCard].cardCategory}
-              testimony={clients[currentCard].testimony}
-            />
-          )}
-          <hr />
-          <ArrowsBtns
-            onPrev={prevCard}
-            onNext={nextCard}
+  return (
+    <section className="mr-our-clients-section za-spacing">
+      <Sparkles />
+      <Title
+        title="Our Valued Clients"
+        subTitle="At Estatein, we have had the privilege of working with a diverse range of clients across various industries. Here are some of the clients we've had the pleasure of serving"
+      />
+
+      <div className="mr-cards-with-slider">
+        {!isMobile ? (
+          <div className="mr-our-clients-cards-section">
+            {clients.map((client) => (
+              <ClientCard
+                key={client.key}
+                cardDate={client.cardDate}
+                cardTitle={client.cardTitle}
+                cardDomain={client.cardDomain}
+                cardCategory={client.cardCategory}
+                testimony={client.testimony}
+              />
+            ))}
+          </div>
+        ) : (
+          <ClientCard
+            key={clients[currentCard].key}
+            cardDate={clients[currentCard].cardDate}
+            cardTitle={clients[currentCard].cardTitle}
+            cardDomain={clients[currentCard].cardDomain}
+            cardCategory={clients[currentCard].cardCategory}
+            testimony={clients[currentCard].testimony}
           />
-        </div>
-      </section>
-    );
-  };
-  
-  export default OurValuedClientsSection;
+        )}
+        <hr />
+        <ArrowsBtns
+          onPrev={prevCard}
+          onNext={nextCard}
+        />
+      </div>
+    </section>
+  );
+};
+
+export default OurValuedClientsSection;
