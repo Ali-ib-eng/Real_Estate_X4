@@ -9,25 +9,20 @@
     border-radius: 28px;
     border: 1px solid var(--grey-15);
 
-    >span{
+    .body {
         color: hsla(0, 0%, 60%, 1);
-        text-align: center;
+        text-align: left;
     }
 
-    /* topic for laptop size */
+    /* badge for laptop size */
     @media (max-width: 1440px) {
-        .badge {
-            gap: 4px;
-            padding: 6px 12px;
-        }
+        gap: 4px;
+        padding: 6px 12px;
     }
 
-    /* topic for mobile size */
-    @media (max-width: 576px) {
-        .badge {
-            padding: 10px 12px;
-            gap: 10px;
-        }
+    /* badge for mobile size */
+    @media (max-width: 992px) {
+        padding: 10px 12px;
+        gap: 10px;
     }
-
 }

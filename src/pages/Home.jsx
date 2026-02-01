@@ -1,13 +1,34 @@
-
 import Testimonials from "../componant/Testimonials/Testimonials.jsx";
-import FAQ from "../componant/FAQ/FAQ"
-import Hero from "../componant/Hero/Hero"
-import CardHero from "../componant/CardHero/CardHero"
-import './Home.css'
+import FAQ from "../componant/FAQ/FAQ";
+import Hero from "../componant/Hero/Hero";
+import HeroCard from "../componant/HeroCard/HeroCard.jsx";
+import "./Home.css";
 import OurClientsSay from "../componant/OurClientsSay/OurClientsSay.jsx";
 import FeaturedPropertiesSection from "../componant/FeaturedPropertiesSection/FeaturedPropertiesSection.jsx";
 
 const Home = () => {
+  const heroCards = [
+    {
+      arrowIconLink: "/icons/homepage/hero/arrow-right-up.svg",
+      icon: "/icons/homepage/hero/shop.png",
+      title: "Find Your Dream Home",
+    },
+    {
+      arrowIconLink: "/icons/homepage/hero/arrow-right-up.svg",
+      icon: "/icons/homepage/hero/property-value.png",
+      title: "Unlock Property Value",
+    },
+    {
+      arrowIconLink: "/icons/homepage/hero/arrow-right-up.svg",
+      icon: "/icons/homepage/hero/buildings.png",
+      title: "Effortless Property Management",
+    },
+    {
+      arrowIconLink: "/icons/homepage/hero/arrow-right-up.svg",
+      icon: "/icons/homepage/hero/sun.png",
+      title: "Smart Investments, Informed Decisions",
+    },
+  ];
   return (
     <>
       <div className="hero-cards-section">
@@ -19,35 +40,42 @@ const Home = () => {
           oneImg="/assets/img/Home-Poperty/Container.png"
         />
         <div className="cards-icon">
-          <CardHero
+          {heroCards.map((heroCard) => (
+            <HeroCard
+              arrowIcon={heroCard.arrowIconLink}
+              icon={heroCard.icon}
+              title={heroCard.title}
+            />
+          ))}
+
+          {/* <HeroCard
             title="Find Your Dream Home"
             icon="/icons/homepage/hero/shop.png"
             arrowIcon="/icons/homepage/hero/arrow-right-up.svg"
           />
-          <CardHero
+          <HeroCard
             title="Unlock Property Value "
             icon="/icons/homepage/hero/property-value.png"
             arrowIcon="/icons/homepage/hero/arrow-right-up.svg"
           />
-          <CardHero
+          <HeroCard
             title="Effortless Property Management"
             icon="/icons/homepage/hero/buildings.png"
             arrowIcon="/icons/homepage/hero/arrow-right-up.svg"
           />
-          <CardHero
+          <HeroCard
             title="Smart Investments, Informed Decisions"
             icon="/icons/homepage/hero/sun.png"
             arrowIcon="/icons/homepage/hero/arrow-right-up.svg"
-          />
+          /> */}
         </div>
       </div>
-      {/* Mahmoud Riya: i stopped the FeaturedPropertiesSection cause Lama will redesign it due to responsivity issues */}
+      {/* Mahmoud Riya: i stopped the FeaturedPropertiesSection cause Lama will redesign it due to slider issues */}
       {/* <FeaturedPropertiesSection /> */}
-      <OurClientsSay/>
-      <FAQ/>
+      <OurClientsSay />
+      <FAQ />
     </>
-  )
-}
+  );
+};
 
-
-export default Home
+export default Home;

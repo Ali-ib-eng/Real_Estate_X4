@@ -1,55 +1,75 @@
 .mr-modal {
-    background-color: var(--grey-10);
-    /* background-image: url('./../../../public/assets/img/Services/Services\ Page.jpg'); */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
 
+    background-color: var(--grey-10);
     border-radius: 12px;
     border: 1px solid var(--grey-15);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+    justify-content: space-between;
+    align-items: flex-start;
+
     padding: 50px;
     gap: 30px;
     width: 100%;
+    height: 100%;
+
+    z-index: 1;
 
     .subheading-2 {
         color: var(--white1);
         text-align: left;
         width: 100%;
+        position: relative;
+        z-index: 2;
     }
 
     .body {
         color: hsla(240, 8%, 90%, 1);
         text-align: left;
         width: 100%;
+        position: relative;
+        z-index: 2;
     }
 
     .mr-secondary-button {
         width: 100%;
+        position: relative;
+        z-index: 2;
     }
 
-    /* modal for laptop size */
+    /* Modal for laptop size */
     @media (max-width:1440px) {
         border-radius: 10px;
         padding: 40px;
         gap: 20px;
-
-        .mr-secondary-button {
-            width: 100%;
-        }
     }
 
-    /* modal for mobile size */
-    @media (max-width:576px) {
+    /* Modal for mobile size */
+    @media (max-width:992px) {
         border-radius: 10px;
         padding: 24px;
         gap: 20px;
-
-        .mr-secondary-button {
-            width: 100%;
-        }
     }
+}
+
+.mr-modal::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 0;
+
+    background-image: url('/assets/img/Services/Services Page.jpg');
+    background-size: cover;
+    background-position: center;
+
+    opacity: 0.3;
+    mix-blend-mode: screen;
+    pointer-events: none;
 }

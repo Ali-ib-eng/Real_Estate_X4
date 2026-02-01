@@ -7,17 +7,19 @@
     color: white;
     font-family: sans-serif;
 }
-.halaDescriptionSection
- {
+
+.halaDescriptionSection {
     padding: 30px;
     border-radius: 12px;
     border: 1px solid #262626;
     height: fit-content;
 }
-.halaFeaturesSection{
+
+.halaFeaturesSection {
     border-radius: 12px;
     border: 1px solid #262626;
 }
+
 .halaSmollBox {
     display: flex;
     align-items: start;
@@ -25,110 +27,149 @@
     padding-left: 6px;
     padding-bottom: 10px;
 }
+
 .halaSpecBox {
     flex: 1;
     display: flex;
     flex-direction: column;
     padding: 0 20px;
 }
+
 .halaSpecBox:not(:last-child) {
     border-right: 1px solid #262626;
 }
+
 .halaTitle {
     color: #FFFFFF;
     font-size: 1.5rem;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
 }
+
 .halaDescriptionText {
     color: #999;
     line-height: 1.6;
     margin-bottom: 30px;
 }
+
 .halaSpecsGrid {
     display: flex;
     justify-content: space-around;
     border-top: 1px solid #262626;
     padding-top: 20px;
 }
+
 .halaSpecLabel {
     color: #808080;
     font-size: 0.9rem;
 }
+
 .halaSpecValue {
     margin-top: 5px;
     font-size: 1.2rem;
 }
+
 .hala-containerr {
     padding: 30px;
     border-radius: 12px;
     font-family: 'Arial', sans-serif;
     color: #ffffff;
-
+    gap: 30px;
 }
 
 .hala-titlee {
     font-size: 22px;
     font-weight: bold;
-    padding-bottom: 25px;}
+    padding-bottom: 25px;
+}
+
 .hala-item {
     display: flex;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.05); 
+    background-color: rgba(255, 255, 255, 0.05);
     margin-bottom: 15px;
     padding: 20px 30px;
-    border-left: 3px solid #703BF7; 
+    border-left: 3px solid #703BF7;
     transition: 0.3s ease;
-        background-color: #26262642;
+    background-color: #26262642;
 }
+
 .hala-item:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
+
 .hala-icon-box {
     margin-right: 15px;
     display: flex;
     align-items: center;
 }
+
 .hala-img {
     width: 20px;
     height: 20px;
 }
+
 .hala-text {
     font-size: 12px;
     line-height: 1.4;
     margin: 0;
     color: #cfd8dc;
 }
+
 @media (max-width: 760px) {
     .halaMainContainer {
         grid-template-columns: 1fr;
-        
+
     }
-   .halaSpecBox {
-        border-right: none !important; 
-        border-bottom: 1px solid #262626 !important; 
+
+    .halaSpecBox {
+        border-right: none !important;
+        border-bottom: 1px solid #262626 !important;
         width: 100% !important;
         padding: 15px 10px !important;
     }
+
     .halaSpecBox:last-child {
         border-bottom: none !important;
     }
-.halaSpecValue {
-    margin-top: 5px;
-    font-size: 0.9rem;
-}
 
-.halaSpecsGrid {
+    .halaSpecValue {
+        margin-top: 5px;
+        font-size: 0.9rem;
+    }
 
-            display: grid;
+    .halaSpecsGrid {
+
+        display: grid;
         grid-template-columns: 1fr 1fr;
-}}
-@media (max-width: 992px) {
-.halaSpecValue {
-    margin-top: 5px;
-    font-size: 0.6rem;
-}
-.hala-location-icon {
-    width: 15px;
-    height: 15px;}
+    }
 }
 
+@media (max-width: 992px) {
+    .halaSpecValue {
+        margin-top: 5px;
+        font-size: 0.6rem;
+    }
+
+    .hala-location-icon {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+.ha-features-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+
+    /* features-section for laptop-size */
+    @media (max-width:1440px) {
+        gap: 20px;
+    }
+
+    /* features-section for tablet-size */
+    @media (max-width:992px) {
+        gap: 18px;
+    }
+}

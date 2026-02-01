@@ -1,0 +1,138 @@
+/* .cards-icon {
+    display: flex;
+    box-shadow: 0 0 0px 10px #262626;
+
+} */
+
+/* .card-hero-container {
+    /* width: 455px;
+    height: 212px; */
+
+/* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    border: 1px solid #262626;
+    padding: 40px 20px;
+    gap: 20px;
+    border-radius: 12px;
+    background-color: #1A1A1A; */
+
+/* @media (max-width:1440px) {
+        padding: 30px 16px;
+        gap: 16px;
+        border-radius: 10px;
+    } */
+
+/* @media (max-width:992px) {
+        padding: 20px 14px;
+        gap: 14px;
+        border-radius: 10px;
+    }
+} */
+
+
+/* 
+.arrow-icon {
+    width: 34px;
+} */
+
+/* .card-title {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+} */
+/* 
+.circle1 {
+    box-shadow: -4px -3px 0 #703BF7;
+    border-radius: 50%;
+    width: 82px;
+    height: 82px;
+    margin-bottom: 20px;
+} */
+
+/* .outer-circle {
+    width: 82px;
+    height: 82px;
+    box-shadow: 5px 3px 0 #703BF7;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+} */
+/* 
+.card-main-icon {
+    width: 34px;
+    margin: 0 auto;
+} */
+
+/* 
+@media (max-width: 992px) {
+    color: white;
+    font-size: 12px;
+}
+
+@media (max-width: 390px) {
+    box-shadow: inset 1px 0px 1px 10px #262626;
+} */
+
+.ha-hero-card {
+    background-color: var(--black-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    border: 1px solid var(--grey-15);
+    padding: 40px 20px;
+    gap: 20px;
+    border-radius: 12px;
+
+    .subheading-3 {
+        color: var(--white1);
+    }
+
+    /* hero-card for laptop size */
+    @media (max-width:1440px) {
+        padding: 30px 16px;
+        gap: 16px;
+        border-radius: 10px;
+    }
+
+    /* hero-card for tablet size */
+    @media (max-width:992px) {
+        padding: 20px 14px;
+        gap: 14px;
+        border-radius: 10px;
+    }
+}
+
+.ha-arrow-icon {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    /* arrow-icon for laptop size */
+    @media (max-width:1440px) {
+        width: 26px;
+        height: 26px;
+    }
+
+    /* arrow-icon for tablet size */
+    @media (max-width:992px) {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+.ha-hero-card:hover {
+    background-color: var(--black-primary);
+    border: 1px solid var(--grey-15);
+}

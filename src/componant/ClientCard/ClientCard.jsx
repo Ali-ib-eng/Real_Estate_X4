@@ -30,7 +30,7 @@ const ClientCard = ({
           <span className="mr-client-info-title">
             <img
               className="mr-client-icon"
-              src="../../../public/assets/icons/aboutpage/clients/domain.svg"
+              src="/assets/icons/aboutpage/clients/domain.svg"
             />
             <p className="mr-client-card-minititle">Domain</p>
           </span>
@@ -42,7 +42,7 @@ const ClientCard = ({
           <span className="mr-client-info-title">
             <img
               className="mr-client-icon"
-              src="../../../public/assets/icons/aboutpage/clients/lightning.svg"
+              src="assets/icons/aboutpage/clients/lightning.svg"
             />
             <p className="mr-client-card-minititle">Categoory</p>
           </span>
