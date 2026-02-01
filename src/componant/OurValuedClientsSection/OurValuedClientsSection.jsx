@@ -64,11 +64,11 @@ const OurValuedClientsSection = () => {
     },
   ];
 
-  const sectionInfo = {
+  {/*const sectionInfo = {
     title: "Our Valued Clients",
     brief:
       "At Estatein, we have had the privilege of working with a diverse range of clients across various industries. Here are some of the clients we've had the pleasure of serving",
-  };
+  };*/}
 
     return (
       <section className="mr-our-clients-section za-spacing">
@@ -107,16 +107,8 @@ const OurValuedClientsSection = () => {
             onPrev={prevCard}
             onNext={nextCard}
           />
-          ))}
-        </div>
-
-        {/* the slider navigation buttons */}
-        <div className="mr-slider-navigation-buttons">
-          <IconButton className="mr-btn" iconLink="../../../public/assets/icons/homepage/featured/arrow-left.svg" />
-          <IconButton iconLink="../../../public/assets/icons/homepage/featured/arrow-right.svg" />
         </div>
       </section>
     );
   };
-  
   export default OurValuedClientsSection;

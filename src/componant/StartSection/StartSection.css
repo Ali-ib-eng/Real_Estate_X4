@@ -6,6 +6,7 @@
     padding: 100px 162px;
     background-color: #010101;
     background-image: url('/assets/img/Footer/FOOTER-back-left.jpg'), url('/assets/img/Footer/FOOTER-back-right.jpg');
+    
     background-position: left center, right center;
     background-repeat: no-repeat;
     background-size: 400px 308px, 400px 394px;

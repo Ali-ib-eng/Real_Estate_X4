@@ -2,9 +2,7 @@
 .ls-featured-section {
     background-color:var( --black-primary);
     color:var( --white1);
-    /* padding: 110px 137px; */
-    border: none;
-    margin-bottom: -1px; 
+    padding: 110px 137px;
     border: none;
     
     .ls-container {
@@ -74,6 +72,12 @@
                             padding: 8px 14px;
                             gap: 4px;
                             flex-shrink: 1;
+
+                            img {
+                                width: 24px;
+                                height: 24px;
+                                opacity: 1;
+                            }
                         }
                     }
 
@@ -81,7 +85,6 @@
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-                        gap:18px;
 
                         .ls-price-box {
                             .ls-price-label { color: var(--gray-60); display: block; font-size: 18px; }
@@ -92,7 +95,7 @@
                             color: white;
                             border-radius: 10px;
                             background: var(  --purple-60);
-                            padding: 10px 20px;
+                            padding: 12px 18px;
                             gap: 8px;
                         }
                     }
@@ -112,7 +115,7 @@
 /* Laptop (1440px) */
 @media (max-width: 1440px) {
     .ls-featured-section {
-    /* padding: 90px 66px; */
+    padding: 90px 66px;
 
     .ls-container {
         gap: 60px;
@@ -133,6 +136,10 @@
                         .ls-feature-item {
                             font-size: 14px;
                             padding: 6px 14px;
+                            img {
+                                width: 20px;
+                                height: 20px;
+                            }
                         }
                         .ls-prop-footer {
                             .ls-price-box {
@@ -141,7 +148,7 @@
                             }
                             .ls-details-btn {
                                 border-radius: 8px;
-                                padding: 14px 20px;
+                                padding: 18px 20px;
                             }
                         }
                     }
@@ -161,17 +168,19 @@
         
         .ls-properties-grid {
             display: block !important; 
+            overflow-x: hidden;
             padding: 24px;
             
             .ls-property-card {
-                display: block !important;
+                display: none !important;
                 margin: 0 auto !important;
                 float: none !important;
                 width: 90% !important;
                 max-width: 500px;
                 padding: 24px !important;
-                &:nth-child(n+2){
-                    display:none !important;
+                &.active-card {
+                    display: block !important;
+                    animation: fadeIn 0.5s ease-in-out;
                 }
                 .ls-card-content {
                     .ls-content-header {gap: 2px;}
@@ -182,6 +191,10 @@
                         .ls-feature-item {
                             font-size: 14px;
                             padding: 6px 14px;
+                            img {
+                                width: 20px;
+                                height: 20px;
+                            }
                         }
                     }
                 }
@@ -193,7 +206,7 @@
 /* Mobile (390px) */
 @media (max-width: 576px) {
     .ls-featured-section {
-        /* padding: 85px 8px; */
+        padding: 85px 8px;
 
         .ls-container {
             padding-left: 17px;
@@ -209,9 +222,9 @@
                     display: none;
                     padding: 24px;
                     gap: 16px;
-                    &:nth-child(3){
+                    &.active-card {
                         display: flex;
-                        flex-direction: column;
+                        animation: fadeIn 0.5s ease-in;
                     }
                     
                     .ls-card-content {
@@ -225,9 +238,12 @@
                             .ls-feature-item {
                                 font-size: 14px;
                                 padding: 6px 14px;
+                                img {
+                                width: 20px;
+                                height: 20px;
+                            }
                             }
                         }
-                        
                         .ls-prop-footer {
                             .ls-price-box {
                                 .ls-price-label { font-size: 14px; }
@@ -242,5 +258,15 @@
                 }
             }
         }
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX (10);
+    }
+    to {
+        opacity: 1;
+        transform: translateX (0);
     }
 }

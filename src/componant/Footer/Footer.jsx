@@ -89,13 +89,9 @@ const Footer = () => {
       <div className="LS-footer-bottom-section">
         {/* الـ DIV الفرعي الأول: الحقوق */}
         <div className="LS-footer-legal-box link">
-
-          <a href="#">@2023 Estatein. All Rights Reserved</a>
-          <a href="#">Terms & Conditions</a>
           <p><a href="#">@2023 Estatein. All Rights Reserved </a></p>
           <p><a href="#">Terms & Conditions</a></p>
         </div>
-
         {/* الـ DIV الفرعي الثاني: السوشيال ميديا */}
         <div className="LS-footer-social-box">
           <div className="LS-social-item"><img src="/assets/icons/start&footer/facebook.svg" alt="facebook" /></div>
