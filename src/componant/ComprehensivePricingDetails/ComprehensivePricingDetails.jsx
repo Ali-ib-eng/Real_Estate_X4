@@ -6,7 +6,7 @@ import './comprehensivePricingDetails.css'
 
 const ComprehensivePricingDetails = () => {
     return (
-        <div className='za-ComprehensiveContainer'>
+        <div className='za-ComprehensiveContainer za-spacing'>
             <Sparkles />
             <Title
                 title="Comprehensive Pricing Details"

@@ -63,7 +63,7 @@ const OurClientsSay = () => {
         }
     ]
     return (
-        <section className='za-ourClientsSectionContainer'>
+        <section className='za-ourClientsSectionContainer za-spacing'>
             <div className="za-ourClientsContainer">
                 <Sparkles />
                 <Title 

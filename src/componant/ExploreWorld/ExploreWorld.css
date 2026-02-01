@@ -1,13 +1,23 @@
+.za-section-container {
+    background-color: #141414;
+    padding-bottom: 150px;
+}
+
 .hala-section {
     background-image: url(/public/assets/img/Contact/CONTACT-back.jpg);
     padding: 60px 25px;
     color: #ffffff;
+    border: none;
+    margin-bottom: -1px;
+    border-radius: 12px;
+
 }
 
 .hala-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
+
 }
 
 .hala-img-box {
@@ -73,6 +83,13 @@
     height: 100%;
 }
 
+
+@media (max-width: 1440px) {
+    .za-section-container {
+        padding-bottom: 120px;
+    }
+}
+
 @media (max-width: 576px) {
     .bottom-row {
         display: grid;
@@ -107,5 +124,11 @@
 
     #hala-last-img {
         width: 100px;
+    }
+}
+
+@media (max-width: 390px) {
+    .za-section-container {
+        padding-bottom: 80px;
     }
 }

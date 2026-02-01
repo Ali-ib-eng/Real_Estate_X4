@@ -1,4 +1,3 @@
-import React from 'react';
 import "./IconButton.css"
 
 const IconButton = ({ iconLink, onClick }) => {
@@ -10,17 +9,3 @@ const IconButton = ({ iconLink, onClick }) => {
 };
 export default IconButton;
 
-
-// import React from 'react';
-// import "./IconButton.css"
-
-// const IconButton = ({ iconLink}) => {
-//     return (
-//         <button className='mr-icon-button'>
-//             <img className='mr-icon' src={iconLink}>
-//             </img>
-//         </button>
-//     );
-// };
-
-// export default IconButton;

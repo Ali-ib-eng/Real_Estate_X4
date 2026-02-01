@@ -40,7 +40,7 @@ const SmartInvestmentsSection = () => {
       "Building a real estate portfolio requires a strategic approach. Estatein's Investment Advisory Service empowers you to make smart investments and informed decisions.",
   };
   return (
-    <section className="mr-smart-investments-section">
+    <section className="mr-smart-investments-section za-spacing">
       {/* first column: section header + popup */}
       <div className="mr-column">
         <SectionHeader

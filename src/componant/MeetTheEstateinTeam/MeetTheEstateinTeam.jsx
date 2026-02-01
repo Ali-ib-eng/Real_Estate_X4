@@ -27,7 +27,7 @@ const MeetTheEstateinTeam = () => {
         }
     ]
     return (
-        <div className='meetTheEstateinTeamContainer'>
+        <div className='meetTheEstateinTeamContainer za-spacing'>
             <Sparkles />
             <Title
                 title='Meet the Estatein Team'

@@ -56,7 +56,7 @@ const FAQ = () => {
         }
     ]
     return (
-        <section className='faqSectionContainer'>
+        <section className='faqSectionContainer za-spacing'>
             <div className='faqContainer'>
                 <Sparkles />
                 <Title

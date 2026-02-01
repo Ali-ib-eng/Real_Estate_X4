@@ -1,4 +1,3 @@
-import React from 'react';
 import './PropertyDetails.css';
 const PropertyDetails = () => {
     return (
