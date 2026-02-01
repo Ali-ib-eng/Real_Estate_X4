@@ -107,6 +107,13 @@ const OurValuedClientsSection = () => {
             onPrev={prevCard}
             onNext={nextCard}
           />
+          ))}
+        </div>
+
+        {/* the slider navigation buttons */}
+        <div className="mr-slider-navigation-buttons">
+          <IconButton className="mr-btn" iconLink="../../../public/assets/icons/homepage/featured/arrow-left.svg" />
+          <IconButton iconLink="../../../public/assets/icons/homepage/featured/arrow-right.svg" />
         </div>
       </section>
     );

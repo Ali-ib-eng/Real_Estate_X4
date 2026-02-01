@@ -1,5 +1,4 @@
 import "./Footer.css"; 
-
 const Footer = () => {
   return (
     <footer className="LS-footer-container">
@@ -36,7 +35,6 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-
           {/* عمود 2 */}
           <div className="LS-footer-nav-column">
             <div className="LS-footer-column-title"><h5>About Us</h5></div>
@@ -50,7 +48,6 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-
           {/* عمود 3 */}
           <div className="LS-footer-nav-column">
             <div className="LS-footer-column-title"><h5>Properties</h5></div>
@@ -61,7 +58,6 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-
           {/* عمود 4 */}
           <div className="LS-footer-nav-column">
             <div className="LS-footer-column-title"><h5>Services</h5></div>
@@ -93,8 +89,11 @@ const Footer = () => {
       <div className="LS-footer-bottom-section">
         {/* الـ DIV الفرعي الأول: الحقوق */}
         <div className="LS-footer-legal-box link">
+
           <a href="#">@2023 Estatein. All Rights Reserved</a>
           <a href="#">Terms & Conditions</a>
+          <p><a href="#">@2023 Estatein. All Rights Reserved </a></p>
+          <p><a href="#">Terms & Conditions</a></p>
         </div>
 
         {/* الـ DIV الفرعي الثاني: السوشيال ميديا */}

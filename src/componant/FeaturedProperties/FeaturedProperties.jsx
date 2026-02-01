@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import Sparkles from '../Sparkles/Sparkles'
 import ArrowsBtns from '../ArrowsBtns/ArrowsBtns'
 import Title from '../Title/Title'

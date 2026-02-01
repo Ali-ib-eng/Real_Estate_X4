@@ -8,6 +8,7 @@ const NavBar = ({items=[],btn}) => {
     <nav className={`ALi-nav ${show ? 'nav-open' : ''}`}>
       <div className="ALi-logo">
         <img src="./assets/icons/estatelogo.png" alt="navicon" className="Ali-img"/>
+        <img src="./assets/icons/estatelogo-sm.png" alt="estatelogo-sm" className="Ali-imglogoformobile"/>
       </div>
 
       <ul className={`ALi-ul ${show ? 'open' : ''}`}>
