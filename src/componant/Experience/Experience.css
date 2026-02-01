@@ -6,7 +6,7 @@
 .LS-experience-section {
     background-color: var(--black-primary);
     gap: 80px;
-    padding: 110px 137px 0;
+    /* padding: 110px 137px 0; */
     margin-bottom: -1px;
     border: none;
 
@@ -84,11 +84,9 @@
     color: var(--gray-60);
 }
 
-
 @media (max-width: 1440px) {
     .LS-experience-section {
         gap: 60px;
-        padding: 90px 66px 0;
 
     }
 
@@ -146,7 +144,6 @@
         gap: 20px;
     }
     .LS-experience-section {
-        padding: 60px 20px 0;
     }
 
     .LS-card-step-label {
@@ -171,7 +168,6 @@
 
 @media (max-width: 390px) {
     .LS-experience-section {
-        padding: 85px 8px 0;
     }
 }
 

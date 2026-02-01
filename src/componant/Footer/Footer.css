@@ -197,7 +197,11 @@
   align-items: center;
   gap: 10px;
 }
-
+.LS-footer-legal-box.link a {
+  text-decoration: none !important;
+  color: #ffffff; 
+  transition: 0.3s;
+}
 @media (max-width: 1440px)
 {
   .LS-footer-top-section

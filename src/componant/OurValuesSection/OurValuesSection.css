@@ -6,7 +6,9 @@
     align-items: center;
     width: 100%;
     gap: 80px;
-    padding: 0px 162px;
+    /* padding: 0px 162px; */
+    margin-bottom: -1px; 
+    border: none;
     /* margin: 55px 0px; */
 
     .mr-section-header {
@@ -17,8 +19,7 @@
     @media (max-width:1440px) {
         gap: 60px;
         width: 100%;
-        padding: 0px 80px;
-        /* margin: 45px 0px; */
+        
 
         .mr-section-header {
             width: 100% !important;
@@ -32,7 +33,6 @@
         align-items: center;
         gap: 40px;
         width: 100%;
-        padding: 0px 16px;
         /* margin: 42.5px 0px; */
 
         .mr-section-header {
