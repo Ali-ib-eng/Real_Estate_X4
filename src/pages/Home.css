@@ -6,8 +6,9 @@
     padding: 20px;
     gap: 20px;
 }
-
-
+/* .za-spacingForThisOne{
+    display: none !important;
+} */
 
 @media (max-width:1200px){
     .cards-icon {

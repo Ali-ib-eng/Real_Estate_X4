@@ -1,4 +1,3 @@
-
 nav{
   position: relative;
   display: flex;
@@ -7,6 +6,8 @@ nav{
   min-height: 83px;
   background-color: #1a1a1af7;
   padding: 0 47px;
+  margin-bottom: -1px;
+
 }
 
 .ALi-logo{
@@ -14,6 +15,9 @@ nav{
   margin-top: 8px;
   .Ali-img{
     width:160px;
+  }
+  .Ali-imglogoformobile{
+    display: none;
   }
 }
 
@@ -122,6 +126,7 @@ nav{
   .ALi-maincontacticon{
     transform: translate(25px,155px);
     background-color: #1a1a1ada;
+
     padding: 10px 16px;
    
   }
@@ -129,7 +134,14 @@ nav{
 .ALi-ul li a:active{ transform: translateY(0); opacity: 0.95; }
 @media (max-width: 576px){
     .ALi-logo{
-       
         margin: 20px 0 16px 10px;
+        .Ali-img{
+          display: none;
+        }
+        .Ali-imglogoformobile{
+    display: block;
+    width:93px;
+  }
+
 }
 }

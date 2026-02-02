@@ -1,6 +1,6 @@
 .LS-footer-container 
 {
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   width: 100%;
   background-color: #141414;
   display: flex;
@@ -137,6 +137,7 @@
 {
   color: #703bf7;
   transition: 0.3s;
+  
 }
 
 .LS-footer-bottom-section 
@@ -150,6 +151,7 @@
   flex-wrap: nowrap;
 }
 
+
 .LS-footer-legal-box 
 {
   display: flex;
@@ -157,12 +159,14 @@
   gap: 38px;
   color: #ffffff;
   align-items: center;
-}
+  
+  }
+
 
 .LS-footer-legal-box p a 
 {
   list-style: none !important ;
-  text-decoration: none !important;
+  text-decoration: none;
   color: inherit;
 }
 
@@ -179,6 +183,7 @@
   padding: 10px 0;
   gap: 10px;
   align-items: center;
+
 }
 
 .LS-social-item 

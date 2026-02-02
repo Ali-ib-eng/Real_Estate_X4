@@ -2,6 +2,7 @@ import './StartSection.css';
 
 const StartSection = () => {
     return (
+        
         <section className="LS-start-container ">
             <div className="LS-start-text-group">
                 <h2 className="LS-start-title section-title">Start Your Real Estate Journey Today</h2>
@@ -11,6 +12,7 @@ const StartSection = () => {
             </div>
             <button className="LS-start-button button ">Explore Properties</button>
             </section>
+            
     );
 };
 

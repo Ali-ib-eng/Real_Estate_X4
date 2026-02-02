@@ -1,0 +1,18 @@
+.za-spacingForthisOne{
+    padding-bottom: 150px !important;
+}
+
+
+@media (max-width: 1440px) {
+    .za-spacingForthisOne{
+        padding-bottom: 110px !important;
+    }
+}
+@media (max-width: 992px) {
+    .za-spacingForthisOne{
+        padding-bottom: 75px !important;
+    }
+}
+/* @media (max-width: 1440px) {
+    
+} */

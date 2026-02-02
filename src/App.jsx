@@ -8,8 +8,7 @@ import NavBar from "./componant/NavBar/NavBar"
 import StartSection from './componant/StartSection/StartSection';
 import Footer from './componant/Footer/Footer';
 import TopHeader from "./componant/TopHeader/TopHeader"
-import FAQ from "./componant/FAQ/FAQ"
-
+import "./app.css"
 
 function App(){
   const navItems=[
@@ -28,20 +27,20 @@ function App(){
     {
       content:"Services",
       href:"/services"
-    }
-    /*{
+    },
+    {
       content:"Contact Us",
-      href:"/contact"
-    }*/
-    
+      href:"/contact",
+      className:"za-contactLink"
+    }
   ]
   return (
     <>
     <TopHeader/>
     <NavBar
-    
     items={navItems}
-    btn={"Contact Us"}
+    btn="Contact Us"
+    className="za-hidingBtn"
     />
       <Routes>
         <Route path="/" element={<Home/>} />

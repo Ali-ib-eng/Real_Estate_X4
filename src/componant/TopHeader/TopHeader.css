@@ -1,99 +1,108 @@
-
 .Ali-top-header {
-  position: relative;
-  width: 100%;
-  min-height: 28px;
-  background-color:#191919;
-  background-image: url("./assets/img/Home&Poperty/nav-line.png");
-  background-repeat: no-repeat;
-  background-position: left center;
-  z-index: 10;
-  overflow: visible;
-           .Ali-Discover {
-            display: flex;
-            align-items: center;
-            gap: 8px;                  
-            width: 100%;
-            max-width: calc(100% - 64px);
-            justify-content: center;  
-            padding: 18px 0;
-             p {
-                font-family: Urbanist;
-                font-weight: 500;
-                font-style: 600;
-                font-size: 18px;
-                line-height: 150%;
-                text-align: center;
-                color: var(--white1); 
-}
-             a {
-                display: inline-block;
-                color: var(--white1);  
-                font-family: Urbanist;
-                font-weight: 500;
-                font-style: Medium;
-                font-size: 18px;
-                line-height: 150%;
-                text-align: center;
-                text-decoration: underline;
-                text-decoration-style: solid;
-                }
-}
-.X-icon {
-    width:20px;
-                position: absolute;
-                right: 20px;                      
-                top: 50%;
-                transform: translateY(-50%);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                z-index: 20;
-                margin-right: 16px;
-}
-}
+    position: relative;
+    width: 100%;
+    min-height: 28px;
+    background-color: #191919;
+    background-image: url("./assets/img/Home&Poperty/nav-line.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    z-index: 10;
+    overflow: visible;
+    margin-bottom: -1px;
 
-@media (max-width: 1440px){
-  .Ali-top-header {
-     min-height: 49px;
-    
-    .Ali-Discover{
-        padding: 14px 0px;
-        p{
-            font-size: 14px;
+    .Ali-Discover {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        width: 100%;
+        max-width: calc(100% - 64px);
+        justify-content: center;
+        padding: 18px 0;
+
+        p {
+            font-family: Urbanist;
+            font-weight: 500;
+            font-style: 600;
+            font-size: 18px;
+            line-height: 150%;
+            text-align: center;
+            color: var(--white1);
         }
-        a{
-            font-size: 14px;
+
+        a {
+            display: inline-block;
+            color: var(--white1);
+            font-family: Urbanist;
+            font-weight: 500;
+            font-style: Medium;
+            font-size: 18px;
+            line-height: 150%;
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-style: solid;
         }
     }
-.X-icon {
-margin-right: 16px;
+
+    .X-icon {
+        width: 20px;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 20;
+        margin-right: 16px;
+    }
 }
- }
-  
+
+@media (max-width: 1440px) {
+    .Ali-top-header {
+        min-height: 49px;
+
+        .Ali-Discover {
+            padding: 14px 0px;
+
+            p {
+                font-size: 14px;
+            }
+
+            a {
+                font-size: 14px;
+            }
+        }
+
+        .X-icon {
+            margin-right: 16px;
+        }
+    }
+
 }
 
 @media (max-width: 576px) {
-  .Ali-top-header {
-     min-height: 78px;
-    
-    .Ali-Discover{
-        gap:18px;
-        padding: 40px 6px 20px 16px;
-        p{
-            font-size: 12px;
+    .Ali-top-header {
+        min-height: 78px;
+
+        .Ali-Discover {
+            gap: 18px;
+            padding: 40px 6px 20px 16px;
+
+            p {
+                font-size: 12px;
+            }
+
+            a {
+                font-size: 12px;
+            }
         }
-        a{
-            font-size: 12px;
+
+        .X-icon {
+            transform: none;
+            right: 12px;
+            top: -10px;
+            margin-right: 14px;
+            padding: 40px 16px 20px 12px;
         }
     }
-.X-icon {
-    transform: none;
-    right: 12px;
-    top:-10px;
-    margin-right: 14px;
-    padding: 40px 16px 20px 12px;
 }
- }
-}
-

@@ -1,3 +1,4 @@
+
 .HalaHeroServses {
     background-color: #141414;
 
@@ -21,7 +22,7 @@
 
 @media (max-width:992px) {
     .editdistancebyali {
-        padding: 50px 16px 50px;
+        padding: 50px 16px 50px !important;
     }
 }
 /* @media (max-width:390px) {
@@ -31,3 +32,20 @@
         padding-left: 100px;
     }
 } */
+
+.HalaHeroServses{
+background-color: #141414;
+    
+}
+/*.za-forTitle{
+            font-size: 38px;
+            padding: 60px;
+            padding:80px 100px 60px;
+        }*/
+        .editdistancebyali{
+            font-size: 38px;
+            padding: 60px;
+            padding-left: 100px;
+            /*padding:90px 100px 60px;*/
+            
+        }

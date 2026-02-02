@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 150px;
+    margin-bottom: -1px;
 
     @media (max-width:1440px) {
         width: 100%;
@@ -15,7 +16,9 @@
     }
 }
 
+
 /* ---------------------------------------- */
+/* ----------------------------------------- */
 .mr-cards-with-slider {
     width: 100%;
     gap: 50px;
@@ -76,4 +79,5 @@
         padding-bottom: 80px;
     }
 }
+
 /* ----------------------------------------- */

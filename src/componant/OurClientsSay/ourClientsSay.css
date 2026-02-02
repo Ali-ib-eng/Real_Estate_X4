@@ -6,8 +6,6 @@
     overflow-x: hidden;
 
     .za-ourClientsContainer {
-
-
         .za-cardsContainer {
             display: flex;
             gap: 30px;

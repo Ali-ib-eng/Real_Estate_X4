@@ -43,7 +43,6 @@ const Home = () => {
       {/* Mahmoud Riya: i stopped the FeaturedPropertiesSection cause Lama will redesign it due to responsivity issues */}
       {/* <FeaturedPropertiesSection /> */}
 
-
       <FeaturedProperties/>
 
 
