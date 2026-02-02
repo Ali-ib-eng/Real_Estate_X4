@@ -1,8 +1,9 @@
 import './Hero.css'
-export const Hero = ({ title, desc, firstButton, secButton, oneImg }) => {
+export const Hero = ({Sparkles, title, desc, firstButton, secButton, oneImg }) => {
   return (
     <div className='hero' >
       <div className="hero-element">
+        {Sparkles && <div>{Sparkles}</div>}
         <h1>{title}</h1>
         <p>{desc}</p>
         <div className="buttons">

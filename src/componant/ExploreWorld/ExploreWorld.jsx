@@ -1,5 +1,5 @@
 import './ExploreWorld.css';
-
+import Sparkles from '../Sparkles/Sparkles'
 import img1 from '/assets/img/Contact/CON-office-03.jpg';
 import img2 from '/assets/img/Contact/CONTACT-together.jpg';
 import teamLg from '/assets/img/Contact/CONTACT-laptop-team.jpg';
@@ -37,6 +37,7 @@ const ExploreWorld = () => {
                     </div>
                     <div className="hala-lower-block">
                         <div className="hala-text-content">
+                            <Sparkles/>
                             <h2 className="hala-main-title">Explore Estatein's World</h2>
                             <p className="hala-description">
                                 Step inside the world of Estatein, where professionalism meets warmth,

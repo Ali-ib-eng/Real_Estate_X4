@@ -1,22 +1,25 @@
-
 .HalaHeroServses {
-    background-color: #141414;
-
+background: linear-gradient(to right, #807f7f66, 2%, #141414);
 }
 
-/*.za-forTitle{
-                font-size: 38px;
-                padding: 60px;
-                padding:80px 100px 60px;
-            }*/
 .editdistancebyali {
     font-size: 38px;
     padding: 150px 162px 100px;
 }
 
+.HalaHeroServses {
+    background-color: #141414;
+}
+
+.editdistancebyali {
+    font-size: 38px;
+    padding-left: 100px;
+
+}
+
 @media (max-width:1440px) {
     .editdistancebyali {
-        padding: 100px 200px 100px 80px ;
+        padding: 100px 200px 100px 80px;
     }
 }
 
@@ -25,27 +28,10 @@
         padding: 50px 16px 50px;
     }
 }
-/* @media (max-width:390px) {
-    .editdistancebyali {
-        font-size: 38px;
-        padding: 60px;
-        padding-left: 100px;
-    }
-} */
 
-.HalaHeroServses{
-background-color: #141414;
-    
+@media (max-width:576px) {
+    .editdistancebyali {
+        padding: 50px 16px 50px;
+        padding-left: 16px !important;
+    }
 }
-/*.za-forTitle{
-            font-size: 38px;
-            padding: 60px;
-            padding:80px 100px 60px;
-        }*/
-        .editdistancebyali{
-            font-size: 38px;
-            padding: 60px;
-            padding-left: 100px;
-            /*padding:90px 100px 60px;*/
-            
-        }

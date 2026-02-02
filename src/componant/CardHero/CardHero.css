@@ -27,15 +27,28 @@
 .arrow-icon {
     width: 34px;
 }
-
 .card-title {
     color: white;
     font-size: 18px;
     font-weight: 500;
+    padding-top: 15PX;
 }
+.top-circle {
+    box-shadow: 0px -2px 0 #703BF7;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 
+}
+.top-circle2 {
+    box-shadow: 0px 2px 0 #703BF7;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
 .circle1 {
-    box-shadow: -4px -3px 0 #703BF7;
+    box-shadow: 2px -2px 0 #703BF7;
     border-radius: 50%;
     width: 82px;
     height: 82px;
@@ -45,7 +58,7 @@
 .outer-circle {
     width: 82px;
     height: 82px;
-    box-shadow: 5px 3px 0 #703BF7;
+    box-shadow: -2px 2px 0 #703BF7;
     padding: 10px;
     border-radius: 50%;
     display: flex;
@@ -67,7 +80,7 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 567px) {
     .cards-icon {
         box-shadow: inset 1px 0px 1px 10px #262626;
     }

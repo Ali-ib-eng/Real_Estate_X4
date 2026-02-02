@@ -6,10 +6,12 @@ export const CardHero = ({ title, icon, arrowIcon }) => {
             <div className="arrow-wrapper">
                 <img src={arrowIcon} alt="arrow" className="arrow-icon" />
             </div>
+            <div className='top-circle'>
+                <div className='top-circle2'>
             <div className="circle1">
             <div className="outer-circle">
                 <img src={icon} alt={title} className="card-main-icon" />
-            </div></div>
+            </div></div></div></div>
 
             <h3 className="card-title">{title}</h3>
         </div>
