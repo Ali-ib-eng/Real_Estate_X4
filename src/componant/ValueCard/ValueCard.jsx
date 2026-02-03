@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./ValueCard.css";
 import "../../typography_system.css";
 import CirclIcon from "../CircleIcon/CircleIcon";

@@ -9,25 +9,25 @@ const SmartInvestmentsSection = () => {
   const investments = [
     {
       iconLink:
-        "../../../public/assets/icons/servicepage/smart/network.svg",
+        "/assets/icons/servicepage/smart/network.svg",
       investmentTitle: "Market Insight",
       investmentBrief:
         "Stay ahead of market trends with our expert Market Analysis. We provide in-depth insights into real estate market conditions  ",
     },
     {
-      iconLink: "../../../public/assets/icons/servicepage/smart/fire.svg",
+      iconLink: "/assets/icons/servicepage/smart/fire.svg",
       investmentTitle: "ROI Assessment",
       investmentBrief:
         "Make investment decisions with confidence. Our ROI Assessment services evaluate the potential returns on your investments",
     },
     {
-      iconLink: "../../../public/assets/icons/servicepage/smart/bulb.svg",
+      iconLink: "/assets/icons/servicepage/smart/bulb.svg",
       investmentTitle: "Customized Strategies",
       investmentBrief:
         "Every investor is unique, and so are their goals. We develop Customized Investment Strategies tailored to your specific needs",
     },
     {
-      iconLink: "../../../public/assets/icons/servicepage/smart/sun.svg",
+      iconLink: "/assets/icons/servicepage/smart/sun.svg",
       investmentTitle: "Diversification Mastery",
       investmentBrief:
         "Diversify your real estate portfolio effectively. Our experts guide you in spreading your investments across various property types and locations",
