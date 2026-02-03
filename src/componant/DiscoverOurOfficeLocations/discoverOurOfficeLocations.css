@@ -1,5 +1,4 @@
 .za-discoverOurOfficeLocations {
-    /* padding: 110px 162px; */
     background-color: var(--black-primary);
     margin-bottom: -1px;
 
@@ -42,7 +41,6 @@
 
 @media (max-width: 1440px) {
     .za-discoverOurOfficeLocations {
-        padding: 90px 80px;
 
 
         .za-filterBtns {
@@ -65,7 +63,6 @@
 
 @media (max-width: 992px) {
     .za-discoverOurOfficeLocations {
-        padding: 90px 80px;
 
 
         .za-filterBtns {
@@ -90,7 +87,6 @@
 
 @media (max-width: 768px) {
     .za-discoverOurOfficeLocations {
-        padding: 61px 16px;
 
         .za-filterBtns {
             border-radius: 12px;

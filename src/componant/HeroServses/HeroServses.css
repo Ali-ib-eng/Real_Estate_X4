@@ -22,7 +22,7 @@
 
 @media (max-width:992px) {
     .editdistancebyali {
-        padding: 50px 16px 50px;
+        padding: 50px 16px 50px !important;
     }
 }
 /* @media (max-width:390px) {

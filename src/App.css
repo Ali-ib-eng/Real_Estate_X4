@@ -1,0 +1,15 @@
+.za-hidingBtn{
+    display: block !important;
+}
+.za-contactLink{
+    display: none !important;
+}
+
+@media (max-width:992px) {
+    .za-hidingBtn{
+        display: none !important;
+    }
+    .za-contactLink{
+        display: block !important;
+    }
+}

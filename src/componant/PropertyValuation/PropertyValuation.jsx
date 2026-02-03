@@ -1,18 +1,14 @@
-
 import './PropertyValuation.css';
 
 const PropertyValuation = ({ mainHeading, mainDesc, cards, ctaTitle, ctaDesc }) => {
   return (
   <section className="LS-valuation-container za-spacing">
-    {/*  القسم الأول: العنوان والوصف */}
     <div className="LS-valuation-intro">
       <h2 className="main-heading">{mainHeading}</h2>
       <p className="body ">{mainDesc}</p>
     </div>
     
-    {/* القسم الثاني: يحتوي على الكروت ولوحة الـ Unlock */}
     <div className="LS-valuation-content-grid">
-      {/* صف الكروت الثلاثة الأولى */}
       <div className="LS-top-cards-row">
         {cards.slice(0, 3).map((card, index) => (
           <div key={index} className="LS-valuation-card">
@@ -27,7 +23,6 @@ const PropertyValuation = ({ mainHeading, mainDesc, cards, ctaTitle, ctaDesc }) 
         ))}
       </div>
       
-      {/* الصف السفلي: الكرت الرابع + لوحة الـ Unlock */}
       <div className="LS-bottom-content-row">
         {cards[3] && (
         <div className="LS-valuation-card">
@@ -41,15 +36,12 @@ const PropertyValuation = ({ mainHeading, mainDesc, cards, ctaTitle, ctaDesc }) 
         </div>
         )}
 
-        {/*  لوحة الـ Unlock */}
         <div className="LS-unlock-cta-box">
-          {/* Div للعنوان والزر معاً في سطر واحد */}
           <div className="LS-cta-header-row">
             <h3 className="sub-heading">{ctaTitle}</h3>
             <button className="LS-learn-more-btn">Learn More</button>
           </div>
           
-          {/* Div منفصل للوصف تحتهم */}
           <div className="LS-cta-description-row">
             <p className="body"> {ctaDesc} </p>
           </div>

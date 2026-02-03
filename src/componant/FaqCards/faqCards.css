@@ -8,6 +8,8 @@
     padding: 50px;
     border: 1px solid var(--grey-15);
     border-radius: 12px;
+    margin-bottom: -1px;
+
 
     h2{
         font-weight: 600;
