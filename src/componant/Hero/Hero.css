@@ -192,6 +192,7 @@
 
     .firstButton,
     .secButton {
+        text-decoration: none;
         width: 100%;
         text-align: center;
     }

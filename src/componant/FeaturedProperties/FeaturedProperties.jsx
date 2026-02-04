@@ -115,7 +115,7 @@ const FeaturedProperties = ({className}) => {
                                             <span className="ls-price-label">Price</span>
                                             <span className="ls-price-value">{prop.price}</span>
                                         </div>
-                                        <button className="ls-details-btn ">View Property Details</button>
+                                        <a href="/properties" className="LS-start-button button">Explore Properties</a>
                                     </div>
                                 </div>
                             </div>

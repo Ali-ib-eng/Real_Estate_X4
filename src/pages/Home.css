@@ -45,6 +45,7 @@
 
     .firstButton,
     .secButton {
+        text-decoration: none;
         padding: 14px 28px;
         border-radius: 10px;
         font-size: 10px;
