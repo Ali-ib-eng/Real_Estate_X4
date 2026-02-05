@@ -9,7 +9,7 @@ const PropertyHero = () => {
                     <div className="hala-info-side">
                         <h1 className="hala-title">Seaside Serenity Villa</h1>
                         <div className="hala-location">
-                            <img src="/assets/icons/propertypage/hero/Icon.svg" alt="" className="hala-location-icon" />
+                            <img src="/Real_Estate_X4//assets/icons/propertypage/hero/Icon.svg" alt="" className="hala-location-icon" />
                             <span className="hala-location-text">Malibu, California</span>
                         </div>
                     </div>
@@ -20,7 +20,7 @@ const PropertyHero = () => {
                 </header>
                 <div className="hala-media-wrapper">
                     <img
-                        src="/assets/img/Home-Poperty/Image (18).png"
+                        src="/Real_Estate_X4//assets/img/Home-Poperty/propertiesimghero.png"
                         alt="Property Hero View"
                         className="hala-main-img"
                     />

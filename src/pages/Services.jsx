@@ -5,17 +5,17 @@ const Services = () => {
 
   
   const sellingCards = [
-    { title: "Valuation Mastery", desc: "Discover the true worth of your property with our expert valuation services.", icon: "/assets/icons/servicepage/unlock/network.svg" },
-    { title: "Strategic Marketing", desc: "Selling a property requires more than just a listing; it demands a strategic marketing approach.", icon: "/assets/icons/servicepage/unlock/strategic.svg" },
-    { title: "Negotiation Wizardry", desc: "Negotiating the best deal is an art, and our negotiation experts are masters of it.", icon: "/assets/icons/servicepage/unlock/Icon.svg" },
-    { title: "Closing Success", desc: "A successful sale is not complete until the closing. We guide you through the intricate closing process.", icon: "/assets/icons/servicepage/unlock/speaker.svg" },
+    { title: "Valuation Mastery", desc: "Discover the true worth of your property with our expert valuation services.", icon: "/Real_Estate_X4//assets/icons/servicepage/unlock/network.svg" },
+    { title: "Strategic Marketing", desc: "Selling a property requires more than just a listing; it demands a strategic marketing approach.", icon: "/Real_Estate_X4//assets/icons/servicepage/unlock/strategic.svg" },
+    { title: "Negotiation Wizardry", desc: "Negotiating the best deal is an art, and our negotiation experts are masters of it.", icon: "/Real_Estate_X4//assets/icons/servicepage/unlock/Icon.svg" },
+    { title: "Closing Success", desc: "A successful sale is not complete until the closing. We guide you through the intricate closing process.", icon: "/Real_Estate_X4//assets/icons/servicepage/unlock/speaker.svg" },
   ];
 
   const managementCards = [
-    { title: "Tenant Harmony", desc: "Our Tenant Management services ensure that your tenants have a smooth and reducing vacancies.", icon: "/assets/icons/servicepage/effortless/tenant.svg" },
-    { title: "Maintenance Ease", desc: "Say goodbye to property maintenance headaches. We handle all aspects of property upkeep.", icon: "/assets/icons/servicepage/effortless/maintenance.svg" },
-    { title: "Financial Peace of Mind", desc: "Managing property finances can be complex. Our financial experts take care of rent collection", icon: "/assets/icons/servicepage/effortless/financial.svg" },
-    { title: "Legal Guardian", desc: "Stay compliant with property laws and regulations effortlessly.", icon: "/assets/icons/servicepage/effortless/sun.svg" },
+    { title: "Tenant Harmony", desc: "Our Tenant Management services ensure that your tenants have a smooth and reducing vacancies.", icon: "/Real_Estate_X4//assets/icons/servicepage/effortless/tenant.svg" },
+    { title: "Maintenance Ease", desc: "Say goodbye to property maintenance headaches. We handle all aspects of property upkeep.", icon: "/Real_Estate_X4//assets/icons/servicepage/effortless/maintenance.svg" },
+    { title: "Financial Peace of Mind", desc: "Managing property finances can be complex. Our financial experts take care of rent collection", icon: "/Real_Estate_X4//assets/icons/servicepage/effortless/financial.svg" },
+    { title: "Legal Guardian", desc: "Stay compliant with property laws and regulations effortlessly.", icon: "/Real_Estate_X4//assets/icons/servicepage/effortless/sun.svg" },
   ];
   
   return (

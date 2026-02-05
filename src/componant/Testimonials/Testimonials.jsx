@@ -39,7 +39,7 @@ const Testimonials = () => {
   return (
     <section className="testimonials">
       <div className="testimonials-header">
-        <img src="/assets/icons/homepage/testo/sparkling.svg" alt="" />
+        <img src="/Real_Estate_X4//assets/icons/homepage/testo/sparkling.svg" alt="" />
         <h2 className="section-title">What Our Clients Say</h2>
         <p className="body">
           Read the success stories and heartfelt testimonials from our valued clients.
@@ -56,7 +56,7 @@ const Testimonials = () => {
                   .map((_, i) => (
                     <div className="star" key={i}>
                       <img
-                        src="/assets/icons/homepage/testo/shine-star.svg"
+                        src="/Real_Estate_X4//assets/icons/homepage/testo/shine-star.svg"
                         alt=""
                       />
                     </div>
@@ -85,10 +85,10 @@ const Testimonials = () => {
 
         <div className="slider-controls">
           <button onClick={() => slide(-1)}>
-            <img src="/assets/icons/homepage/testo/arrow-left.svg" alt="" />
+            <img src="/Real_Estate_X4//assets/icons/homepage/testo/arrow-left.svg" alt="" />
           </button>
           <button onClick={() => slide(1)}>
-            <img src="/assets/icons/homepage/testo/arrow-right.svg" alt="" />
+            <img src="/Real_Estate_X4//assets/icons/homepage/testo/arrow-right.svg" alt="" />
           </button>
         </div>
       </div>

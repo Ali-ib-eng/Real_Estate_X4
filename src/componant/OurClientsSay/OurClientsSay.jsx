@@ -43,21 +43,21 @@ const OurClientsSay = () => {
         {
             title: "Exceptional Service!",
             description: "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
-            img: "/assets/img/Home-Poperty/HOME-S2-wade.png",
+            img: "/Real_Estate_X4//assets/img/Home-Poperty/HOME-S2-wade.png",
             name: "Wade Warren",
             location: "USA, California"
         },
         {
             title: "Efficient and Reliable",
             description: "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
-            img: "/assets/img/Home-Poperty/HOME-S2-emilly.png",
+            img: "/Real_Estate_X4//assets/img/Home-Poperty/HOME-S2-emilly.png",
             name: "Emelie Thomson",
             location: "USA, Florida"
         },
         {
             title: "Trusted Advisors",
             description: "The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!",
-            img: "/assets/img/Home-Poperty/HOME-S2 -john.png",
+            img: "/Real_Estate_X4//assets/img/Home-Poperty/HOME-S2 -john.png",
             name: "John Mans",
             location: "USA, Nevada"
         }

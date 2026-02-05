@@ -11,17 +11,17 @@ const PropertyDetails = () => {
                 </p>
                 <div className="halaSpecsGrid">
                     <div className="halaSpecBox"><div className="halaSmollBox">
-                        <img src="/assets/icons/propertypage/hero/bedroom.svg" alt="" className="hala-location-icon" />
+                        <img src="/Real_Estate_X4//assets/icons/propertypage/hero/bedroom.svg" alt="" className="hala-location-icon" />
                         <span className="halaSpecLabel">Bedrooms</span></div>
                         <h3 className="halaSpecValue">04</h3>
                     </div>
                     <div className="halaSpecBox"><div className="halaSmollBox">
-                        <img src="/assets/icons/propertypage/hero/bathroom.svg" alt="" className="hala-location-icon" />
+                        <img src="/Real_Estate_X4//assets/icons/propertypage/hero/bathroom.svg" alt="" className="hala-location-icon" />
                         <span className="halaSpecLabel">Bathrooms</span></div>
                         <h3 className="halaSpecValue">03</h3>
                     </div>
                     <div className="halaSpecBox"><div className="halaSmollBox">
-                        <img src="/assets/icons/propertypage/hero/area.svg" alt="" className="hala-location-icon" />
+                        <img src="/Real_Estate_X4//assets/icons/propertypage/hero/area.svg" alt="" className="hala-location-icon" />
                         <span className="halaSpecLabel">Area</span></div>
                         <h3 className="halaSpecValue">2,500 Square Feet</h3>
                     </div>
@@ -33,31 +33,31 @@ const PropertyDetails = () => {
 
                     <div className="hala-item">
                         <div className="hala-icon-box">
-                            <img src="/assets/icons/propertypage/hero/lighting-filled.svg" alt="icon" className="hala-img" />
+                            <img src="/Real_Estate_X4//assets/icons/propertypage/hero/lighting-filled.svg" alt="icon" className="hala-img" />
                         </div>
                         <p className="hala-text">Expansive oceanfront terrace for outdoor entertaining</p>
                     </div>
                     <div className="hala-item">
                         <div className="hala-icon-box">
-                            <img src="/assets/icons/propertypage/hero/lighting-filled.svg" alt="icon" className="hala-img" />
+                            <img src="/Real_Estate_X4//assets/icons/propertypage/hero/lighting-filled.svg" alt="icon" className="hala-img" />
                         </div>
                         <p className="hala-text">Expansive oceanfront terrace for outdoor entertaining</p>
                     </div>
                     <div className="hala-item">
                         <div className="hala-icon-box">
-                            <img src="/assets/icons/propertypage/hero/lighting-filled.svg" alt="icon" className="hala-img" />
+                            <img src="/Real_Estate_X4//assets/icons/propertypage/hero/lighting-filled.svg" alt="icon" className="hala-img" />
                         </div>
                         <p className="hala-text">Expansive oceanfront terrace for outdoor entertaining</p>
                     </div>
                     <div className="hala-item">
                         <div className="hala-icon-box">
-                            <img src="/assets/icons/propertypage/hero/lighting-filled.svg" alt="icon" className="hala-img" />
+                            <img src="/Real_Estate_X4//assets/icons/propertypage/hero/lighting-filled.svg" alt="icon" className="hala-img" />
                         </div>
                         <p className="hala-text">Expansive oceanfront terrace for outdoor entertaining</p>
                     </div>
                     <div className="hala-item">
                         <div className="hala-icon-box">
-                            <img src="/assets/icons/propertypage/hero/lighting-filled.svg" alt="icon" className="hala-img" />
+                            <img src="/Real_Estate_X4//assets/icons/propertypage/hero/lighting-filled.svg" alt="icon" className="hala-img" />
                         </div>
                         <p className="hala-text">Gourmet kitchen with top-of-the-line appliances</p>
                     </div>

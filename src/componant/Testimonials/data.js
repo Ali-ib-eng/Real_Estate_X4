@@ -3,7 +3,7 @@ const testimonialsData = [
     id: 1,
     name: "Wade Warren",
     location: "USA, California",
-    image: "/public/assets/img/Home &Poperty/HOME-S2-wade.jpg",
+    image: "/Real_Estate_X4//assets/img/Home &Poperty/HOME-S2-wade.jpg",
     quote:
       "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
     rating: 5,

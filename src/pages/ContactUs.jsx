@@ -17,23 +17,23 @@ const ContactUs = () => {
             <div className="cards-icon">
               <CardHero
                 title="info@estatein.com"
-                icon="/icons/contactpage/hero/email-filled.svg"
-                arrowIcon="/icons/homepage/hero/arrow-right-up.svg"
+                icon="/Real_Estate_X4//icons/contactpage/hero/email-filled.svg"
+                arrowIcon="/Real_Estate_X4//icons/homepage/hero/arrow-right-up.svg"
               />
               <CardHero
                 title="+1 (123) 456-7890"
-                icon="/icons/contactpage/hero/phone-filled.svg"
-                arrowIcon="/icons/homepage/hero/arrow-right-up.svg"
+                icon="/Real_Estate_X4//icons/contactpage/hero/phone-filled.svg"
+                arrowIcon="/Real_Estate_X4//icons/homepage/hero/arrow-right-up.svg"
               />
               <CardHero
                 title="Main Headquarters"
-                icon="/icons/contactpage/hero/location-filled.svg"
-                arrowIcon="/icons/homepage/hero/arrow-right-up.svg"
+                icon="/Real_Estate_X4//icons/contactpage/hero/location-filled.svg"
+                arrowIcon="/Real_Estate_X4//icons/homepage/hero/arrow-right-up.svg"
               />
               <CardHero
                 title="Instagram  LinkedIn  Facebook"
-                icon="/icons/contactpage/hero/fire.svg"
-                arrowIcon="/icons/homepage/hero/arrow-right-up.svg"
+                icon="/Real_Estate_X4//icons/contactpage/hero/fire.svg"
+                arrowIcon="/Real_Estate_X4//icons/homepage/hero/arrow-right-up.svg"
               />
             </div></div>
       

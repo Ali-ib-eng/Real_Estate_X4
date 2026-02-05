@@ -28,9 +28,9 @@ const PropertyCard = ({
 
                 {/* property topics */}
                 <span className='mr-property-card-topics'>
-                    <Topic topicLabel={bedrooms} topicIcon="../../../public/assets/icons/homepage/featured/bedroom.svg" />
-                    <Topic topicLabel={bathrooms} topicIcon="../../../public/assets/icons/homepage/featured/bathroom.svg" />
-                    <Topic topicLabel="Villa" topicIcon="../../../public/assets/icons/homepage/featured/villa.svg" />
+                    <Topic topicLabel={bedrooms} topicIcon="/Real_Estate_X4//assets/icons/homepage/featured/bedroom.svg" />
+                    <Topic topicLabel={bathrooms} topicIcon="/Real_Estate_X4//assets/icons/homepage/featured/bathroom.svg" />
+                    <Topic topicLabel="Villa" topicIcon="/Real_Estate_X4//assets/icons/homepage/featured/villa.svg" />
                 </span>
 
                 {/* property footer */}

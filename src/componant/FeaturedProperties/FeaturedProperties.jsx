@@ -3,7 +3,6 @@ import Sparkles from '../Sparkles/Sparkles'
 import ArrowsBtns from '../ArrowsBtns/ArrowsBtns'
 import Title from '../Title/Title'
 import './FeaturedProperties.css';
-
 const FeaturedProperties = ({className}) => {
     const [properties, setProperties] = useState([]);
     const [currentCard, setCurrentCard] = useState(() => {
@@ -15,7 +14,7 @@ const FeaturedProperties = ({className}) => {
         const defaultProperties = [
             {
                 id: 1,
-                image: '/assets/img/Home-Poperty/Property,home-villa.jpg',
+                image: '/Real_Estate_X4//assets/img/Home-Poperty/Property,home-villa.jpg',
                 title: 'Seaside Serenity Villa',
                 desc: 'A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...',
                 beds: '4-Bedroom',
@@ -25,7 +24,7 @@ const FeaturedProperties = ({className}) => {
             },
             {
                 id: 2,
-                image: '/assets/img/Home-Poperty/Property,home-Metropolitan.jpg',
+                image: '/Real_Estate_X4//assets/img/Home-Poperty/Property,home-Metropolitan.jpg',
                 title: 'Metropolitan Haven',
                 desc: 'A chic and fully-furnished 2-bedroom apartment with panoramic city views...',
                 beds: '2-Bedroom',
@@ -35,7 +34,7 @@ const FeaturedProperties = ({className}) => {
             },   
             {
                 id: 3,
-                image: '/assets/img/Home-Poperty/Property,home-Rustic.jpg',
+                image: '/Real_Estate_X4//assets/img/Home-Poperty/Property,home-Rustic.jpg',
                 title: 'Rustic Retreat Cottage',
                 desc: 'An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...',
                 beds: '3-Bedroom',
@@ -95,17 +94,17 @@ const FeaturedProperties = ({className}) => {
                                     </div>
                                     <div className="ls-prop-features">
                                         <div className="ls-feature-item">
-                                            <img src="/assets/icons/featured/bedroom.svg" alt="" />
+                                            <img src="/Real_Estate_X4//assets/icons/featured/bedroom.svg" alt="" />
                                             <span>{prop.beds}</span>
                                         </div>
                                         
                                         <div className="ls-feature-item">
-                                            <img src="/assets/icons/featured/bathroom.svg" alt="" />
+                                            <img src="/Real_Estate_X4//assets/icons/featured/bathroom.svg" alt="" />
                                             <span>{prop.bath}</span>
                                         </div>
                                         
                                         <div className="ls-feature-item">
-                                            <img src="/assets/icons/featured/villa.svg" alt="" />
+                                            <img src="/Real_Estate_X4//assets/icons/featured/villa.svg" alt="" />
                                             <span>{prop.type}</span>
                                         </div>
                                     </div>

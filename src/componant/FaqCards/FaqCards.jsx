@@ -1,6 +1,6 @@
 import'./faqCards.css'
 
-const FaqCards = ({question,description,btn,children}) => {
+const FaqCards = ({question,description,children}) => {
   return (
     <div className='card'>
         <h2>{question}</h2>

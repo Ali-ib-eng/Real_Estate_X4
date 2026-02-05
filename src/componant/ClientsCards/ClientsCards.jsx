@@ -4,11 +4,11 @@ const ClientsCards = ({ title, description, img, name, location }) => {
     return (
         <div className='za-card-item'>
             <div className="za-stars-container">
-                <img className='za-star-item' src="/assets/icons/homepage/clients/shine-star.svg" alt="star icon" />
-                <img className='za-star-item' src="/assets/icons/homepage/clients/shine-star.svg" alt="star icon" />
-                <img className='za-star-item' src="/assets/icons/homepage/clients/shine-star.svg" alt="star icon" />
-                <img className='za-star-item' src="/assets/icons/homepage/clients/shine-star.svg" alt="star icon" />
-                <img className='za-star-item' src="/assets/icons/homepage/clients/shine-star.svg" alt="star icon" />
+                <img className='za-star-item' src="/Real_Estate_X4//assets/icons/homepage/clients/shine-star.svg" alt="star icon" />
+                <img className='za-star-item' src="/Real_Estate_X4//assets/icons/homepage/clients/shine-star.svg" alt="star icon" />
+                <img className='za-star-item' src="/Real_Estate_X4//assets/icons/homepage/clients/shine-star.svg" alt="star icon" />
+                <img className='za-star-item' src="/Real_Estate_X4//assets/icons/homepage/clients/shine-star.svg" alt="star icon" />
+                <img className='za-star-item' src="/Real_Estate_X4//assets/icons/homepage/clients/shine-star.svg" alt="star icon" />
             </div>
             <h2>{title}</h2>
             <p>{description}</p>

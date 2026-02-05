@@ -6,15 +6,15 @@ const Footer = () => {
         {/* الـ DIV الفرعي الأول: اللوغو والاشتراك */}
         <div className="LS-footer-brand-container">
           <div className="LS-footer-logo-box"> 
-            <img src="/assets/icons/start&footer/estaten-logo-lg.svg" alt="Estatein" />
+            <img src="/Real_Estate_X4//assets/icons/start&footer/estaten-logo-lg.svg" alt="Estatein" />
             <h2 className="LS-Estatein ">Estatein</h2>
           </div>
           <div className="LS-footer-subscribe-box">
             <div className="LS-footer-input-wrapper button">
-              <img src="/assets/icons/start&footer/add-envelope.svg" alt="email icon" />
+              <img src="/Real_Estate_X4//assets/icons/start&footer/add-envelope.svg" alt="email icon" />
               <input type="email" placeholder="Enter Your Email" />
               <button className="LS-footer-send-btn">
-                <img src="/assets/icons/start&footer/send-email.svg" alt="send" />
+                <img src="/Real_Estate_X4//assets/icons/start&footer/send-email.svg" alt="send" />
               </button>
             </div>
           </div>
@@ -94,10 +94,10 @@ const Footer = () => {
         </div>
         {/* الـ DIV الفرعي الثاني: السوشيال ميديا */}
         <div className="LS-footer-social-box">
-          <div className="LS-social-item"><img src="/assets/icons/start&footer/facebook.svg" alt="facebook" /></div>
-          <div className="LS-social-item"><img src="/assets/icons/start&footer/linkedin.svg" alt="linkedin" /></div>
-          <div className="LS-social-item"><img src="/assets/icons/start&footer/twitter.svg" alt="twitter" /></div>
-          <div className="LS-social-item"><img src="/assets/icons/start&footer/youtube.svg" alt="youtube" /></div>
+          <div className="LS-social-item"><img src="/Real_Estate_X4//assets/icons/start&footer/facebook.svg" alt="facebook" /></div>
+          <div className="LS-social-item"><img src="/Real_Estate_X4//assets/icons/start&footer/linkedin.svg" alt="linkedin" /></div>
+          <div className="LS-social-item"><img src="/Real_Estate_X4//assets/icons/start&footer/twitter.svg" alt="twitter" /></div>
+          <div className="LS-social-item"><img src="/Real_Estate_X4//assets/icons/start&footer/youtube.svg" alt="youtube" /></div>
         </div>
       </div>
       </footer>

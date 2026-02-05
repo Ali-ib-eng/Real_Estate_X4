@@ -14,7 +14,7 @@ return (
         Sparkles ={<Sparkles/>}
           title="Our Journey"
           desc=" Our story is one of continuous growth and evolution.We started as a small team with big dreams, determined to create a real estate platform that transcended the ordinary. Over the years, we've expanded our reach, forged valuable partnerships, and gained the trust of countless clients."
-          oneImg="/assets/img/About/Sub Container (2).png"
+          oneImg="/Real_Estate_X4//assets/img/About/ourjournyphoto.png"
         />
         <OurValuesSection />
         <OurAchievements

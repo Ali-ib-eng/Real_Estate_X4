@@ -13,23 +13,23 @@ function HeroServses() {
             <div className="cards-icon">
                 <CardHero
                     title="Find Your Dream Home"
-                    icon="/icons/homepage/hero/shop.png"
-                    arrowIcon="/icons/homepage/hero/arrow-right-up.svg"
+                    icon="/Real_Estate_X4//icons/homepage/hero/shop.png"
+                    arrowIcon="/Real_Estate_X4//icons/homepage/hero/arrow-right-up.svg"
                 />
                 <CardHero
                     title="Unlock Property Value "
-                    icon="/icons/homepage/hero/property-value.png"
-                    arrowIcon="/icons/homepage/hero/arrow-right-up.svg"
+                    icon="/Real_Estate_X4//icons/homepage/hero/property-value.png"
+                    arrowIcon="/Real_Estate_X4//icons/homepage/hero/arrow-right-up.svg"
                 />
                 <CardHero
                     title="Effortless Property Management"
-                    icon="/icons/homepage/hero/buildings.png"
-                    arrowIcon="/icons/homepage/hero/arrow-right-up.svg"
+                    icon="/Real_Estate_X4//icons/homepage/hero/buildings.png"
+                    arrowIcon="/Real_Estate_X4//icons/homepage/hero/arrow-right-up.svg"
                 />
                 <CardHero
                     title="Smart Investments, Informed Decisions"
-                    icon="/icons/homepage/hero/sun.png"
-                    arrowIcon="/icons/homepage/hero/arrow-right-up.svg"
+                    icon="/Real_Estate_X4//icons/homepage/hero/sun.png"
+                    arrowIcon="/Real_Estate_X4//icons/homepage/hero/arrow-right-up.svg"
                 />
             </div>
         

@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom'
 import './typography_system.css';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/Real_Estate_X4/'>
     <App />
     </BrowserRouter>
   </StrictMode>,

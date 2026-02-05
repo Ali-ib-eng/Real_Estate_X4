@@ -7,8 +7,8 @@ const NavBar = ({items=[],btn,className}) => {
   return (
     <nav className={`ALi-nav ${show ? 'nav-open' : ''}`}>
       <div className="ALi-logo">
-        <img src="./assets/icons/estatelogo.png" alt="navicon" className="Ali-img"/>
-        <img src="./assets/icons/estatelogo-sm.png" alt="estatelogo-sm" className="Ali-imglogoformobile"/>
+        <img src="/Real_Estate_X4//assets/icons/estatelogo.png" alt="navicon" className="Ali-img"/>
+        <img src="/Real_Estate_X4//assets/icons/estatelogo-sm.png" alt="estatelogo-sm" className="Ali-imglogoformobile"/>
       </div>
 
       <ul className={`ALi-ul ${show ? 'open' : ''}`}>
@@ -24,7 +24,7 @@ const NavBar = ({items=[],btn,className}) => {
       </div>
 
       <button onClick={() => setshow(prev => !prev)} className="Ali-showicon" aria-expanded={show}>
-        <img src="./assets/icons/barsicon.png" alt="barsicon" />
+        <img src="/Real_Estate_X4//assets/icons/barsicon.png" alt="barsicon" />
       </button>
     </nav>
   )

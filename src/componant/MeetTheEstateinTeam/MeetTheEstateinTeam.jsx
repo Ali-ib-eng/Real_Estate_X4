@@ -6,22 +6,22 @@ import './meetTheEstateinTeam.css'
 const MeetTheEstateinTeam = () => {
     let teamdata = [
         {
-            image: '/assets/img/About/ABOUTS-max.png',
+            image: '/Real_Estate_X4//assets/img/About/ABOUTS-max.png',
             name: 'Max Mitchell',
             job: 'Founder',
         },
         {
-            image: '/assets/img/About/ABOUTS-sarah.png',
+            image: '/Real_Estate_X4//assets/img/About/ABOUTS-sarah.png',
             name: 'Sarah Johnson',
             job: 'Chief Real Estate Officer',
         },
         {
-            image: '/assets/img/About/ABOUTS-david.png',
+            image: '/Real_Estate_X4//assets/img/About/ABOUTS-david.png',
             name: 'David Brown',
             job: 'Head of Property Management',
         },
         {
-            image: 'assets/img/About/ABOUTS-michael.png',
+            image: '/Real_Estate_X4//assets/img/About/ABOUTS-michael.png',
             name: 'Michael Turner',
             job: 'Legal Counsel',
         }
