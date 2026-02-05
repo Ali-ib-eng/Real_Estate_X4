@@ -1,4 +1,3 @@
-// import needed files
 import "./OurValuesSection.css";
 import "../../typography_system.css";
 import SectionHeader from "../SectionHeader/SectionHeader.jsx";
@@ -39,7 +38,7 @@ const OurValuesSection = () => {
   };
 
   return (
-    <section className="mr-our-values-section">
+    <section className="mr-our-values-section za-spacing">
       <SectionHeader
         sectionTitle={sectionInfo.title}
         sectionBrief={sectionInfo.brief}

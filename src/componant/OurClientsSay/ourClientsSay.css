@@ -1,12 +1,11 @@
 .za-ourClientsSectionContainer {
     background-color: var(--black-primary);
-    padding: 110px 137px 0;
+    /* padding: 110px 137px 0; */
     margin-bottom: -1px; 
     border: none;
+    overflow-x: hidden;
 
     .za-ourClientsContainer {
-
-
         .za-cardsContainer {
             display: flex;
             gap: 30px;
@@ -29,7 +28,7 @@
 
 @media (max-width: 1440px) {
     .za-ourClientsSectionContainer {
-        padding: 90px 66px 0;
+        /* padding: 90px 66px 0; */
 
         .za-ourClientsContainer {
             .za-cardsContainer {
@@ -51,7 +50,7 @@
 
 @media (max-width: 390px) {
     .za-ourClientsSectionContainer {
-        padding: 85px 8px 0;
+        /* padding: 85px 8px 0; */
 
     }
 }

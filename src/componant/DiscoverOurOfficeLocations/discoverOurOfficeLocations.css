@@ -1,6 +1,7 @@
 .za-discoverOurOfficeLocations {
-    padding: 110px 162px;
+    /* padding: 110px 162px; */
     background-color: var(--black-primary);
+    margin-bottom: -1px;
 
     .za-filterBtns {
         max-width: 516px;

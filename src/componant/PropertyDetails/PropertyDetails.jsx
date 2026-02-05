@@ -1,7 +1,4 @@
-import React from "react";
-import "./PropertyDetails.css";
-import Item from "../Item/Item.jsx";
-
+import './PropertyDetails.css';
 const PropertyDetails = () => {
   const features = [
     {

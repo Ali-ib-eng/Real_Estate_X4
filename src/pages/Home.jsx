@@ -1,11 +1,10 @@
+import FeaturedProperties from "../componant/FeaturedProperties/FeaturedProperties"
 import Testimonials from "../componant/Testimonials/Testimonials.jsx";
 import FAQ from "../componant/FAQ/FAQ";
 import Hero from "../componant/Hero/Hero";
 import HeroCard from "../componant/HeroCard/HeroCard.jsx";
 import "./Home.css";
 import OurClientsSay from "../componant/OurClientsSay/OurClientsSay.jsx";
-import FeaturedPropertiesSection from "../componant/FeaturedPropertiesSection/FeaturedPropertiesSection.jsx";
-
 const Home = () => {
   const heroCards = [
     {
@@ -70,10 +69,15 @@ const Home = () => {
           /> */}
         </div>
       </div>
-      {/* Mahmoud Riya: i stopped the FeaturedPropertiesSection cause Lama will redesign it due to slider issues */}
+
+      {/* Mahmoud Riya: i stopped the FeaturedPropertiesSection cause Lama will redesign it due to responsivity issues */}
       {/* <FeaturedPropertiesSection /> */}
-      <OurClientsSay />
-      <FAQ />
+
+
+
+      <FeaturedProperties/>
+      <OurClientsSay/>
+      <FAQ/>
     </>
   );
 };

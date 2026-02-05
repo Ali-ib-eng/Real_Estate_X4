@@ -1,13 +1,14 @@
 .hala-achievements-section {
     background-color: #141414;
-    padding: 80px 10%;
     color: white;
+    margin-bottom: -1px;
+    border: none;
 }
 
 .hala-achievements-container {
-    max-width: 1440px;
     margin: 0 auto;
 }
+<<<<<<< HEAD
 
 .hala-achievements-container h2 {
     font-size: 38px;
@@ -23,22 +24,24 @@
     max-width: 1000px;
     margin-bottom: 30px;
 }
+=======
+>>>>>>> 16e75a8f915acbd28b76eea37e6826201b0140d5
 
-.hala-achievements-container h3 {
-    font-size: 22px;
-    margin-bottom: 20px;
-    padding-left: 40px;
-    padding-top: 25px;
+.hala-card-item h3 {
+    font-size: 30px;
+    line-height: 150%;
+    padding-bottom: 30px;
+    color: #fff;
+    font-weight: 600;
+
 }
 
 .hala-card-item-desc {
     color: #999;
-    font-size: 15px;
-    line-height: 1.8;
-    margin-bottom: 40px;
-    padding-left: 40px;
-    padding-top: 20px;
-    padding-right: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+
 }
 
 .hala-achievements-grid {
@@ -49,36 +52,39 @@
     padding-right: 20px;
 }
 
-.hala-achievement-card {
-    flex: 1;
-    background-color: #1a1a1a;
-    border: 1px solid #262626;
-    padding: 40px;
-    border-radius: 12px;
-    min-height: 200px;
-}
-
 .hala-card-item {
+    padding: 50px !important;
     flex: 1;
-    padding: 9px;
     box-shadow: 0 2px 7px #48474b;
     border-radius: 10px;
 }
 
-.hala-achievement-card h3 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    color: #fff;
-}
 
-.hala-achievement-card p {
-    font-size: 14px;
-    color: #808080;
-    margin-bottom: 0;
+@media (max-width: 1440px) {
+    .hala-achievement-card p {
+        font-size: 14px;
+        color: #808080;
+        margin-bottom: 0;
+    }
+
+
+    .hala-card-item h3 {
+        font-size: 24px;
+        padding-bottom: 24px;
+    }
+
+    .hala-card-item-desc {
+        font-size: 16px;
+
+    }
+    .hala-card-item {
+        padding: 40px !important;
+    }
 }
 
 @media (max-width: 992px) {
     .hala-card-item {
+<<<<<<< HEAD
         min-width: 35%;
     }
 
@@ -101,28 +107,41 @@
 
     .hala-achievement-card {
         min-width: 45%;
+=======
+        padding: 20px !important;
+>>>>>>> 16e75a8f915acbd28b76eea37e6826201b0140d5
 
+    }
+
+    .hala-achievements-container h3 {
+        font-size: 18px;
+        padding-bottom: 18px;
+    }
+
+    .hala-card-item-desc {
+        font-size: 15px;
+        /* margin-bottom: 40px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-right: 5px; */
     }
 }
 
 @media (max-width: 700px) {
-    .hala-achievements-section {
-        padding: 40px 20px;
+    .hala-card-item {
+        padding: 30px !important;
+    
     }
-
     .hala-achievements-grid {
         flex-direction: column;
 
-    }
-
-    .hala-achievements-container h2 {
-        font-size: 28px;
     }
 
     .hala-achievement-card {
         min-width: 100%;
     }
 }
+<<<<<<< HEAD
 
 
 
@@ -184,4 +203,7 @@
         justify-content: flex-start;
         align-items: center;
     }
+=======
+@media (max-width: 390px) {
+>>>>>>> 16e75a8f915acbd28b76eea37e6826201b0140d5
 }

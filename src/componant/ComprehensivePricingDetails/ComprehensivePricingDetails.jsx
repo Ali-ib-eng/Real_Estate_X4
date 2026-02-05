@@ -9,28 +9,17 @@ import Note from "../Note/Note.jsx";
 const ComprehensivePricingDetails = () => {
   const sectionInfo = {
     title: "Comprehensive Pricing Details",
-    brief:
-      "At Estatein, transparency is key. We want you to have a clear understanding of all costs associated with your property investment. Below, we break down the pricing for Seaside Serenity Villa to help you make an informed decision",
+    brief: "At Estatein, transparency is key. We want you to have a clear understanding of all costs associated with your property investment. Below, we break down the pricing for Seaside Serenity Villa to help you make an informed decision"
   };
-  return (
-    <div className="za-ComprehensiveContainer">
-      {/* <Sparkles /> */}
-      {/* <Title */}
-      {/* title="Comprehensive Pricing Details" */}
-      {/* subTitle="At Estatein, transparency is key. We want you to have a clear understanding of all costs associated with your property investment. Below, we break down the pricing for Seaside Serenity Villa to help you make an informed decision" */}
-      {/* /> */}
 
+  return (
+    <div className='za-ComprehensiveContainer za-spacing'>
+      {/* <Sparkles /> */}
+      
       <SectionHeader
         sectionTitle={sectionInfo.title}
         sectionBrief={sectionInfo.brief}
       />
-      {/* <div className="za-note">
-        <h3>Note</h3>
-        <p>
-          The figures provided above are estimates and may vary depending on the
-          property, location, and individual circumstances.
-        </p>
-      </div> */}
 
       <Note
         noteLabel={
@@ -43,6 +32,7 @@ const ComprehensivePricingDetails = () => {
           <span>Listing Price</span>
           <h2>$1,250,000</h2>
         </div>
+
         <div className="za-prices-container">
           <TopOfThePricesCarts title="Additional Fees">
             <div className="za-twoPriceCards">
@@ -80,6 +70,7 @@ const ComprehensivePricingDetails = () => {
             />
           </TopOfThePricesCarts>
 
+          {/* Monthly Costs */}
           <TopOfThePricesCarts title="Monthly Costs">
             <CartsPiece
               title="Property Taxes"
@@ -94,6 +85,7 @@ const ComprehensivePricingDetails = () => {
             />
           </TopOfThePricesCarts>
 
+          {/* Total Initial Costs */}
           <TopOfThePricesCarts title="Total Initial Costs">
             <div className="za-twoPriceCards">
               <CartsPiece title="Listing Price" price="$1,250,000" />

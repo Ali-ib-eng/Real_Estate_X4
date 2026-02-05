@@ -1,6 +1,6 @@
 .faqSectionContainer {
     background-color: var(--black-primary);
-    padding: 110px 137px;
+    padding-bottom: 123px;
 
     .faqContainer {
 
@@ -24,7 +24,7 @@
 
 @media (max-width: 1440px) {
     .faqSectionContainer {
-        padding: 90px 66px;
+        padding-bottom: 96px;
 
         .faqContainer {
             .cardsContainer {
@@ -36,6 +36,9 @@
 
 
 @media (max-width: 992px) {
+    .faqSectionContainer{
+    padding-bottom: 85px;
+    }
     .mobileSlider {
         justify-content: center;
     }
@@ -43,10 +46,12 @@
 
 @media (max-width: 390px) {
     .faqSectionContainer {
-        padding: 85px 8px;
+        /* padding: 85px 8px; */
 
         .faqContainer {
             /* width: 358px; */
         }
+
+        padding: 85px 8px;
     }
 }

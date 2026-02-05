@@ -1,5 +1,4 @@
 .za-ComprehensiveContainer {
-    padding: 110px 162px;
     background-color: var(--black-primary);
 
     .za-note {
@@ -75,7 +74,6 @@
 
 @media (max-width: 1440px) {
     .za-ComprehensiveContainer {
-        padding: 90px 80px;
 
         .za-note {
             margin-bottom: 40px;
@@ -113,14 +111,9 @@
 
 @media (max-width: 992px) {
     .za-ComprehensiveContainer {
-        padding: 90px 80px;
 
         .za-note {
             margin-bottom: 30px;
-
-            h3 {}
-
-            p {}
         }
 
         .za-prices-section {
@@ -149,7 +142,6 @@
 
 @media (max-width: 768px) {
     .za-ComprehensiveContainer {
-        padding: 61px 16px;
 
         .za-note {
             flex-direction: column;
@@ -168,9 +160,6 @@
     }
 }
 
-@media (max-width: 390px) {
-    .za-ComprehensiveContainer {}
-}
 
 
 

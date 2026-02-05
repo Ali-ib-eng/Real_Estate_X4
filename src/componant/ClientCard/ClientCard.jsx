@@ -20,7 +20,7 @@ const ClientCard = ({
           <p className="mr-client-card-minititle">{cardDate}</p>
           <h4 className="subheading-1">{cardTitle}</h4>
         </span>
-        <SecondaryButton buttonLabel={"Visit Website"} />
+        <SecondaryButton className="za-forClientsStyleBtn" buttonLabel={"Visit Website"} />
       </span>
 
       {/* card info */}

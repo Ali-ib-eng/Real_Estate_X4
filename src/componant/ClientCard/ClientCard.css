@@ -2,9 +2,7 @@
     background-color: var(--black-primary);
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
+    justify-content: space-between;
 
     padding: 50px;
     gap: 40px;
@@ -15,7 +13,6 @@
     box-shadow: 0px 0px 0px 8px var(--shadow-black);
 
 
-
     /* client-card for laptop size */
     @media(max-width: 1440px) {
         padding: 40px;
@@ -23,6 +20,9 @@
     }
 
     /* client-card for mobile size */
+    @media(max-width: 992px) {
+        margin-bottom:35px ;
+    }
     @media(max-width: 576px) {
         padding: 24px;
         gap: 30px;
@@ -32,22 +32,24 @@
 
 .mr-client-card-header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-    width: 100%;
+
+
+    .subheading-1 {
+        font-size: 30px;
+    }
 
     /* card-header for laptop size */
     @media(max-width: 1440px) {
-        gap: 20px;
+        .subheading-1 {
+            color: var(--white1);
+            font-size: 24px;
+        }
     }
 
     /* card-header for mobile size */
     @media(max-width: 576px) {
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        align-items: center;
         gap: 20px;
     }
 }
@@ -56,7 +58,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     gap: 30px;
     width: 100%;
 
@@ -85,7 +86,6 @@
 
     .subheading-1 {
         color: var(--white1);
-        text-align: left;
     }
 
     /* client-info for laptop size */
@@ -109,7 +109,7 @@
     gap: 8px;
 
     .subheading-3 {
-        color:  var(--white1);
+        color: var(--white1);
         text-align: left;
     }
 
@@ -142,7 +142,7 @@
     }
 
     .mr-client-card-minititle {
-        color:  var(--gray-60);
+        color: var(--gray-60);
         text-align: left;
     }
 
@@ -182,7 +182,7 @@
     border-radius: 12px;
 
     .mr-client-card-minititle {
-        color:  var(--gray-60);
+        color: var(--gray-60);
         text-align: left;
     }
 
@@ -234,5 +234,13 @@
         padding: 24px;
         gap: 30px;
         border-radius: 10px;
+    }
+}
+@media(max-width: 576px) {
+
+    .mr-client-card {
+        .za-forClientsStyleBtn {
+            width:100% !important;
+        }
     }
 }

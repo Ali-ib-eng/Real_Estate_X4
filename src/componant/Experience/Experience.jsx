@@ -37,7 +37,13 @@ const Experience = () => {
     },
   ];
 
-  const stepCards = (step) => (
+  const sectionInfo = {
+    title: "Navigating the Estatein Experience",
+    brief:
+      "At Estatein, we've designed a straightforward process to help you find and purchase your dream property with ease. Here's a step-by-step guide to how it all works.",
+  };
+
+  const renderStepCard = (step) => (
     <div key={step.id} className="LS-experience-card">
       <div className="LS-card-step-label">Step {step.id}</div>
       <div className="LS-card-content">
@@ -47,33 +53,32 @@ const Experience = () => {
     </div>
   );
 
-  const sectionInfo = {
-    title: "Navigating the Estatein Experience",
-    brief:
-      "At Estatein, we've designed a straightforward process to help you find and purchase your dream property with ease. Here's a step-by-step guide to how it all works.",
-  };
   return (
-    <section className="LS-experience-section container">
-      {/* <Sparkles/> */}
-      {/* <Title */}
-      {/* title="Navigating the Estatein Experience" */}
-      {/* subTitle="At Estatein, we've designed a straightforward process to help you find and purchase your dream property with ease. Here's a step-by-step guide to how it all works." */}
-      {/* /> */}
+    <section className="LS-experience-section container za-spacing">
+      {/* <Sparkles /> */}
 
-      <SectionHeader sectionTitle={sectionInfo.title} sectionBrief={sectionInfo.brief}/>
-      
+      <SectionHeader
+        sectionTitle={sectionInfo.title}
+        sectionBrief={sectionInfo.brief}
+      />
+
       <div className="LS-experience-main-container">
-        <div className="LS-experience-row LS-top-row">
-          {steps.slice(0, 3).map(stepCards)}
+        <div className="LS-desktop-rows">
+          <div className="LS-experience-row LS-top-row">
+            {steps.slice(0, 3).map(renderStepCard)}
+          </div>
+ٍ
+          <div className="LS-experience-row LS-bottom-row">
+            {steps.slice(3, 6).map(renderStepCard)}
+          </div>
         </div>
 
-        <div className="LS-experience-row LS-bottom-row">
-          {steps.slice(3, 6).map(stepCards)}
+        <div className="LS-mobile-experience-row">
+          {steps.map(renderStepCard)}
         </div>
-
-        <div className="LS-all-experience-row">{steps.map(stepCards)}</div>
       </div>
     </section>
   );
 };
+
 export default Experience;

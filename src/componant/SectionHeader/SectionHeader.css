@@ -1,10 +1,18 @@
+/* css style */
 .mr-section-header {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
-    gap: 6px;
+    gap: 14px;
+
+    .stars {
+        position: absolute;
+        top: -30px;
+        right: 40px;
+    }
 
     .section-title {
         width: 100%;
@@ -18,15 +26,26 @@
         text-align: left;
     }
 
+
     /* section-header for laptop size */
     @media (max-width:1440px) {
-        gap: 4px;
+        gap: 10px;
         width: 100%;
+
+        .stars {
+            top: -20px;
+            right: 30px;
+        }
     }
 
     /* section-header for mobile size */
-    @media (max-width:576px) {
-        gap: 2px;
+    @media (max-width:992px) {
+        gap: 8px;
         width: 100%;
+
+        .stars {
+            top: -10px;
+            right: 20px;
+        }
     }
 }

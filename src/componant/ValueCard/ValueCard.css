@@ -6,6 +6,7 @@
     align-items: flex-start;
     gap: 20px;
     width: 100%;
+    
 
     .body {
         color: hsla(0, 0%, 60%, 1);

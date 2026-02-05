@@ -8,6 +8,8 @@
     border-radius: 12px;
     padding: 50px;
     background-color: #141414;
+    margin-bottom: -1px; 
+
 
     h6 {
         font-weight: 500;

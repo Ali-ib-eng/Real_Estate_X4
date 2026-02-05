@@ -10,36 +10,7 @@ const OurClientsSay = () => {
   const [currentCard, setCurrentCard] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
-    const checkIfMobile = () => {
-      if (window.innerWidth <= 992) {
-        setIsMobile(true);
-      } else {
-        setIsMobile(false);
-      }
-    };
-    checkIfMobile();
-
-    window.addEventListener("resize", checkIfMobile);
-    return () => {
-      window.removeEventListener("resize", checkIfMobile);
-    };
-  }, []);
-  const nextCard = () => {
-    if (currentCard < 2) {
-      setCurrentCard(currentCard + 1);
-    } else {
-      setCurrentCard(0);
-    }
-  };
-  const prevCard = () => {
-    if (currentCard > 0) {
-      setCurrentCard(currentCard - 1);
-    } else {
-      setCurrentCard(2);
-    }
-  };
-  let clientsCardData = [
+  const clientsCardData = [
     {
       title: "Exceptional Service!",
       description:
@@ -65,25 +36,43 @@ const OurClientsSay = () => {
       location: "USA, Nevada",
     },
   ];
+
+  const nextCard = () => {
+    setCurrentCard((prev) =>
+      prev === clientsCardData.length - 1 ? 0 : prev + 1,
+    );
+  };
+
+  const prevCard = () => {
+    setCurrentCard((prev) =>
+      prev === 0 ? clientsCardData.length - 1 : prev - 1,
+    );
+  };
+
+  useEffect(() => {
+    const checkIfMobile = () => {
+      setIsMobile(window.innerWidth <= 992);
+    };
+
+    checkIfMobile(); 
+    window.addEventListener("resize", checkIfMobile);
+    return () => window.removeEventListener("resize", checkIfMobile); // Cleanup
+  }, []);
+
   const sectionInfo = {
     title: "What Our Clients Say",
     brief:
       "Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs.",
   };
   return (
-    <section className="za-ourClientsSectionContainer">
+    <section className="za-ourClientsSectionContainer za-spacing">
       <div className="za-ourClientsContainer">
-      
         {/* <Sparkles /> */}
-        {/* <Title */}
-        {/* title="What Our Clients Say" */}
-        {/* subTitle="Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs." */}
-        {/* /> */}
-
         <SectionHeader
           sectionTitle={sectionInfo.title}
           sectionBrief={sectionInfo.brief}
         />
+
         {!isMobile ? (
           <div className="za-cardsContainer">
             {clientsCardData.map((card, index) => (
@@ -108,10 +97,17 @@ const OurClientsSay = () => {
             />
           </div>
         )}
+
         <hr />
-        <ArrowsBtns onPrev={prevCard} onNext={nextCard} />
+        <ArrowsBtns
+          onPrev={prevCard}
+          onNext={nextCard}
+          // current={currentCard + 1}
+          // total={clientsCardData.length}
+        />
       </div>
     </section>
   );
 };
+
 export default OurClientsSay;

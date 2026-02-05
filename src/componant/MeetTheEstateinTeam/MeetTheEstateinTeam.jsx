@@ -27,18 +27,20 @@ const MeetTheEstateinTeam = () => {
       job: "Legal Counsel",
     },
   ];
+
   const sectionInfo = {
     title: "Meet the Estatein Team",
     brief:
       "At Estatein, our success is driven by the dedication and expertise of our team. Get to know the people behind our mission to make your real estate dreams a reality.",
   };
+
   return (
-    <div className="meetTheEstateinTeamContainer">
-      {/* <Sparkles /> */}
-      {/* <Title */}
-      {/* title='Meet the Estatein Team' */}
-      {/* subTitle='At Estatein, our success is driven by the dedication and expertise of our team. Get to know the people behind our mission to make your real estate dreams a reality.' */}
-      {/* /> */}
+    <div className="meetTheEstateinTeamContainer za-spacing">
+      {/* <Sparkles />
+            <Title
+                title='Meet the Estatein Team'
+                subTitle='At Estatein, our success is driven by the dedication and expertise of our team. Get to know the people behind our mission to make your real estate dreams a reality.'
+            /> */}
 
       <SectionHeader
         sectionTitle={sectionInfo.title}
@@ -58,5 +60,24 @@ const MeetTheEstateinTeam = () => {
     </div>
   );
 };
+
+//       <SectionHeader
+//         sectionTitle={sectionInfo.title}
+//         sectionBrief={sectionInfo.brief}
+//       />
+
+//       <div className="teamCardsContainer">
+//         {teamdata.map((card, index) => (
+//           <TheTeamCard
+//             key={index}
+//             image={card.image}
+//             name={card.name}
+//             job={card.job}
+//           />
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
 
 export default MeetTheEstateinTeam;
