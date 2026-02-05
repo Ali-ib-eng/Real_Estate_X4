@@ -157,16 +157,14 @@
   display: flex;
   padding: 10px 0;
   gap: 38px;
-  color: #ffffff;
   align-items: center;
-  
   }
 
 
 .LS-footer-legal-box p a 
 {
   list-style: none !important ;
-  text-decoration: none;
+  text-decoration: none !important;
   color: inherit;
 }
 
@@ -183,6 +181,7 @@
   padding: 10px 0;
   gap: 10px;
   align-items: center;
+
 }
 
 .LS-social-item 

@@ -1,69 +1,70 @@
- .mr-section-header-stars {
-     display: flex;
-     flex-direction: row;
-     justify-content: flex-start;
-     align-items: center;
-     width: 100%;
-     gap: 6px;
+.mr-section-header-stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
 
-     /* section-header-stars for laptop size */
-     @media (max-width:1440px) {
-         gap: 4px;
-     }
 
-     /* section-header-stars for mobile size */
-     @media (max-width:576px) {
-         gap: 2px;
-     }
- }
+    /* section-header-stars for laptop size */
+    @media (max-width:1440px) {
+        gap: 16px;
+    }
 
- .mr-star-bg {
-     width: 30px;
-     height: 30px;
+    /* section-header-stars for mobile size */
+    @media (max-width:576px) {
+        gap: 12px;
+    }
+}
 
-     /* star-bg for laptop size */
-     @media (max-width:1440px) {
-         width: 24px;
-         height: 24px;
-     }
+.mr-star-bg {
+    width: 30px;
+    height: 30px;
 
-     /* star-bg for mobile size */
-     @media (max-width:576px) {
-         width: 20px;
-         height: 20px;
-     }
- }
+    /* star-bg for laptop size */
+    @media (max-width:1440px) {
+        width: 24px;
+        height: 24px;
+    }
 
- .mr-star-md {
-     width: 18px;
-     height: 18px;
+    /* star-bg for mobile size */
+    @media (max-width:576px) {
+        width: 20px;
+        height: 20px;
+    }
+}
 
-     /* star-md for laptop size */
-     @media (max-width:1440px) {
-         width: 14.4px;
-         height: 14.4px;
-     }
+.mr-star-md {
+    width: 18px;
+    height: 18px;
 
-     /* star-md for mobile size */
-     @media (max-width:576px) {
-         width: 12px;
-         height: 12px;
-     }
- }
+    /* star-md for laptop size */
+    @media (max-width:1440px) {
+        width: 14.4px;
+        height: 14.4px;
+    }
 
- .mr-star-sm {
-     width: 8.4px;
-     height: 8.4px;
+    /* star-md for mobile size */
+    @media (max-width:576px) {
+        width: 12px;
+        height: 12px;
+    }
+}
 
-     /* star-sm for laptop size */
-     @media (max-width:1440px) {
-         width: 6.72px;
-         height: 6.72px;
-     }
+.mr-star-sm {
+    width: 8.4px;
+    height: 8.4px;
 
-     /* star-sm for mobile size */
-     @media (max-width:576px) {
-         width: 5.6px;
-         height: 5.6px;
-     }
- }
+    /* star-sm for laptop size */
+    @media (max-width:1440px) {
+        width: 6.72px;
+        height: 6.72px;
+    }
+
+    /* star-sm for mobile size */
+    @media (max-width:576px) {
+        width: 5.6px;
+        height: 5.6px;
+    }
+}

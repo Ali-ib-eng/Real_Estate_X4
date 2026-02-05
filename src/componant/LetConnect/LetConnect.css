@@ -2,13 +2,9 @@
 .ls-contact-section {
     background-color:var( --black-primary); 
     color:var(--white1);
-    margin-bottom: -1px;
-    /* padding-left: 162px;
-    padding-right: 162px; */
-    padding-left: 162px;
-    padding-right: 162px;
-    padding: 150px 162px;
     gap: 80px;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #141414;
 
 }
 

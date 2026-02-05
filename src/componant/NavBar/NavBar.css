@@ -1,5 +1,4 @@
-
-nav{
+nav {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -7,20 +6,24 @@ nav{
   min-height: 83px;
   background-color: #1a1a1af7;
   padding: 0 47px;
+  margin-bottom: -1px;
+
 }
 
-.ALi-logo{
-  margin-left:60px;
+.ALi-logo {
+  margin-left: 60px;
   margin-top: 8px;
-  .Ali-img{
-    width:160px;
+
+  .Ali-img {
+    width: 160px;
   }
-  .Ali-imglogoformobile{
+
+  .Ali-imglogoformobile {
     display: none;
   }
 }
 
-.ALi-ul{
+.ALi-ul {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -29,7 +32,7 @@ nav{
   padding: 0;
   align-items: center;
 
-  li a{
+  li a {
     color: #FFFFFF;
     text-decoration: none;
     font-family: Urbanist;
@@ -42,15 +45,24 @@ nav{
     border-radius: 8px;
   }
 
-  li a:hover{
-    background: #262626af;
-    padding: 12px 20px;
-    transform: translateX(-1px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.285);
-    color: #fff ;
+  li a:hover {
+    /* background: #262626af; */
+    /* padding: 12px 20px; */
+    /* transform: translateX(-1px); */
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.285); */
+    color: #703BF7;
   }
-}    
-.Ali-showicon{
+
+  li a:focus {
+    /* background: #262626af; */
+    /* padding: 12px 20px; */
+    /* transform: translateX(-1px); */
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.285); */
+    color: #703BF7;
+  }
+}
+
+.Ali-showicon {
   display: none;
   background: transparent;
   border: none;
@@ -58,7 +70,7 @@ nav{
   cursor: pointer;
 }
 
-.ALi-contacticon{
+.ALi-contacticon {
   margin-right: 60px;
   background-color: #1a1a1aa3;
   display: flex;
@@ -66,15 +78,15 @@ nav{
 
 }
 
-.ALi-maincontacticon{
+.ALi-maincontacticon {
   background-color: #1A1A1A;
   padding: 10px 16px;
   border-radius: 10px;
-  border:1px solid rgba(0, 0, 0, 0.899);
+  border: 1px solid rgba(0, 0, 0, 0.899);
 }
 
-.ALi-maincontacticon a{
-  color:#FFFFFF;
+.ALi-maincontacticon a {
+  color: #FFFFFF;
   text-decoration: none;
   font-family: Urbanist;
   font-weight: 400;
@@ -82,19 +94,23 @@ nav{
   font-size: 18px;
   line-height: 150%;
 }
+
 @media (max-width: 992px) {
-  .ALi-ul{
+  .ALi-ul {
     display: none;
   }
-  .ALi-contacticon{
+
+  .ALi-contacticon {
     display: none;
   }
-  .Ali-showicon{
+
+  .Ali-showicon {
     display: block;
   }
 }
+
 @media (max-width: 992px) {
-  .ALi-ul.open{
+  .ALi-ul.open {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -105,13 +121,13 @@ nav{
     left: 0;
     right: 0;
     top: 100%;
-    background: linear-gradient(180deg, rgba(26,26,26,0.98), rgba(11,11,11,0.99));
-    box-shadow: 0 8px 24px rgba(2,6,23,0.6);
-    border-top: 1px solid rgba(255,255,255,0.02);
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.98), rgba(11, 11, 11, 0.99));
+    box-shadow: 0 8px 24px rgba(2, 6, 23, 0.6);
+    border-top: 1px solid rgba(255, 255, 255, 0.02);
     z-index: 9999;
   }
 
-  .ALi-contacticon.open{
+  .ALi-contacticon.open {
     display: flex;
     /*flex-direction: column;*/
     justify-content: center;
@@ -119,28 +135,36 @@ nav{
     position: absolute;
     left: 0;
     right: 0;
-    top: calc(100% +  (var(--menu-gap, 0px)));
+    top: calc(100% + (var(--menu-gap, 0px)));
     z-index: 88;
   }
-  .ALi-maincontacticon{
-    transform: translate(25px,155px);
+
+  .ALi-maincontacticon {
+    transform: translate(25px, 155px);
     background-color: #1a1a1ada;
 
     padding: 10px 16px;
-   
-  }
-}
-.ALi-ul li a:active{ transform: translateY(0); opacity: 0.95; }
-@media (max-width: 576px){
-    .ALi-logo{
-        margin: 20px 0 16px 10px;
-        .Ali-img{
-          display: none;
-        }
-        .Ali-imglogoformobile{
-    display: block;
-    width:93px;
-  }
 
+  }
 }
+
+.ALi-ul li a:active {
+  transform: translateY(0);
+  opacity: 0.95;
+}
+
+@media (max-width: 576px) {
+  .ALi-logo {
+    margin: 20px 0 16px 10px;
+
+    .Ali-img {
+      display: none;
+    }
+
+    .Ali-imglogoformobile {
+      display: block;
+      width: 93px;
+    }
+
+  }
 }

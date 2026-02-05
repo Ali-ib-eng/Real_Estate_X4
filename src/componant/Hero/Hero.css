@@ -2,11 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 80px;
     background-color: #141414;
     color: white;
     width: 100%;
     overflow: hidden;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -14,6 +14,9 @@
     border: none;
     padding: 100px 162px 40px;
 >>>>>>> 16e75a8f915acbd28b76eea37e6826201b0140d5
+=======
+    
+>>>>>>> 7a6b290cf8065dbca2b651c14eb00dd72b84d634
 }
 
 .oneImg {
@@ -28,6 +31,9 @@
 }
 
 .hero-element {
+
+    padding-right: 100px;
+    padding-left: 100px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -112,7 +118,7 @@
 
 .img-hero img {
     max-width: 100%;
-    height: auto;
+    height:auto;
     border-radius: 12px;
     object-fit: cover;
     height: auto;
@@ -149,6 +155,7 @@
 
 }
 
+<<<<<<< HEAD
 @media (max-width: 1440px) {
     .hero {
         padding: 70px 80px 30px;
@@ -161,23 +168,85 @@
 
 =======
 >>>>>>> 16e75a8f915acbd28b76eea37e6826201b0140d5
+=======
+>>>>>>> 7a6b290cf8065dbca2b651c14eb00dd72b84d634
 @media (max-width: 992px) {
-    .hero{
-        padding: 70px 40px 0;
-    }
     .card-item h2 {
         color: white;
         font-size: 18px;
     }
 }
 
+@media (max-width: 800px) {
+    .hero {
+        flex-direction: column-reverse;
+        padding: 20px;
+        gap: 30px;
+    }
+    
+    .oneImg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .oneImg img {
+        width: 85%;
+        border-radius: 10px;
+        object-fit: contain;
+    }
+
+    .hero-element {
+        padding: 0;
+        text-align: left;
+        width: 100%;
+    }
+
+    .hero-element h1 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .firstButton,
+    .secButton {
+        width: 100%;
+        text-align: center;
+    }
+    .hero-cards-section {
+        margin-top: 0 !important;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .card-item {
+        padding: 15px;
+    }
+
+    .card-item:last-child {
+        grid-column: span 2;
+    }
+    }
+
+
+
 @media (max-width: 576px) {
 
     .hero {
         flex-direction: column-reverse;
-        gap: 40px;
-        padding: 50px 40px 0;
-
+        padding: 20px;
+        gap: 30px;
     }
 
     .oneImg {
@@ -214,7 +283,6 @@
         width: 100%;
         text-align: center;
     }
-
     .hero-cards-section {
         margin-top: 0 !important;
     }
@@ -235,6 +303,7 @@
         grid-column: span 2;
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 .mr-hero-heading {
@@ -260,3 +329,5 @@
     }
 }
 >>>>>>> 16e75a8f915acbd28b76eea37e6826201b0140d5
+=======
+>>>>>>> 7a6b290cf8065dbca2b651c14eb00dd72b84d634

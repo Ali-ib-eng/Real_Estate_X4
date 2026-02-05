@@ -1,4 +1,6 @@
 import './PropertyDetails.css';
+import Item from "../Item/Item.jsx";
+
 const PropertyDetails = () => {
   const features = [
     {

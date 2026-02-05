@@ -2,8 +2,8 @@
 .ls-featured-section {
     background-color:var( --black-primary);
     color:var( --white1);
-    padding: 110px 137px;
-    border: none;
+    margin-bottom: -1px;
+    margin-top: -1px;
     
     .ls-container {
         width: 100%;
@@ -115,7 +115,6 @@
 /* Laptop (1440px) */
 @media (max-width: 1440px) {
     .ls-featured-section {
-    padding: 90px 66px;
 
     .ls-container {
         gap: 60px;
@@ -148,7 +147,7 @@
                             }
                             .ls-details-btn {
                                 border-radius: 8px;
-                                padding: 18px 20px;
+                                padding: 14px 20px;
                             }
                         }
                     }
@@ -162,8 +161,6 @@
 /* Tablet (992px) */
 @media (max-width: 992px) and (min-width: 577px) {
     .ls-container {
-        padding-left: 17px;
-        padding-right: 17px;
         gap: 4px;
         
         .ls-properties-grid {
@@ -206,7 +203,6 @@
 /* Mobile (390px) */
 @media (max-width: 576px) {
     .ls-featured-section {
-        padding: 85px 8px;
 
         .ls-container {
             padding-left: 17px;

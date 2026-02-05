@@ -66,7 +66,7 @@ const PropertyCard = ({
           </span>
 
           {/* card primary button */}
-          <PrimaryButton buttonLabel="View Property Details"></PrimaryButton>
+          <PrimaryButton buttonLabel="View Property Details" />
         </span>
       </div>
     </div>

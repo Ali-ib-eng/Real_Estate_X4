@@ -22,23 +22,24 @@ const OurValuedClientsSection = () => {
     };
     checkIfMobile();
 
-    window.addEventListener("resize", checkIfMobile);
+    window.addEventListener('resize', checkIfMobile);
     return () => {
-      window.removeEventListener("resize", checkIfMobile);
-    };
+      window.removeEventListener('resize', checkIfMobile)
+    }
+
   }, []);
   const nextCard = () => {
     if (currentCard < 1) {
       setCurrentCard(currentCard + 1);
     } else {
-      setCurrentCard(0);
+      setCurrentCard(0)
     }
-  };
+  }
   const prevCard = () => {
     if (currentCard > 0) {
       setCurrentCard(currentCard - 1);
     } else {
-      setCurrentCard(1);
+      setCurrentCard(1)
     }
   };
   const clients = [
@@ -106,7 +107,10 @@ const OurValuedClientsSection = () => {
           />
         )}
         <hr />
-        <ArrowsBtns onPrev={prevCard} onNext={nextCard} />
+        <ArrowsBtns
+          onPrev={prevCard}
+          onNext={nextCard}
+        />
       </div>
     </section>
   );

@@ -12,15 +12,42 @@
     cursor: pointer;
 }
 
-.mr-outer-border::before,
+.mr-outer-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    padding: 1.5px;
+    background: conic-gradient(from 120deg,
+            #A685FA 0%,
+            transparent 25%,
+            #A685FA 33%,
+            transparent 75%,
+            #A685FA 66%,
+            transparent 75%,
+            #A685FA 100%);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+
+    transition: transform 0.6s ease-in-out;
+}
+
 .mr-inner-border::before {
     content: "";
     position: absolute;
     inset: 0;
     border-radius: 50%;
     padding: 1.5px;
-    background: conic-gradient(from 0deg, transparent 20%, #A685FA 100%);
-
+    background: conic-gradient(from 20deg,
+            #A685FA 0%,
+            transparent 25%,
+            #A685FA 30%,
+            transparent 75%,
+            #A685FA 70%,
+            transparent 75%,
+            #A685FA 100%);
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
