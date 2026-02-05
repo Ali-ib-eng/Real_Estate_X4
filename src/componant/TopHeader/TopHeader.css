@@ -29,7 +29,7 @@
             color: var(--white1);
         }
 
-        a {
+        .Alianchor {
             display: inline-block;
             color: var(--white1);
             font-family: Urbanist;
@@ -68,7 +68,7 @@
                 font-size: 14px;
             }
 
-            a {
+            .Alianchor {
                 font-size: 14px;
             }
         }
@@ -92,7 +92,7 @@
                 font-size: 10px;
             }
 
-            a {
+            .Alianchor {
                 font-size: 10px;
             }
         }

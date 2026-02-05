@@ -1,5 +1,5 @@
 import './StartSection.css';
-
+import { Link } from 'react-router-dom'
 const StartSection = () => {
     return (
         
@@ -11,6 +11,7 @@ const StartSection = () => {
                 </p>
             </div>
             <button className="LS-start-button button ">Explore Properties</button>
+            
             </section>
             
     );
